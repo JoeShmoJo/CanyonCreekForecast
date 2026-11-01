@@ -1,0 +1,92 @@
+{
+  "tested_at_utc": "2026-10-25T18:34:40.543397+00:00",
+  "site": "14219000",
+  "requests": [
+    {
+      "operation": "site_catalog",
+      "endpoint": "https://waterservices.usgs.gov/nwis/site/",
+      "params": {
+        "format": "rdb",
+        "sites": "14219000",
+        "siteOutput": "expanded",
+        "seriesCatalogOutput": "true",
+        "siteStatus": "all"
+      },
+      "error": "400 Client Error: Bad Request for url: https://waterservices.usgs.gov/nwis/site/?format=rdb&sites=14219000&siteOutput=expanded&seriesCatalogOutput=true&siteStatus=all"
+    },
+    {
+      "operation": "instantaneous_discharge",
+      "endpoint": "https://waterservices.usgs.gov/nwis/iv/",
+      "params": {
+        "format": "json",
+        "sites": "14219000",
+        "parameterCd": "00060",
+        "startDT": "2021-11-11",
+        "endDT": "2021-11-18",
+        "siteStatus": "all"
+      },
+      "error": "HTTPSConnectionPool(host='nwis.waterservices.usgs.gov', port=443): Max retries exceeded with url: /nwis/iv/?format=json&sites=14219000&parameterCd=00060&startDT=2021-11-11&endDT=2021-11-18&siteStatus=all (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+    },
+    {
+      "operation": "modern_api_collections",
+      "endpoint": "https://api.waterdata.usgs.gov/ogcapi/v0/collections",
+      "params": {
+        "f": "json"
+      },
+      "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections?f=json"
+    }
+  ],
+  "errors": [
+    {
+      "operation": "site_catalog",
+      "error": "400 Client Error: Bad Request for url: https://waterservices.usgs.gov/nwis/site/?format=rdb&sites=14219000&siteOutput=expanded&seriesCatalogOutput=true&siteStatus=all"
+    },
+    {
+      "operation": "instantaneous_discharge",
+      "error": "HTTPSConnectionPool(host='nwis.waterservices.usgs.gov', port=443): Max retries exceeded with url: /nwis/iv/?format=json&sites=14219000&parameterCd=00060&startDT=2021-11-11&endDT=2021-11-18&siteStatus=all (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+    }
+  ],
+  "requested_start": "2021-11-11",
+  "requested_end": "2021-11-18",
+  "modern_collections": [
+    "latest-continuous",
+    "continuous",
+    "latest-daily",
+    "daily",
+    "edr/daily",
+    "latest-field-measurements",
+    "field-measurements",
+    "channel-measurements",
+    "combined-metadata",
+    "field-measurements-metadata",
+    "time-series-metadata",
+    "monitoring-locations",
+    "peaks",
+    "time-series-revisions",
+    "time-series-methods",
+    "agency-codes",
+    "altitude-datums",
+    "aquifer-codes",
+    "aquifer-types",
+    "coordinate-accuracy-codes",
+    "coordinate-datum-codes",
+    "coordinate-method-codes",
+    "counties",
+    "countries",
+    "hydrologic-unit-codes",
+    "medium-codes",
+    "methods",
+    "method-categories",
+    "method-citations",
+    "citations",
+    "combined-method-citations",
+    "national-aquifer-codes",
+    "parameter-codes",
+    "reliability-codes",
+    "site-types",
+    "states",
+    "statistic-codes",
+    "topographic-codes",
+    "time-zone-codes"
+  ]
+}

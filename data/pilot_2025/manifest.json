@@ -1,0 +1,269 @@
+{
+  "created_at_utc": "2026-10-25T21:08:52.550493+00:00",
+  "config": {
+    "version": 1,
+    "water_year": 2025,
+    "flow_csv": ".cache/feasibility/water-year-2025/discharge.csv",
+    "inventory_json": ".cache/feasibility/water-year-2025/inventory/report.json",
+    "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+    "decision_hour_utc": 6,
+    "flow_delay_minutes": 15,
+    "flow_lookback_hours": 72,
+    "forecast_delay_minutes": 60,
+    "max_forecast_age_hours": 6,
+    "qpf_horizons_hours": [
+      6,
+      12,
+      24,
+      48,
+      60
+    ],
+    "target_horizon_hours": 72,
+    "new_download_budget_mib": 80,
+    "max_new_files": 12,
+    "cases": [
+      {
+        "date": "2024-10-30",
+        "window": "autumn_crossing"
+      },
+      {
+        "date": "2024-10-31",
+        "window": "autumn_crossing"
+      },
+      {
+        "date": "2024-11-01",
+        "window": "autumn_crossing"
+      },
+      {
+        "date": "2025-01-15",
+        "window": "winter_control"
+      },
+      {
+        "date": "2025-01-16",
+        "window": "winter_control"
+      },
+      {
+        "date": "2025-01-17",
+        "window": "winter_control"
+      },
+      {
+        "date": "2025-03-13",
+        "window": "spring_crossing"
+      },
+      {
+        "date": "2025-03-14",
+        "window": "spring_crossing"
+      },
+      {
+        "date": "2025-03-15",
+        "window": "spring_crossing"
+      },
+      {
+        "date": "2025-07-15",
+        "window": "summer_control"
+      },
+      {
+        "date": "2025-07-16",
+        "window": "summer_control"
+      },
+      {
+        "date": "2025-07-17",
+        "window": "summer_control"
+      }
+    ]
+  },
+  "config_source": "configs/pilot_2025.json",
+  "config_sha256": "b172ca393f677c17fb28222b7e65d2c129e142bbf34daaa322ef348b3eb5d8de",
+  "pipeline_sha256": "930094b37b22a2733bb283b87e4aa765d8e6735856cfb28bea7ff061b0ac9279",
+  "extractor_sha256": "c29d195e6a8f92c88c0ed8b2af9eb35374f3da7f6634aefa99773a984e4be80b",
+  "target_rules_sha256": "2c586f866c8e75a36be445485b9bbc3a110cd8e41f441c5d96d6905aa19646c4",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "pyproj": "3.7.2",
+    "eccodes": "2.50.0",
+    "grib2io": "2.8.2"
+  },
+  "flow_csv_sha256": "df3d85046806079728beeb6f542b7d48055d9ba40d54164b5ec7f7001726a12b",
+  "boundary_sha256": "68290f902e80a7d098b3e8e7cf1b6cf2424a0377a7241541cb402c134b38ad6e",
+  "availability_status": "Time gating under assumed delays; historic delivery/revision times not independently verified.",
+  "selection_bias": "Diagnostic event/control windows selected retrospectively; not representative training or evaluation sampling.",
+  "cases": [
+    {
+      "case_id": "P001",
+      "decision_time_utc": "2024-10-30T06:00:00+00:00",
+      "selection_window": "autumn_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2024/10/30/YIUZ98_KWBN_202410300016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.011176388999956544
+    },
+    {
+      "case_id": "P002",
+      "decision_time_utc": "2024-10-31T06:00:00+00:00",
+      "selection_window": "autumn_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2024/10/31/YIUZ98_KWBN_202410310016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.008219480999969164
+    },
+    {
+      "case_id": "P003",
+      "decision_time_utc": "2024-11-01T06:00:00+00:00",
+      "selection_window": "autumn_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2024/11/01/YIUZ98_KWBN_202411010016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.010257957000021634
+    },
+    {
+      "case_id": "P004",
+      "decision_time_utc": "2025-01-15T06:00:00+00:00",
+      "selection_window": "winter_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.0039804359998925065
+    },
+    {
+      "case_id": "P005",
+      "decision_time_utc": "2025-01-16T06:00:00+00:00",
+      "selection_window": "winter_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/01/16/YIUZ98_KWBN_202501160016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.004257413000004817
+    },
+    {
+      "case_id": "P006",
+      "decision_time_utc": "2025-01-17T06:00:00+00:00",
+      "selection_window": "winter_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/01/17/YIUZ98_KWBN_202501170016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.0043072570001641
+    },
+    {
+      "case_id": "P007",
+      "decision_time_utc": "2025-03-13T06:00:00+00:00",
+      "selection_window": "spring_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/03/13/YIUZ98_KWBN_202503130016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.013561805000108507
+    },
+    {
+      "case_id": "P008",
+      "decision_time_utc": "2025-03-14T06:00:00+00:00",
+      "selection_window": "spring_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/03/14/YIUZ98_KWBN_202503140016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.008499242999960188
+    },
+    {
+      "case_id": "P009",
+      "decision_time_utc": "2025-03-15T06:00:00+00:00",
+      "selection_window": "spring_crossing",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/03/15/YIUZ98_KWBN_202503150016",
+      "target": 1,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.005965040999853954
+    },
+    {
+      "case_id": "P010",
+      "decision_time_utc": "2025-07-15T06:00:00+00:00",
+      "selection_window": "summer_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.0071370240000305785
+    },
+    {
+      "case_id": "P011",
+      "decision_time_utc": "2025-07-16T06:00:00+00:00",
+      "selection_window": "summer_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/07/16/YIUZ98_KWBN_202507160016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.005783136999980343
+    },
+    {
+      "case_id": "P012",
+      "decision_time_utc": "2025-07-17T06:00:00+00:00",
+      "selection_window": "summer_control",
+      "status": "passed",
+      "source_key": "wmo/qpf/2025/07/17/YIUZ98_KWBN_202507170016",
+      "target": 0,
+      "extraction_grib2io_version": "2.8.2",
+      "extraction_g2c_version": "2.3.0",
+      "elapsed_seconds": 0.005523467000102755
+    }
+  ],
+  "errors": [],
+  "new_download_bytes": 0,
+  "new_files": 0,
+  "cache_hits": 12,
+  "model_trained": false,
+  "complete": true,
+  "elapsed_seconds": 0.24563026900000295,
+  "rows_paired": 12,
+  "predictor_columns": [
+    "flow_last_cfs",
+    "flow_lag_1h_from_cutoff_cfs",
+    "flow_lag_6h_from_cutoff_cfs",
+    "flow_lag_24h_from_cutoff_cfs",
+    "flow_lag_72h_from_cutoff_cfs",
+    "flow_mean_6h_cfs",
+    "flow_mean_24h_cfs",
+    "flow_mean_72h_cfs",
+    "flow_max_24h_cfs",
+    "flow_delta_6h_cfs",
+    "calendar_doy_sin",
+    "calendar_doy_cos",
+    "qpf_next_6h_mm",
+    "qpf_next_12h_mm",
+    "qpf_next_24h_mm",
+    "qpf_next_48h_mm",
+    "qpf_next_60h_mm",
+    "forecast_age_hours"
+  ],
+  "label_columns": [
+    "target_crossing_72h",
+    "target_window_end_utc",
+    "first_crossing_time_utc",
+    "crossing_lead_hours",
+    "eligibility_flow_at_decision_cfs"
+  ],
+  "output_sha256": {
+    "features.csv": "cfedf5682644c1a01c2b324fc9b09885a1f5a0b7a3448ea52194b56aabb21282",
+    "labels.csv": "4c3c3f4655604fcfd657676a5c95fe5c968c7ec3ff422c5ef7532994f531630f",
+    "provenance.csv": "f5dc93639afc710bd8eed0df8f3edb21569f3c266516960c4dd3835498366178",
+    "qpf_intervals.csv": "b1c5b2ec639bf2be1c96589a621dfd9314171ced6598acb778591a582c99b009"
+  },
+  "positive_rows": 6
+}

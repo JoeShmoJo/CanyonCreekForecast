@@ -1,0 +1,11 @@
+{
+  "initial_new_download_bytes": 52963405,
+  "initial_new_files": 9,
+  "initial_retained_source_reuses": 3,
+  "all_source_grib_bytes": 69986963,
+  "decode_from_raw_cache_seconds": 14.903986520999979,
+  "warm_feature_cache_seconds": 0.2836879859999044,
+  "warm_new_download_bytes": 0,
+  "all_exported_csv_hashes_identical": true,
+  "notes": "Raw-cache decode run reprocessed all twelve GRIBs after introducing extractor-code fingerprints; warm replay used validated extraction caches. No model timing or full-year run claimed."
+}

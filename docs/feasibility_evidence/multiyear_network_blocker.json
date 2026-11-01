@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-25T19:50:18.505472+00:00",
+  "scope": "Observed diagnosis during multi-year expansion; no successful recovery claimed.",
+  "primary_services": [
+    "noaa-ndfd-pds.s3.amazonaws.com",
+    "api.waterdata.usgs.gov"
+  ],
+  "http_status": 503,
+  "response_excerpt": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/",
+  "variants_tested": [
+    "USGS v0 monthly query with +00:00 timestamps",
+    "USGS v0 monthly query with Z timestamps",
+    "USGS v1 monthly query",
+    "previously working primary S3 prefix",
+    "official us-east-1 regional S3 endpoint"
+  ],
+  "regional_s3_result": "Proxy tunnel 403; hostname addition saved in environment draft, runtime access not verified.",
+  "note": "A small one-record USGS query succeeded once; subsequent monthly and primary-S3 checks failed. This does not establish absent historical data or missing credentials."
+}

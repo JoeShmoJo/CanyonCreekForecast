@@ -1,0 +1,2761 @@
+{
+  "created_at_utc": "2026-10-25T23:21:32.199706+00:00",
+  "config": {
+    "version": 1,
+    "water_year": 2025,
+    "flow_csv": ".cache/feasibility/water-year-2025/discharge.csv",
+    "inventory_json": ".cache/feasibility/water-year-2025/inventory/report.json",
+    "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+    "decision_hour_utc": 6,
+    "flow_delay_minutes": 15,
+    "flow_lookback_hours": 72,
+    "forecast_delay_minutes": 60,
+    "max_forecast_age_hours": 6,
+    "qpf_horizons_hours": [
+      6,
+      12,
+      24,
+      48,
+      60
+    ],
+    "target_horizon_hours": 72,
+    "new_download_budget_gib": 2,
+    "max_new_files": 365
+  },
+  "config_source": "configs/dataset_2025.json",
+  "config_sha256": "683903021e4f2a7cec8e5b28db27ccb16d616353a66d5299b0e3170b54f7b522",
+  "pipeline_source": "scripts/build_water_year_dataset.py",
+  "pipeline_sha256": "176a1f8fed3e258a457276109e8fc8f51b2c4db7d38cc16a68391e51c094e6f5",
+  "shared_pairing_rules_sha256": "930094b37b22a2733bb283b87e4aa765d8e6735856cfb28bea7ff061b0ac9279",
+  "target_rules_sha256": "2c586f866c8e75a36be445485b9bbc3a110cd8e41f441c5d96d6905aa19646c4",
+  "extractor_sha256": "c29d195e6a8f92c88c0ed8b2af9eb35374f3da7f6634aefa99773a984e4be80b",
+  "flow_csv_sha256": "df3d85046806079728beeb6f542b7d48055d9ba40d54164b5ec7f7001726a12b",
+  "boundary_sha256": "68290f902e80a7d098b3e8e7cf1b6cf2424a0377a7241541cb402c134b38ad6e",
+  "input_fingerprint": "a5516c24fa1cc2f469249b9408e9bf075a3bd404854de5bc5844410ce8561434",
+  "model_trained": false,
+  "complete": true,
+  "scheduled_decisions": 365,
+  "sampling": "Every scheduled 06Z decision in the Pacific water year; no event/control selection.",
+  "availability_status": "Assumed feed/publication delays, not verified historic receipt or revision times.",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "pyproj": "3.7.2",
+    "eccodes": "2.50.0",
+    "grib2io": "2.8.2"
+  },
+  "cases": [
+    {
+      "case_id": "D20241002",
+      "decision_time_utc": "2024-10-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-09-29 05:45:00+00:00 to 2024-10-02 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20241003",
+      "decision_time_utc": "2024-10-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-09-30 05:45:00+00:00 to 2024-10-03 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20241004",
+      "decision_time_utc": "2024-10-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/04/YIUZ98_KWBN_202410040017"
+    },
+    {
+      "case_id": "D20241005",
+      "decision_time_utc": "2024-10-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/05/YIUZ98_KWBN_202410050017"
+    },
+    {
+      "case_id": "D20241006",
+      "decision_time_utc": "2024-10-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/06/YIUZ98_KWBN_202410060016"
+    },
+    {
+      "case_id": "D20241007",
+      "decision_time_utc": "2024-10-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/07/YIUZ98_KWBN_202410070017"
+    },
+    {
+      "case_id": "D20241008",
+      "decision_time_utc": "2024-10-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/08/YIUZ98_KWBN_202410080017"
+    },
+    {
+      "case_id": "D20241009",
+      "decision_time_utc": "2024-10-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/09/YIUZ98_KWBN_202410090016"
+    },
+    {
+      "case_id": "D20241010",
+      "decision_time_utc": "2024-10-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/10/YIUZ98_KWBN_202410100017"
+    },
+    {
+      "case_id": "D20241011",
+      "decision_time_utc": "2024-10-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/11/YIUZ98_KWBN_202410110017"
+    },
+    {
+      "case_id": "D20241012",
+      "decision_time_utc": "2024-10-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/12/YIUZ98_KWBN_202410120017"
+    },
+    {
+      "case_id": "D20241013",
+      "decision_time_utc": "2024-10-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/13/YIUZ98_KWBN_202410130017"
+    },
+    {
+      "case_id": "D20241014",
+      "decision_time_utc": "2024-10-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/14/YIUZ98_KWBN_202410140017"
+    },
+    {
+      "case_id": "D20241015",
+      "decision_time_utc": "2024-10-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/15/YIUZ98_KWBN_202410150017"
+    },
+    {
+      "case_id": "D20241016",
+      "decision_time_utc": "2024-10-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/16/YIUZ98_KWBN_202410160017"
+    },
+    {
+      "case_id": "D20241017",
+      "decision_time_utc": "2024-10-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/17/YIUZ98_KWBN_202410170016"
+    },
+    {
+      "case_id": "D20241018",
+      "decision_time_utc": "2024-10-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/18/YIUZ98_KWBN_202410180017"
+    },
+    {
+      "case_id": "D20241019",
+      "decision_time_utc": "2024-10-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/19/YIUZ98_KWBN_202410190016"
+    },
+    {
+      "case_id": "D20241020",
+      "decision_time_utc": "2024-10-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/20/YIUZ98_KWBN_202410200017"
+    },
+    {
+      "case_id": "D20241021",
+      "decision_time_utc": "2024-10-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/21/YIUZ98_KWBN_202410210016"
+    },
+    {
+      "case_id": "D20241022",
+      "decision_time_utc": "2024-10-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/22/YIUZ98_KWBN_202410220016"
+    },
+    {
+      "case_id": "D20241023",
+      "decision_time_utc": "2024-10-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/23/YIUZ98_KWBN_202410230016"
+    },
+    {
+      "case_id": "D20241024",
+      "decision_time_utc": "2024-10-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/24/YIUZ98_KWBN_202410240017"
+    },
+    {
+      "case_id": "D20241025",
+      "decision_time_utc": "2024-10-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/25/YIUZ98_KWBN_202410250016"
+    },
+    {
+      "case_id": "D20241026",
+      "decision_time_utc": "2024-10-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/26/YIUZ98_KWBN_202410260016"
+    },
+    {
+      "case_id": "D20241027",
+      "decision_time_utc": "2024-10-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/27/YIUZ98_KWBN_202410270016"
+    },
+    {
+      "case_id": "D20241028",
+      "decision_time_utc": "2024-10-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/28/YIUZ98_KWBN_202410280016"
+    },
+    {
+      "case_id": "D20241029",
+      "decision_time_utc": "2024-10-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/29/YIUZ98_KWBN_202410290016"
+    },
+    {
+      "case_id": "D20241030",
+      "decision_time_utc": "2024-10-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/30/YIUZ98_KWBN_202410300016"
+    },
+    {
+      "case_id": "D20241031",
+      "decision_time_utc": "2024-10-31T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/10/31/YIUZ98_KWBN_202410310016"
+    },
+    {
+      "case_id": "D20241101",
+      "decision_time_utc": "2024-11-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/01/YIUZ98_KWBN_202411010016"
+    },
+    {
+      "case_id": "D20241102",
+      "decision_time_utc": "2024-11-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241103",
+      "decision_time_utc": "2024-11-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241104",
+      "decision_time_utc": "2024-11-04T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241105",
+      "decision_time_utc": "2024-11-05T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241106",
+      "decision_time_utc": "2024-11-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/06/YIUZ98_KWBN_202411060016"
+    },
+    {
+      "case_id": "D20241107",
+      "decision_time_utc": "2024-11-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/07/YIUZ98_KWBN_202411070016"
+    },
+    {
+      "case_id": "D20241108",
+      "decision_time_utc": "2024-11-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/08/YIUZ98_KWBN_202411080016"
+    },
+    {
+      "case_id": "D20241109",
+      "decision_time_utc": "2024-11-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/09/YIUZ98_KWBN_202411090016"
+    },
+    {
+      "case_id": "D20241110",
+      "decision_time_utc": "2024-11-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/10/YIUZ98_KWBN_202411100016"
+    },
+    {
+      "case_id": "D20241111",
+      "decision_time_utc": "2024-11-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/11/YIUZ98_KWBN_202411110016"
+    },
+    {
+      "case_id": "D20241112",
+      "decision_time_utc": "2024-11-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/12/YIUZ98_KWBN_202411120016"
+    },
+    {
+      "case_id": "D20241113",
+      "decision_time_utc": "2024-11-13T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241114",
+      "decision_time_utc": "2024-11-14T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241115",
+      "decision_time_utc": "2024-11-15T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241116",
+      "decision_time_utc": "2024-11-16T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241117",
+      "decision_time_utc": "2024-11-17T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241118",
+      "decision_time_utc": "2024-11-18T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241119",
+      "decision_time_utc": "2024-11-19T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241120",
+      "decision_time_utc": "2024-11-20T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241121",
+      "decision_time_utc": "2024-11-21T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241122",
+      "decision_time_utc": "2024-11-22T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241123",
+      "decision_time_utc": "2024-11-23T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241124",
+      "decision_time_utc": "2024-11-24T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241125",
+      "decision_time_utc": "2024-11-25T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241126",
+      "decision_time_utc": "2024-11-26T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241127",
+      "decision_time_utc": "2024-11-27T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241128",
+      "decision_time_utc": "2024-11-28T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241129",
+      "decision_time_utc": "2024-11-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/29/YIUZ98_KWBN_202411290016"
+    },
+    {
+      "case_id": "D20241130",
+      "decision_time_utc": "2024-11-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/11/30/YIUZ98_KWBN_202411300016"
+    },
+    {
+      "case_id": "D20241201",
+      "decision_time_utc": "2024-12-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/01/YIUZ98_KWBN_202412010016"
+    },
+    {
+      "case_id": "D20241202",
+      "decision_time_utc": "2024-12-02T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/02/YIUZ98_KWBN_202412020016"
+    },
+    {
+      "case_id": "D20241203",
+      "decision_time_utc": "2024-12-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/03/YIUZ98_KWBN_202412030016"
+    },
+    {
+      "case_id": "D20241204",
+      "decision_time_utc": "2024-12-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/04/YIUZ98_KWBN_202412040016"
+    },
+    {
+      "case_id": "D20241205",
+      "decision_time_utc": "2024-12-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/05/YIUZ98_KWBN_202412050016"
+    },
+    {
+      "case_id": "D20241206",
+      "decision_time_utc": "2024-12-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/06/YIUZ98_KWBN_202412060016"
+    },
+    {
+      "case_id": "D20241207",
+      "decision_time_utc": "2024-12-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2024/12/07/YIUZ98_KWBN_202412070016"
+    },
+    {
+      "case_id": "D20241208",
+      "decision_time_utc": "2024-12-08T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241209",
+      "decision_time_utc": "2024-12-09T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241210",
+      "decision_time_utc": "2024-12-10T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241211",
+      "decision_time_utc": "2024-12-11T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-10 08:00:00+00:00 to 2024-12-14 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20241212",
+      "decision_time_utc": "2024-12-12T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-11 08:00:00+00:00 to 2024-12-15 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20241213",
+      "decision_time_utc": "2024-12-13T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-12 08:00:00+00:00 to 2024-12-16 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20241214",
+      "decision_time_utc": "2024-12-14T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-11 05:45:00+00:00 to 2024-12-14 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20241215",
+      "decision_time_utc": "2024-12-15T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-12 05:45:00+00:00 to 2024-12-15 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20241216",
+      "decision_time_utc": "2024-12-16T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2024-12-13 05:45:00+00:00 to 2024-12-16 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20241217",
+      "decision_time_utc": "2024-12-17T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241218",
+      "decision_time_utc": "2024-12-18T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241219",
+      "decision_time_utc": "2024-12-19T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241220",
+      "decision_time_utc": "2024-12-20T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241221",
+      "decision_time_utc": "2024-12-21T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241222",
+      "decision_time_utc": "2024-12-22T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241223",
+      "decision_time_utc": "2024-12-23T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241224",
+      "decision_time_utc": "2024-12-24T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241225",
+      "decision_time_utc": "2024-12-25T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241226",
+      "decision_time_utc": "2024-12-26T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241227",
+      "decision_time_utc": "2024-12-27T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241228",
+      "decision_time_utc": "2024-12-28T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241229",
+      "decision_time_utc": "2024-12-29T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241230",
+      "decision_time_utc": "2024-12-30T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20241231",
+      "decision_time_utc": "2024-12-31T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250101",
+      "decision_time_utc": "2025-01-01T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250102",
+      "decision_time_utc": "2025-01-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250103",
+      "decision_time_utc": "2025-01-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250104",
+      "decision_time_utc": "2025-01-04T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250105",
+      "decision_time_utc": "2025-01-05T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-02 05:45:00+00:00 to 2025-01-05 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250106",
+      "decision_time_utc": "2025-01-06T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-03 05:45:00+00:00 to 2025-01-06 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250107",
+      "decision_time_utc": "2025-01-07T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-04 05:45:00+00:00 to 2025-01-07 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250108",
+      "decision_time_utc": "2025-01-08T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250109",
+      "decision_time_utc": "2025-01-09T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250110",
+      "decision_time_utc": "2025-01-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/10/YIUZ98_KWBN_202501100016"
+    },
+    {
+      "case_id": "D20250111",
+      "decision_time_utc": "2025-01-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/11/YIUZ98_KWBN_202501110016"
+    },
+    {
+      "case_id": "D20250112",
+      "decision_time_utc": "2025-01-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/12/YIUZ98_KWBN_202501120016"
+    },
+    {
+      "case_id": "D20250113",
+      "decision_time_utc": "2025-01-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/13/YIUZ98_KWBN_202501130016"
+    },
+    {
+      "case_id": "D20250114",
+      "decision_time_utc": "2025-01-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/14/YIUZ98_KWBN_202501140016"
+    },
+    {
+      "case_id": "D20250115",
+      "decision_time_utc": "2025-01-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016"
+    },
+    {
+      "case_id": "D20250116",
+      "decision_time_utc": "2025-01-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/16/YIUZ98_KWBN_202501160016"
+    },
+    {
+      "case_id": "D20250117",
+      "decision_time_utc": "2025-01-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/17/YIUZ98_KWBN_202501170016"
+    },
+    {
+      "case_id": "D20250118",
+      "decision_time_utc": "2025-01-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/18/YIUZ98_KWBN_202501180016"
+    },
+    {
+      "case_id": "D20250119",
+      "decision_time_utc": "2025-01-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/19/YIUZ98_KWBN_202501190016"
+    },
+    {
+      "case_id": "D20250120",
+      "decision_time_utc": "2025-01-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/20/YIUZ98_KWBN_202501200016"
+    },
+    {
+      "case_id": "D20250121",
+      "decision_time_utc": "2025-01-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/21/YIUZ98_KWBN_202501210016"
+    },
+    {
+      "case_id": "D20250122",
+      "decision_time_utc": "2025-01-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/22/YIUZ98_KWBN_202501220016"
+    },
+    {
+      "case_id": "D20250123",
+      "decision_time_utc": "2025-01-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/23/YIUZ98_KWBN_202501230016"
+    },
+    {
+      "case_id": "D20250124",
+      "decision_time_utc": "2025-01-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/24/YIUZ98_KWBN_202501240016"
+    },
+    {
+      "case_id": "D20250125",
+      "decision_time_utc": "2025-01-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/25/YIUZ98_KWBN_202501250016"
+    },
+    {
+      "case_id": "D20250126",
+      "decision_time_utc": "2025-01-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/26/YIUZ98_KWBN_202501260016"
+    },
+    {
+      "case_id": "D20250127",
+      "decision_time_utc": "2025-01-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/01/27/YIUZ98_KWBN_202501270016"
+    },
+    {
+      "case_id": "D20250128",
+      "decision_time_utc": "2025-01-28T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-27 08:00:00+00:00 to 2025-01-31 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250129",
+      "decision_time_utc": "2025-01-29T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-28 08:00:00+00:00 to 2025-02-01 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250130",
+      "decision_time_utc": "2025-01-30T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-29 08:00:00+00:00 to 2025-02-02 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250131",
+      "decision_time_utc": "2025-01-31T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-28 05:45:00+00:00 to 2025-01-31 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250201",
+      "decision_time_utc": "2025-02-01T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-29 05:45:00+00:00 to 2025-02-01 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250202",
+      "decision_time_utc": "2025-02-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-01-30 05:45:00+00:00 to 2025-02-02 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250203",
+      "decision_time_utc": "2025-02-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/03/YIUZ98_KWBN_202502030016"
+    },
+    {
+      "case_id": "D20250204",
+      "decision_time_utc": "2025-02-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/04/YIUZ98_KWBN_202502040016"
+    },
+    {
+      "case_id": "D20250205",
+      "decision_time_utc": "2025-02-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/05/YIUZ98_KWBN_202502050016"
+    },
+    {
+      "case_id": "D20250206",
+      "decision_time_utc": "2025-02-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/06/YIUZ98_KWBN_202502060016"
+    },
+    {
+      "case_id": "D20250207",
+      "decision_time_utc": "2025-02-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/07/YIUZ98_KWBN_202502070016"
+    },
+    {
+      "case_id": "D20250208",
+      "decision_time_utc": "2025-02-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/08/YIUZ98_KWBN_202502080016"
+    },
+    {
+      "case_id": "D20250209",
+      "decision_time_utc": "2025-02-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/09/YIUZ98_KWBN_202502090016"
+    },
+    {
+      "case_id": "D20250210",
+      "decision_time_utc": "2025-02-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/10/YIUZ98_KWBN_202502100016"
+    },
+    {
+      "case_id": "D20250211",
+      "decision_time_utc": "2025-02-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/11/YIUZ98_KWBN_202502110016"
+    },
+    {
+      "case_id": "D20250212",
+      "decision_time_utc": "2025-02-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/12/YIUZ98_KWBN_202502120016"
+    },
+    {
+      "case_id": "D20250213",
+      "decision_time_utc": "2025-02-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/13/YIUZ98_KWBN_202502130016"
+    },
+    {
+      "case_id": "D20250214",
+      "decision_time_utc": "2025-02-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/14/YIUZ98_KWBN_202502140016"
+    },
+    {
+      "case_id": "D20250215",
+      "decision_time_utc": "2025-02-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/15/YIUZ98_KWBN_202502150016"
+    },
+    {
+      "case_id": "D20250216",
+      "decision_time_utc": "2025-02-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/16/YIUZ98_KWBN_202502160016"
+    },
+    {
+      "case_id": "D20250217",
+      "decision_time_utc": "2025-02-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/02/17/YIUZ98_KWBN_202502170016"
+    },
+    {
+      "case_id": "D20250218",
+      "decision_time_utc": "2025-02-18T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250219",
+      "decision_time_utc": "2025-02-19T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250220",
+      "decision_time_utc": "2025-02-20T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250221",
+      "decision_time_utc": "2025-02-21T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250222",
+      "decision_time_utc": "2025-02-22T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250223",
+      "decision_time_utc": "2025-02-23T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250224",
+      "decision_time_utc": "2025-02-24T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250225",
+      "decision_time_utc": "2025-02-25T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250226",
+      "decision_time_utc": "2025-02-26T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250227",
+      "decision_time_utc": "2025-02-27T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250228",
+      "decision_time_utc": "2025-02-28T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250301",
+      "decision_time_utc": "2025-03-01T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250302",
+      "decision_time_utc": "2025-03-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250303",
+      "decision_time_utc": "2025-03-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250304",
+      "decision_time_utc": "2025-03-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/04/YIUZ98_KWBN_202503040016"
+    },
+    {
+      "case_id": "D20250305",
+      "decision_time_utc": "2025-03-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/05/YIUZ98_KWBN_202503050016"
+    },
+    {
+      "case_id": "D20250306",
+      "decision_time_utc": "2025-03-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/06/YIUZ98_KWBN_202503060016"
+    },
+    {
+      "case_id": "D20250307",
+      "decision_time_utc": "2025-03-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/07/YIUZ98_KWBN_202503070016"
+    },
+    {
+      "case_id": "D20250308",
+      "decision_time_utc": "2025-03-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/08/YIUZ98_KWBN_202503080016"
+    },
+    {
+      "case_id": "D20250309",
+      "decision_time_utc": "2025-03-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/09/YIUZ98_KWBN_202503090016"
+    },
+    {
+      "case_id": "D20250310",
+      "decision_time_utc": "2025-03-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/10/YIUZ98_KWBN_202503100015"
+    },
+    {
+      "case_id": "D20250311",
+      "decision_time_utc": "2025-03-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/11/YIUZ98_KWBN_202503110016"
+    },
+    {
+      "case_id": "D20250312",
+      "decision_time_utc": "2025-03-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/12/YIUZ98_KWBN_202503120016"
+    },
+    {
+      "case_id": "D20250313",
+      "decision_time_utc": "2025-03-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/13/YIUZ98_KWBN_202503130016"
+    },
+    {
+      "case_id": "D20250314",
+      "decision_time_utc": "2025-03-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/14/YIUZ98_KWBN_202503140016"
+    },
+    {
+      "case_id": "D20250315",
+      "decision_time_utc": "2025-03-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/15/YIUZ98_KWBN_202503150016"
+    },
+    {
+      "case_id": "D20250316",
+      "decision_time_utc": "2025-03-16T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250317",
+      "decision_time_utc": "2025-03-17T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250318",
+      "decision_time_utc": "2025-03-18T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250319",
+      "decision_time_utc": "2025-03-19T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250320",
+      "decision_time_utc": "2025-03-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/03/20/YIUZ98_KWBN_202503200016"
+    },
+    {
+      "case_id": "D20250321",
+      "decision_time_utc": "2025-03-21T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250322",
+      "decision_time_utc": "2025-03-22T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250323",
+      "decision_time_utc": "2025-03-23T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250324",
+      "decision_time_utc": "2025-03-24T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250325",
+      "decision_time_utc": "2025-03-25T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250326",
+      "decision_time_utc": "2025-03-26T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250327",
+      "decision_time_utc": "2025-03-27T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250328",
+      "decision_time_utc": "2025-03-28T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250329",
+      "decision_time_utc": "2025-03-29T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250330",
+      "decision_time_utc": "2025-03-30T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250331",
+      "decision_time_utc": "2025-03-31T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250401",
+      "decision_time_utc": "2025-04-01T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250402",
+      "decision_time_utc": "2025-04-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250403",
+      "decision_time_utc": "2025-04-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250404",
+      "decision_time_utc": "2025-04-04T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250405",
+      "decision_time_utc": "2025-04-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/05/YIUZ98_KWBN_202504050016"
+    },
+    {
+      "case_id": "D20250406",
+      "decision_time_utc": "2025-04-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/06/YIUZ98_KWBN_202504060016"
+    },
+    {
+      "case_id": "D20250407",
+      "decision_time_utc": "2025-04-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/07/YIUZ98_KWBN_202504070016"
+    },
+    {
+      "case_id": "D20250408",
+      "decision_time_utc": "2025-04-08T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250409",
+      "decision_time_utc": "2025-04-09T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250410",
+      "decision_time_utc": "2025-04-10T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250411",
+      "decision_time_utc": "2025-04-11T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250412",
+      "decision_time_utc": "2025-04-12T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250413",
+      "decision_time_utc": "2025-04-13T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "last_flow_not_below_450",
+      "reason": "Last available flow is not below 450 cfs"
+    },
+    {
+      "case_id": "D20250414",
+      "decision_time_utc": "2025-04-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/14/YIUZ98_KWBN_202504140016"
+    },
+    {
+      "case_id": "D20250415",
+      "decision_time_utc": "2025-04-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/15/YIUZ98_KWBN_202504150015"
+    },
+    {
+      "case_id": "D20250416",
+      "decision_time_utc": "2025-04-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/16/YIUZ98_KWBN_202504160016"
+    },
+    {
+      "case_id": "D20250417",
+      "decision_time_utc": "2025-04-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/17/YIUZ98_KWBN_202504170016"
+    },
+    {
+      "case_id": "D20250418",
+      "decision_time_utc": "2025-04-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/18/YIUZ98_KWBN_202504180016"
+    },
+    {
+      "case_id": "D20250419",
+      "decision_time_utc": "2025-04-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/19/YIUZ98_KWBN_202504190016"
+    },
+    {
+      "case_id": "D20250420",
+      "decision_time_utc": "2025-04-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/20/YIUZ98_KWBN_202504200016"
+    },
+    {
+      "case_id": "D20250421",
+      "decision_time_utc": "2025-04-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/21/YIUZ98_KWBN_202504210016"
+    },
+    {
+      "case_id": "D20250422",
+      "decision_time_utc": "2025-04-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/22/YIUZ98_KWBN_202504220016"
+    },
+    {
+      "case_id": "D20250423",
+      "decision_time_utc": "2025-04-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/23/YIUZ98_KWBN_202504230016"
+    },
+    {
+      "case_id": "D20250424",
+      "decision_time_utc": "2025-04-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/24/YIUZ98_KWBN_202504240016"
+    },
+    {
+      "case_id": "D20250425",
+      "decision_time_utc": "2025-04-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/25/YIUZ98_KWBN_202504250016"
+    },
+    {
+      "case_id": "D20250426",
+      "decision_time_utc": "2025-04-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/26/YIUZ98_KWBN_202504260016"
+    },
+    {
+      "case_id": "D20250427",
+      "decision_time_utc": "2025-04-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/27/YIUZ98_KWBN_202504270016"
+    },
+    {
+      "case_id": "D20250428",
+      "decision_time_utc": "2025-04-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/28/YIUZ98_KWBN_202504280016"
+    },
+    {
+      "case_id": "D20250429",
+      "decision_time_utc": "2025-04-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/29/YIUZ98_KWBN_202504290016"
+    },
+    {
+      "case_id": "D20250430",
+      "decision_time_utc": "2025-04-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/04/30/YIUZ98_KWBN_202504300015"
+    },
+    {
+      "case_id": "D20250501",
+      "decision_time_utc": "2025-05-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/01/YIUZ98_KWBN_202505010016"
+    },
+    {
+      "case_id": "D20250502",
+      "decision_time_utc": "2025-05-02T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/02/YIUZ98_KWBN_202505020016"
+    },
+    {
+      "case_id": "D20250503",
+      "decision_time_utc": "2025-05-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/03/YIUZ98_KWBN_202505030016"
+    },
+    {
+      "case_id": "D20250504",
+      "decision_time_utc": "2025-05-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/04/YIUZ98_KWBN_202505040016"
+    },
+    {
+      "case_id": "D20250505",
+      "decision_time_utc": "2025-05-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/05/YIUZ98_KWBN_202505050016"
+    },
+    {
+      "case_id": "D20250506",
+      "decision_time_utc": "2025-05-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/06/YIUZ98_KWBN_202505060016"
+    },
+    {
+      "case_id": "D20250507",
+      "decision_time_utc": "2025-05-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/07/YIUZ98_KWBN_202505070016"
+    },
+    {
+      "case_id": "D20250508",
+      "decision_time_utc": "2025-05-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/08/YIUZ98_KWBN_202505080016"
+    },
+    {
+      "case_id": "D20250509",
+      "decision_time_utc": "2025-05-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/09/YIUZ98_KWBN_202505090016"
+    },
+    {
+      "case_id": "D20250510",
+      "decision_time_utc": "2025-05-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/10/YIUZ98_KWBN_202505100016"
+    },
+    {
+      "case_id": "D20250511",
+      "decision_time_utc": "2025-05-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/11/YIUZ98_KWBN_202505110016"
+    },
+    {
+      "case_id": "D20250512",
+      "decision_time_utc": "2025-05-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/12/YIUZ98_KWBN_202505120016"
+    },
+    {
+      "case_id": "D20250513",
+      "decision_time_utc": "2025-05-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/13/YIUZ98_KWBN_202505130016"
+    },
+    {
+      "case_id": "D20250514",
+      "decision_time_utc": "2025-05-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/14/YIUZ98_KWBN_202505140016"
+    },
+    {
+      "case_id": "D20250515",
+      "decision_time_utc": "2025-05-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/15/YIUZ98_KWBN_202505150016"
+    },
+    {
+      "case_id": "D20250516",
+      "decision_time_utc": "2025-05-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/16/YIUZ98_KWBN_202505160016"
+    },
+    {
+      "case_id": "D20250517",
+      "decision_time_utc": "2025-05-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/17/YIUZ98_KWBN_202505170016"
+    },
+    {
+      "case_id": "D20250518",
+      "decision_time_utc": "2025-05-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/18/YIUZ98_KWBN_202505180016"
+    },
+    {
+      "case_id": "D20250519",
+      "decision_time_utc": "2025-05-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/19/YIUZ98_KWBN_202505190016"
+    },
+    {
+      "case_id": "D20250520",
+      "decision_time_utc": "2025-05-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/20/YIUZ98_KWBN_202505200016"
+    },
+    {
+      "case_id": "D20250521",
+      "decision_time_utc": "2025-05-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/21/YIUZ98_KWBN_202505210016"
+    },
+    {
+      "case_id": "D20250522",
+      "decision_time_utc": "2025-05-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/22/YIUZ98_KWBN_202505220016"
+    },
+    {
+      "case_id": "D20250523",
+      "decision_time_utc": "2025-05-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/23/YIUZ98_KWBN_202505230016"
+    },
+    {
+      "case_id": "D20250524",
+      "decision_time_utc": "2025-05-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/24/YIUZ98_KWBN_202505240016"
+    },
+    {
+      "case_id": "D20250525",
+      "decision_time_utc": "2025-05-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/25/YIUZ98_KWBN_202505250016"
+    },
+    {
+      "case_id": "D20250526",
+      "decision_time_utc": "2025-05-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/26/YIUZ98_KWBN_202505260016"
+    },
+    {
+      "case_id": "D20250527",
+      "decision_time_utc": "2025-05-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/27/YIUZ98_KWBN_202505270016"
+    },
+    {
+      "case_id": "D20250528",
+      "decision_time_utc": "2025-05-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/28/YIUZ98_KWBN_202505280016"
+    },
+    {
+      "case_id": "D20250529",
+      "decision_time_utc": "2025-05-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/29/YIUZ98_KWBN_202505290016"
+    },
+    {
+      "case_id": "D20250530",
+      "decision_time_utc": "2025-05-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/30/YIUZ98_KWBN_202505300016"
+    },
+    {
+      "case_id": "D20250531",
+      "decision_time_utc": "2025-05-31T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/05/31/YIUZ98_KWBN_202505310016"
+    },
+    {
+      "case_id": "D20250601",
+      "decision_time_utc": "2025-06-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/01/YIUZ98_KWBN_202506010016"
+    },
+    {
+      "case_id": "D20250602",
+      "decision_time_utc": "2025-06-02T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/02/YIUZ98_KWBN_202506020016"
+    },
+    {
+      "case_id": "D20250603",
+      "decision_time_utc": "2025-06-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/03/YIUZ98_KWBN_202506030016"
+    },
+    {
+      "case_id": "D20250604",
+      "decision_time_utc": "2025-06-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/04/YIUZ98_KWBN_202506040016"
+    },
+    {
+      "case_id": "D20250605",
+      "decision_time_utc": "2025-06-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/05/YIUZ98_KWBN_202506050016"
+    },
+    {
+      "case_id": "D20250606",
+      "decision_time_utc": "2025-06-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/06/YIUZ98_KWBN_202506060016"
+    },
+    {
+      "case_id": "D20250607",
+      "decision_time_utc": "2025-06-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/07/YIUZ98_KWBN_202506070016"
+    },
+    {
+      "case_id": "D20250608",
+      "decision_time_utc": "2025-06-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/08/YIUZ98_KWBN_202506080016"
+    },
+    {
+      "case_id": "D20250609",
+      "decision_time_utc": "2025-06-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/09/YIUZ98_KWBN_202506090016"
+    },
+    {
+      "case_id": "D20250610",
+      "decision_time_utc": "2025-06-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/10/YIUZ98_KWBN_202506100016"
+    },
+    {
+      "case_id": "D20250611",
+      "decision_time_utc": "2025-06-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/11/YIUZ98_KWBN_202506110016"
+    },
+    {
+      "case_id": "D20250612",
+      "decision_time_utc": "2025-06-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/12/YIUZ98_KWBN_202506120016"
+    },
+    {
+      "case_id": "D20250613",
+      "decision_time_utc": "2025-06-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/13/YIUZ98_KWBN_202506130016"
+    },
+    {
+      "case_id": "D20250614",
+      "decision_time_utc": "2025-06-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/14/YIUZ98_KWBN_202506140016"
+    },
+    {
+      "case_id": "D20250615",
+      "decision_time_utc": "2025-06-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/15/YIUZ98_KWBN_202506150016"
+    },
+    {
+      "case_id": "D20250616",
+      "decision_time_utc": "2025-06-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/16/YIUZ98_KWBN_202506160016"
+    },
+    {
+      "case_id": "D20250617",
+      "decision_time_utc": "2025-06-17T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "forecast_inventory",
+      "reason_code": "no_early_issue",
+      "reason": "No canonical early-UTC bulletin in the predeclared issue window"
+    },
+    {
+      "case_id": "D20250618",
+      "decision_time_utc": "2025-06-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/18/YIUZ98_KWBN_202506180016"
+    },
+    {
+      "case_id": "D20250619",
+      "decision_time_utc": "2025-06-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/19/YIUZ98_KWBN_202506190016"
+    },
+    {
+      "case_id": "D20250620",
+      "decision_time_utc": "2025-06-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/20/YIUZ98_KWBN_202506200016"
+    },
+    {
+      "case_id": "D20250621",
+      "decision_time_utc": "2025-06-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/21/YIUZ98_KWBN_202506210016"
+    },
+    {
+      "case_id": "D20250622",
+      "decision_time_utc": "2025-06-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/22/YIUZ98_KWBN_202506220016"
+    },
+    {
+      "case_id": "D20250623",
+      "decision_time_utc": "2025-06-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/23/YIUZ98_KWBN_202506230016"
+    },
+    {
+      "case_id": "D20250624",
+      "decision_time_utc": "2025-06-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/24/YIUZ98_KWBN_202506240016"
+    },
+    {
+      "case_id": "D20250625",
+      "decision_time_utc": "2025-06-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/25/YIUZ98_KWBN_202506250016"
+    },
+    {
+      "case_id": "D20250626",
+      "decision_time_utc": "2025-06-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/26/YIUZ98_KWBN_202506260016"
+    },
+    {
+      "case_id": "D20250627",
+      "decision_time_utc": "2025-06-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/27/YIUZ98_KWBN_202506270016"
+    },
+    {
+      "case_id": "D20250628",
+      "decision_time_utc": "2025-06-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/28/YIUZ98_KWBN_202506280016"
+    },
+    {
+      "case_id": "D20250629",
+      "decision_time_utc": "2025-06-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/29/YIUZ98_KWBN_202506290016"
+    },
+    {
+      "case_id": "D20250630",
+      "decision_time_utc": "2025-06-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/06/30/YIUZ98_KWBN_202506300016"
+    },
+    {
+      "case_id": "D20250701",
+      "decision_time_utc": "2025-07-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/01/YIUZ98_KWBN_202507010016"
+    },
+    {
+      "case_id": "D20250702",
+      "decision_time_utc": "2025-07-02T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/02/YIUZ98_KWBN_202507020016"
+    },
+    {
+      "case_id": "D20250703",
+      "decision_time_utc": "2025-07-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/03/YIUZ98_KWBN_202507030016"
+    },
+    {
+      "case_id": "D20250704",
+      "decision_time_utc": "2025-07-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/04/YIUZ98_KWBN_202507040016"
+    },
+    {
+      "case_id": "D20250705",
+      "decision_time_utc": "2025-07-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/05/YIUZ98_KWBN_202507050016"
+    },
+    {
+      "case_id": "D20250706",
+      "decision_time_utc": "2025-07-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/06/YIUZ98_KWBN_202507060016"
+    },
+    {
+      "case_id": "D20250707",
+      "decision_time_utc": "2025-07-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/07/YIUZ98_KWBN_202507070016"
+    },
+    {
+      "case_id": "D20250708",
+      "decision_time_utc": "2025-07-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/08/YIUZ98_KWBN_202507080016"
+    },
+    {
+      "case_id": "D20250709",
+      "decision_time_utc": "2025-07-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/09/YIUZ98_KWBN_202507090016"
+    },
+    {
+      "case_id": "D20250710",
+      "decision_time_utc": "2025-07-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/10/YIUZ98_KWBN_202507100016"
+    },
+    {
+      "case_id": "D20250711",
+      "decision_time_utc": "2025-07-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/11/YIUZ98_KWBN_202507110016"
+    },
+    {
+      "case_id": "D20250712",
+      "decision_time_utc": "2025-07-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/12/YIUZ98_KWBN_202507120016"
+    },
+    {
+      "case_id": "D20250713",
+      "decision_time_utc": "2025-07-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/13/YIUZ98_KWBN_202507130016"
+    },
+    {
+      "case_id": "D20250714",
+      "decision_time_utc": "2025-07-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/14/YIUZ98_KWBN_202507140016"
+    },
+    {
+      "case_id": "D20250715",
+      "decision_time_utc": "2025-07-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016"
+    },
+    {
+      "case_id": "D20250716",
+      "decision_time_utc": "2025-07-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/16/YIUZ98_KWBN_202507160016"
+    },
+    {
+      "case_id": "D20250717",
+      "decision_time_utc": "2025-07-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/17/YIUZ98_KWBN_202507170016"
+    },
+    {
+      "case_id": "D20250718",
+      "decision_time_utc": "2025-07-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/18/YIUZ98_KWBN_202507180016"
+    },
+    {
+      "case_id": "D20250719",
+      "decision_time_utc": "2025-07-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/19/YIUZ98_KWBN_202507190016"
+    },
+    {
+      "case_id": "D20250720",
+      "decision_time_utc": "2025-07-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/20/YIUZ98_KWBN_202507200016"
+    },
+    {
+      "case_id": "D20250721",
+      "decision_time_utc": "2025-07-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/21/YIUZ98_KWBN_202507210016"
+    },
+    {
+      "case_id": "D20250722",
+      "decision_time_utc": "2025-07-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/22/YIUZ98_KWBN_202507220016"
+    },
+    {
+      "case_id": "D20250723",
+      "decision_time_utc": "2025-07-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/23/YIUZ98_KWBN_202507230016"
+    },
+    {
+      "case_id": "D20250724",
+      "decision_time_utc": "2025-07-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/24/YIUZ98_KWBN_202507240016"
+    },
+    {
+      "case_id": "D20250725",
+      "decision_time_utc": "2025-07-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/25/YIUZ98_KWBN_202507250016"
+    },
+    {
+      "case_id": "D20250726",
+      "decision_time_utc": "2025-07-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/26/YIUZ98_KWBN_202507260016"
+    },
+    {
+      "case_id": "D20250727",
+      "decision_time_utc": "2025-07-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/27/YIUZ98_KWBN_202507270016"
+    },
+    {
+      "case_id": "D20250728",
+      "decision_time_utc": "2025-07-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/28/YIUZ98_KWBN_202507280016"
+    },
+    {
+      "case_id": "D20250729",
+      "decision_time_utc": "2025-07-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/29/YIUZ98_KWBN_202507290016"
+    },
+    {
+      "case_id": "D20250730",
+      "decision_time_utc": "2025-07-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/30/YIUZ98_KWBN_202507300016"
+    },
+    {
+      "case_id": "D20250731",
+      "decision_time_utc": "2025-07-31T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/07/31/YIUZ98_KWBN_202507310016"
+    },
+    {
+      "case_id": "D20250801",
+      "decision_time_utc": "2025-08-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/01/YIUZ98_KWBN_202508010016"
+    },
+    {
+      "case_id": "D20250802",
+      "decision_time_utc": "2025-08-02T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/02/YIUZ98_KWBN_202508020016"
+    },
+    {
+      "case_id": "D20250803",
+      "decision_time_utc": "2025-08-03T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/03/YIUZ98_KWBN_202508030016"
+    },
+    {
+      "case_id": "D20250804",
+      "decision_time_utc": "2025-08-04T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/04/YIUZ98_KWBN_202508040016"
+    },
+    {
+      "case_id": "D20250805",
+      "decision_time_utc": "2025-08-05T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/05/YIUZ98_KWBN_202508050016"
+    },
+    {
+      "case_id": "D20250806",
+      "decision_time_utc": "2025-08-06T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/06/YIUZ98_KWBN_202508060016"
+    },
+    {
+      "case_id": "D20250807",
+      "decision_time_utc": "2025-08-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/07/YIUZ98_KWBN_202508070016"
+    },
+    {
+      "case_id": "D20250808",
+      "decision_time_utc": "2025-08-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/08/YIUZ98_KWBN_202508080016"
+    },
+    {
+      "case_id": "D20250809",
+      "decision_time_utc": "2025-08-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/09/YIUZ98_KWBN_202508090016"
+    },
+    {
+      "case_id": "D20250810",
+      "decision_time_utc": "2025-08-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/10/YIUZ98_KWBN_202508100016"
+    },
+    {
+      "case_id": "D20250811",
+      "decision_time_utc": "2025-08-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/11/YIUZ98_KWBN_202508110016"
+    },
+    {
+      "case_id": "D20250812",
+      "decision_time_utc": "2025-08-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/12/YIUZ98_KWBN_202508120016"
+    },
+    {
+      "case_id": "D20250813",
+      "decision_time_utc": "2025-08-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/13/YIUZ98_KWBN_202508130016"
+    },
+    {
+      "case_id": "D20250814",
+      "decision_time_utc": "2025-08-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/14/YIUZ98_KWBN_202508140016"
+    },
+    {
+      "case_id": "D20250815",
+      "decision_time_utc": "2025-08-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/15/YIUZ98_KWBN_202508150016"
+    },
+    {
+      "case_id": "D20250816",
+      "decision_time_utc": "2025-08-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/16/YIUZ98_KWBN_202508160016"
+    },
+    {
+      "case_id": "D20250817",
+      "decision_time_utc": "2025-08-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/17/YIUZ98_KWBN_202508170016"
+    },
+    {
+      "case_id": "D20250818",
+      "decision_time_utc": "2025-08-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/18/YIUZ98_KWBN_202508180016"
+    },
+    {
+      "case_id": "D20250819",
+      "decision_time_utc": "2025-08-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/19/YIUZ98_KWBN_202508190016"
+    },
+    {
+      "case_id": "D20250820",
+      "decision_time_utc": "2025-08-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/20/YIUZ98_KWBN_202508200016"
+    },
+    {
+      "case_id": "D20250821",
+      "decision_time_utc": "2025-08-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/21/YIUZ98_KWBN_202508210016"
+    },
+    {
+      "case_id": "D20250822",
+      "decision_time_utc": "2025-08-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/22/YIUZ98_KWBN_202508220016"
+    },
+    {
+      "case_id": "D20250823",
+      "decision_time_utc": "2025-08-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/23/YIUZ98_KWBN_202508230016"
+    },
+    {
+      "case_id": "D20250824",
+      "decision_time_utc": "2025-08-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/24/YIUZ98_KWBN_202508240016"
+    },
+    {
+      "case_id": "D20250825",
+      "decision_time_utc": "2025-08-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/25/YIUZ98_KWBN_202508250016"
+    },
+    {
+      "case_id": "D20250826",
+      "decision_time_utc": "2025-08-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/26/YIUZ98_KWBN_202508260016"
+    },
+    {
+      "case_id": "D20250827",
+      "decision_time_utc": "2025-08-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/27/YIUZ98_KWBN_202508270016"
+    },
+    {
+      "case_id": "D20250828",
+      "decision_time_utc": "2025-08-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/28/YIUZ98_KWBN_202508280016"
+    },
+    {
+      "case_id": "D20250829",
+      "decision_time_utc": "2025-08-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/29/YIUZ98_KWBN_202508290016"
+    },
+    {
+      "case_id": "D20250830",
+      "decision_time_utc": "2025-08-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/30/YIUZ98_KWBN_202508300016"
+    },
+    {
+      "case_id": "D20250831",
+      "decision_time_utc": "2025-08-31T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/08/31/YIUZ98_KWBN_202508310016"
+    },
+    {
+      "case_id": "D20250901",
+      "decision_time_utc": "2025-09-01T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-08-31 07:00:00+00:00 to 2025-09-04 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250902",
+      "decision_time_utc": "2025-09-02T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-09-01 07:00:00+00:00 to 2025-09-05 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250903",
+      "decision_time_utc": "2025-09-03T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "target_quality",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-09-02 07:00:00+00:00 to 2025-09-06 06:00:00+00:00"
+    },
+    {
+      "case_id": "D20250904",
+      "decision_time_utc": "2025-09-04T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-09-01 05:45:00+00:00 to 2025-09-04 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250905",
+      "decision_time_utc": "2025-09-05T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-09-02 05:45:00+00:00 to 2025-09-05 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250906",
+      "decision_time_utc": "2025-09-06T06:00:00+00:00",
+      "status": "excluded",
+      "stage": "antecedent_flow",
+      "reason_code": "incomplete_observations",
+      "reason": "Incomplete quarter-hour flow coverage: 2025-09-03 05:45:00+00:00 to 2025-09-06 05:45:00+00:00"
+    },
+    {
+      "case_id": "D20250907",
+      "decision_time_utc": "2025-09-07T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/07/YIUZ98_KWBN_202509070016"
+    },
+    {
+      "case_id": "D20250908",
+      "decision_time_utc": "2025-09-08T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/08/YIUZ98_KWBN_202509080016"
+    },
+    {
+      "case_id": "D20250909",
+      "decision_time_utc": "2025-09-09T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/09/YIUZ98_KWBN_202509090016"
+    },
+    {
+      "case_id": "D20250910",
+      "decision_time_utc": "2025-09-10T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/10/YIUZ98_KWBN_202509100016"
+    },
+    {
+      "case_id": "D20250911",
+      "decision_time_utc": "2025-09-11T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/11/YIUZ98_KWBN_202509110016"
+    },
+    {
+      "case_id": "D20250912",
+      "decision_time_utc": "2025-09-12T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/12/YIUZ98_KWBN_202509120016"
+    },
+    {
+      "case_id": "D20250913",
+      "decision_time_utc": "2025-09-13T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/13/YIUZ98_KWBN_202509130016"
+    },
+    {
+      "case_id": "D20250914",
+      "decision_time_utc": "2025-09-14T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/14/YIUZ98_KWBN_202509140016"
+    },
+    {
+      "case_id": "D20250915",
+      "decision_time_utc": "2025-09-15T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/15/YIUZ98_KWBN_202509150016"
+    },
+    {
+      "case_id": "D20250916",
+      "decision_time_utc": "2025-09-16T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/16/YIUZ98_KWBN_202509160016"
+    },
+    {
+      "case_id": "D20250917",
+      "decision_time_utc": "2025-09-17T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/17/YIUZ98_KWBN_202509170016"
+    },
+    {
+      "case_id": "D20250918",
+      "decision_time_utc": "2025-09-18T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/18/YIUZ98_KWBN_202509180016"
+    },
+    {
+      "case_id": "D20250919",
+      "decision_time_utc": "2025-09-19T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/19/YIUZ98_KWBN_202509190016"
+    },
+    {
+      "case_id": "D20250920",
+      "decision_time_utc": "2025-09-20T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/20/YIUZ98_KWBN_202509200016"
+    },
+    {
+      "case_id": "D20250921",
+      "decision_time_utc": "2025-09-21T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/21/YIUZ98_KWBN_202509210016"
+    },
+    {
+      "case_id": "D20250922",
+      "decision_time_utc": "2025-09-22T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/22/YIUZ98_KWBN_202509220016"
+    },
+    {
+      "case_id": "D20250923",
+      "decision_time_utc": "2025-09-23T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/23/YIUZ98_KWBN_202509230016"
+    },
+    {
+      "case_id": "D20250924",
+      "decision_time_utc": "2025-09-24T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/24/YIUZ98_KWBN_202509240016"
+    },
+    {
+      "case_id": "D20250925",
+      "decision_time_utc": "2025-09-25T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/25/YIUZ98_KWBN_202509250016"
+    },
+    {
+      "case_id": "D20250926",
+      "decision_time_utc": "2025-09-26T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/26/YIUZ98_KWBN_202509260016"
+    },
+    {
+      "case_id": "D20250927",
+      "decision_time_utc": "2025-09-27T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/27/YIUZ98_KWBN_202509270016"
+    },
+    {
+      "case_id": "D20250928",
+      "decision_time_utc": "2025-09-28T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/28/YIUZ98_KWBN_202509280016"
+    },
+    {
+      "case_id": "D20250929",
+      "decision_time_utc": "2025-09-29T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/29/YIUZ98_KWBN_202509290016"
+    },
+    {
+      "case_id": "D20250930",
+      "decision_time_utc": "2025-09-30T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/09/30/YIUZ98_KWBN_202509300016"
+    },
+    {
+      "case_id": "D20251001",
+      "decision_time_utc": "2025-10-01T06:00:00+00:00",
+      "status": "passed",
+      "stage": "paired",
+      "source_key": "wmo/qpf/2025/10/01/YIUZ98_KWBN_202510010016"
+    }
+  ],
+  "errors": [],
+  "rows_paired": 258,
+  "resumed_rows": 0,
+  "run_new_download_bytes": 1304328505,
+  "run_new_files": 246,
+  "run_source_cache_hits": 12,
+  "project_successful_download_bytes": 1304328505,
+  "elapsed_seconds": 729.965725039001,
+  "output_sha256": {
+    "features.csv": "8cac9cee980d0348d72930818a5d9aee47b056c14ee124277d37c610d4887457",
+    "labels.csv": "1951fe754a575633886ec7bd26397991e9246008de3ffd24ae571500e9792d2c",
+    "provenance.csv": "51f726bf2cfe344d15f06b8f667067611d27b7ee3cb26aa57c4c099c46bfb23c",
+    "qpf_intervals.csv": "ca044cbda1b902f8f636f028ddd4ae15928b93cf9f9835f0050a2c47593bfbce",
+    "audit.csv": "c55a146aa6620ad7466bb217ec6b2807feb71a6cc6b3b70bb103101a5486447c"
+  },
+  "predictor_columns": [
+    "flow_last_cfs",
+    "flow_lag_1h_from_cutoff_cfs",
+    "flow_lag_6h_from_cutoff_cfs",
+    "flow_lag_24h_from_cutoff_cfs",
+    "flow_lag_72h_from_cutoff_cfs",
+    "flow_mean_6h_cfs",
+    "flow_mean_24h_cfs",
+    "flow_mean_72h_cfs",
+    "flow_max_24h_cfs",
+    "flow_delta_6h_cfs",
+    "calendar_doy_sin",
+    "calendar_doy_cos",
+    "qpf_next_6h_mm",
+    "qpf_next_12h_mm",
+    "qpf_next_24h_mm",
+    "qpf_next_48h_mm",
+    "qpf_next_60h_mm",
+    "forecast_age_hours"
+  ],
+  "label_columns": [
+    "target_crossing_72h",
+    "target_window_end_utc",
+    "first_crossing_time_utc",
+    "crossing_lead_hours",
+    "eligibility_flow_at_decision_cfs"
+  ],
+  "positive_rows": 19,
+  "exclusion_counts": {
+    "incomplete_observations": 23,
+    "last_flow_not_below_450": 83,
+    "no_early_issue": 1
+  }
+}

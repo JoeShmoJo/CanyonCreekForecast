@@ -1,0 +1,16 @@
+{
+  "initial_build_elapsed_seconds": 729.965725039001,
+  "initial_new_download_bytes": 1304328505,
+  "initial_new_files": 246,
+  "initial_source_cache_hits": 12,
+  "warm_replay_elapsed_seconds_including_python_startup": 1.8812607059990114,
+  "warm_replay_download_bytes": 0,
+  "warm_replay_resumed_rows": 258,
+  "byte_identical_csvs": [
+    "features.csv",
+    "labels.csv",
+    "provenance.csv",
+    "qpf_intervals.csv",
+    "audit.csv"
+  ]
+}

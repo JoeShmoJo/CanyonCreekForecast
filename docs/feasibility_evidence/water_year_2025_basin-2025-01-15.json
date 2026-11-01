@@ -1,0 +1,115 @@
+{
+  "source_file": ".cache/feasibility/water-year-2025/seasonal-qpf/4a84b078a14a11dd3b501eb8c846f9432a6db9615d7987f535591517b7913235.grib2",
+  "source_sha256": "4a84b078a14a11dd3b501eb8c846f9432a6db9615d7987f535591517b7913235",
+  "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+  "boundary_sha256": "68290f902e80a7d098b3e8e7cf1b6cf2424a0377a7241541cb402c134b38ad6e",
+  "grib2io_version": "2.8.2",
+  "g2c_version": "2.3.0",
+  "area_crs": "EPSG:5070",
+  "basin_area_km2": 167.34291572738695,
+  "intersecting_grid_cells": 46,
+  "weights_sum_relative_to_basin": 0.9999999999995537,
+  "constant_field_test_passed": true,
+  "units": "mm water equivalent",
+  "scan_order": "grib2io canonical rows; ecCodes odd rows reversed before comparison",
+  "max_independent_decoder_difference_mm": 6.484985348720329e-07,
+  "intervals": [
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-15T00:00:00+00:00",
+      "valid_end_utc": "2025-01-15T06:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.4332275422599423e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-15T06:00:00+00:00",
+      "valid_end_utc": "2025-01-15T12:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.4332275422599423e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-15T12:00:00+00:00",
+      "valid_end_utc": "2025-01-15T18:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 6.103515630684342e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-15T18:00:00+00:00",
+      "valid_end_utc": "2025-01-16T00:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.4332275422599423e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-16T00:00:00+00:00",
+      "valid_end_utc": "2025-01-16T06:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.051757815342171e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-16T06:00:00+00:00",
+      "valid_end_utc": "2025-01-16T12:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.051757815342171e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-16T12:00:00+00:00",
+      "valid_end_utc": "2025-01-16T18:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 6.675720221060999e-08
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-16T18:00:00+00:00",
+      "valid_end_utc": "2025-01-17T00:00:00+00:00",
+      "basin_mean_mm": 0.1564842743773862,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.2424926743601645e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-17T00:00:00+00:00",
+      "valid_end_utc": "2025-01-17T06:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.051757815342171e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-17T06:00:00+00:00",
+      "valid_end_utc": "2025-01-17T12:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.4332275422599423e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-17T12:00:00+00:00",
+      "valid_end_utc": "2025-01-17T18:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 3.4332275422599423e-07
+    },
+    {
+      "reference_time_utc": "2025-01-15T00:30:00+00:00",
+      "accumulation_start_utc": "2025-01-17T18:00:00+00:00",
+      "valid_end_utc": "2025-01-18T00:00:00+00:00",
+      "basin_mean_mm": 0.0,
+      "valid_area_fraction": 0.9999999999995537,
+      "max_decoder_difference_mm": 6.484985348720329e-07
+    }
+  ],
+  "note": "One forecast extraction; not a complete historical dataset or a model."
+}

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2">
+  <service name="HTTPonly" serviceType="HTTPServer" base="/thredds/fileServer/" />
+  <service name="ALL" serviceType="Compound" base="">
+    <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/" />
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+    <service name="iso" serviceType="ISO" base="/thredds/iso/" />
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+  </service>
+  <dataset name="access/">
+    <property name="DatasetScan" value="true" />
+    <metadata inherited="true">
+      <serviceName>ALL</serviceName>
+      <authority>gov.noaa.ncei</authority>
+      <dataType>Grid</dataType>
+      <dataFormat>GRIB-2</dataFormat>
+      <documentation type="funding">Production: no information available - Archive &amp; Access: Provided by National Weather Service to National Centers for Enviornmental Information</documentation>
+      <documentation type="processing_level">no information provided</documentation>
+      <documentation type="dataset home" xlink:href="https://www.weather.gov/mdl/ndfd_home" xlink:title="National Weather Service site" />
+      <documentation type="NCEI site" xlink:href="https://www.ncdc.noaa.gov/model-data/national-digital-forecast-database-ndfd" xlink:title="NCEI NDFD information" />
+      <documentation type="file naming scheme" xlink:href="https://www.weather.gov/mdl/ndfd_info" xlink:title="NDFD format, file naming and WMO Header information" />
+      <documentation type="alternate access point" xlink:href="http://www.ncdc.noaa.gov/has/HAS.FileAppRouter?datasetname=9959_02&amp;subqueryby=STATION&amp;applname=&amp;outdest=FILE" xlink:title="NCEI HDSS Access System" />
+      <documentation type="rights">Electronic downloads of the data are free, however fees apply for data certification and distribution of the data on physical media. Fees vary based on order specifications.</documentation>
+      <documentation type="comment">NDFD data is archived only in operational state. If a product is deemed experimental by the producers, it will not be available here.</documentation>
+      <creator>
+        <name vocabulary="GCMD">DOC/NOAA/NWS</name>
+        <contact url="http://www.nws.noaa.gov/ndfd/" email="nws.ndfd@noaa.gov" />
+      </creator>
+      <keyword vocabulary="GCMD">Data, GOVERNMENT AGENCIES-U.S. FEDERAL AGENCIES, DOC, NOAA, DOC/NOAA/NESDIS/NCEI, National Climatic Data Center, National Centers for Environmental Information, NESDIS, U.S. Department of Commerce, National Digital Forecast Database, NDFD, NWS, Gridded Data, Gridded Forecast, Gridded Analysis, National Weather Service</keyword>
+      <project>National Digital Forecast Database</project>
+      <publisher>
+        <name vocabulary="GCMD">DOC/NOAA/NESDIS/NCEI</name>
+        <contact url="https://www.weather.gov/mdl/ndfd_home" email="nomads.ncdc@noaa.gov" />
+      </publisher>
+    </metadata>
+    <catalogRef xlink:href="202006/catalog.xml" xlink:title="202006" ID="NDFD/access/202006" name="202006">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202007/catalog.xml" xlink:title="202007" ID="NDFD/access/202007" name="202007">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202008/catalog.xml" xlink:title="202008" ID="NDFD/access/202008" name="202008">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202009/catalog.xml" xlink:title="202009" ID="NDFD/access/202009" name="202009">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202010/catalog.xml" xlink:title="202010" ID="NDFD/access/202010" name="202010">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202011/catalog.xml" xlink:title="202011" ID="NDFD/access/202011" name="202011">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202012/catalog.xml" xlink:title="202012" ID="NDFD/access/202012" name="202012">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202101/catalog.xml" xlink:title="202101" ID="NDFD/access/202101" name="202101">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202102/catalog.xml" xlink:title="202102" ID="NDFD/access/202102" name="202102">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202103/catalog.xml" xlink:title="202103" ID="NDFD/access/202103" name="202103">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202104/catalog.xml" xlink:title="202104" ID="NDFD/access/202104" name="202104">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202105/catalog.xml" xlink:title="202105" ID="NDFD/access/202105" name="202105">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202106/catalog.xml" xlink:title="202106" ID="NDFD/access/202106" name="202106">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202107/catalog.xml" xlink:title="202107" ID="NDFD/access/202107" name="202107">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202108/catalog.xml" xlink:title="202108" ID="NDFD/access/202108" name="202108">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202109/catalog.xml" xlink:title="202109" ID="NDFD/access/202109" name="202109">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202110/catalog.xml" xlink:title="202110" ID="NDFD/access/202110" name="202110">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202111/catalog.xml" xlink:title="202111" ID="NDFD/access/202111" name="202111">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202112/catalog.xml" xlink:title="202112" ID="NDFD/access/202112" name="202112">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202201/catalog.xml" xlink:title="202201" ID="NDFD/access/202201" name="202201">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202202/catalog.xml" xlink:title="202202" ID="NDFD/access/202202" name="202202">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202203/catalog.xml" xlink:title="202203" ID="NDFD/access/202203" name="202203">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202204/catalog.xml" xlink:title="202204" ID="NDFD/access/202204" name="202204">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202205/catalog.xml" xlink:title="202205" ID="NDFD/access/202205" name="202205">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202206/catalog.xml" xlink:title="202206" ID="NDFD/access/202206" name="202206">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202207/catalog.xml" xlink:title="202207" ID="NDFD/access/202207" name="202207">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202208/catalog.xml" xlink:title="202208" ID="NDFD/access/202208" name="202208">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202209/catalog.xml" xlink:title="202209" ID="NDFD/access/202209" name="202209">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202210/catalog.xml" xlink:title="202210" ID="NDFD/access/202210" name="202210">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202211/catalog.xml" xlink:title="202211" ID="NDFD/access/202211" name="202211">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202212/catalog.xml" xlink:title="202212" ID="NDFD/access/202212" name="202212">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202301/catalog.xml" xlink:title="202301" ID="NDFD/access/202301" name="202301">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202302/catalog.xml" xlink:title="202302" ID="NDFD/access/202302" name="202302">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202303/catalog.xml" xlink:title="202303" ID="NDFD/access/202303" name="202303">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202304/catalog.xml" xlink:title="202304" ID="NDFD/access/202304" name="202304">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202305/catalog.xml" xlink:title="202305" ID="NDFD/access/202305" name="202305">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202306/catalog.xml" xlink:title="202306" ID="NDFD/access/202306" name="202306">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202307/catalog.xml" xlink:title="202307" ID="NDFD/access/202307" name="202307">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202308/catalog.xml" xlink:title="202308" ID="NDFD/access/202308" name="202308">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202309/catalog.xml" xlink:title="202309" ID="NDFD/access/202309" name="202309">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202310/catalog.xml" xlink:title="202310" ID="NDFD/access/202310" name="202310">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202311/catalog.xml" xlink:title="202311" ID="NDFD/access/202311" name="202311">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202312/catalog.xml" xlink:title="202312" ID="NDFD/access/202312" name="202312">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202401/catalog.xml" xlink:title="202401" ID="NDFD/access/202401" name="202401">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202402/catalog.xml" xlink:title="202402" ID="NDFD/access/202402" name="202402">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202403/catalog.xml" xlink:title="202403" ID="NDFD/access/202403" name="202403">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202404/catalog.xml" xlink:title="202404" ID="NDFD/access/202404" name="202404">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202405/catalog.xml" xlink:title="202405" ID="NDFD/access/202405" name="202405">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202406/catalog.xml" xlink:title="202406" ID="NDFD/access/202406" name="202406">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202407/catalog.xml" xlink:title="202407" ID="NDFD/access/202407" name="202407">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202408/catalog.xml" xlink:title="202408" ID="NDFD/access/202408" name="202408">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202409/catalog.xml" xlink:title="202409" ID="NDFD/access/202409" name="202409">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202410/catalog.xml" xlink:title="202410" ID="NDFD/access/202410" name="202410">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202411/catalog.xml" xlink:title="202411" ID="NDFD/access/202411" name="202411">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202412/catalog.xml" xlink:title="202412" ID="NDFD/access/202412" name="202412">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202501/catalog.xml" xlink:title="202501" ID="NDFD/access/202501" name="202501">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202502/catalog.xml" xlink:title="202502" ID="NDFD/access/202502" name="202502">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202503/catalog.xml" xlink:title="202503" ID="NDFD/access/202503" name="202503">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202504/catalog.xml" xlink:title="202504" ID="NDFD/access/202504" name="202504">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202505/catalog.xml" xlink:title="202505" ID="NDFD/access/202505" name="202505">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202506/catalog.xml" xlink:title="202506" ID="NDFD/access/202506" name="202506">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202507/catalog.xml" xlink:title="202507" ID="NDFD/access/202507" name="202507">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202508/catalog.xml" xlink:title="202508" ID="NDFD/access/202508" name="202508">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202509/catalog.xml" xlink:title="202509" ID="NDFD/access/202509" name="202509">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202510/catalog.xml" xlink:title="202510" ID="NDFD/access/202510" name="202510">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202511/catalog.xml" xlink:title="202511" ID="NDFD/access/202511" name="202511">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202512/catalog.xml" xlink:title="202512" ID="NDFD/access/202512" name="202512">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202601/catalog.xml" xlink:title="202601" ID="NDFD/access/202601" name="202601">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202602/catalog.xml" xlink:title="202602" ID="NDFD/access/202602" name="202602">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202603/catalog.xml" xlink:title="202603" ID="NDFD/access/202603" name="202603">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202604/catalog.xml" xlink:title="202604" ID="NDFD/access/202604" name="202604">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202605/catalog.xml" xlink:title="202605" ID="NDFD/access/202605" name="202605">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202606/catalog.xml" xlink:title="202606" ID="NDFD/access/202606" name="202606">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202607/catalog.xml" xlink:title="202607" ID="NDFD/access/202607" name="202607">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202608/catalog.xml" xlink:title="202608" ID="NDFD/access/202608" name="202608">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202609/catalog.xml" xlink:title="202609" ID="NDFD/access/202609" name="202609">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202610/catalog.xml" xlink:title="202610" ID="NDFD/access/202610" name="202610">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="corrupt/catalog.xml" xlink:title="corrupt" ID="NDFD/access/corrupt" name="corrupt">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="historical/catalog.xml" xlink:title="historical" ID="NDFD/access/historical" name="historical">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+  </dataset>
+</catalog>

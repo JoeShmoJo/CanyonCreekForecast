@@ -1,0 +1,7 @@
+{
+  "source": "https://www.nwrfc.noaa.gov/rfc/map.js",
+  "lines": [
+    "//  //$.get(\"/weather/xml/qpf24.json?version=5\", function(data) {",
+    "//    console.log(\"/weather/xml/qpf24.json. file loaded\");"
+  ]
+}

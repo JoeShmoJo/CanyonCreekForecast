@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ncei.noaa.gov/has/HAS.FileAppRouter?datasetname=9959_02&subqueryby=STATION&applname=&outdest=FILE",
+  "status": 200,
+  "qpf_options": [
+    "YIU (07/09/2008 - 10/22/2026)"
+  ],
+  "order_submitted": false
+}

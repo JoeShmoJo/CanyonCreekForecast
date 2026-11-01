@@ -1,0 +1,185 @@
+{
+  "migrated_at_utc": "2026-11-01T22:18:18.436999+00:00",
+  "source_repository": "https://github.com/JoeShmoJo/WatershedForecast",
+  "source_checkout_head": "7dcffd0ff6227030e25687322a4a6844a3802f6f",
+  "destination": "CanyonCreekForecast",
+  "original_repository_modified": false,
+  "code_and_configs_copied_without_changes": true,
+  "processed_csvs_byte_identical_to_source": true,
+  "raw_cache_policy": "Copied locally for continuation; ignored by Git. No new network downloads.",
+  "manifest_relocation": {
+    "path": "data/dataset_2025/manifest.json",
+    "original_sha256": "7aa30e16873c881458e2096bbd441b5a70a9db2756bc3f0d13cf4bbfe23f9dc7",
+    "change": "pipeline_source made repository-relative; code and CSV hashes unchanged"
+  },
+  "files": [
+    {
+      "path": "scripts/audit_archive_inventory.py",
+      "sha256": "f55ae14cc00d707b67460cd3e6430b2935ac24c440b14d6a27fd8b8c8503015a"
+    },
+    {
+      "path": "scripts/audit_cached_flow.py",
+      "sha256": "85d9147299d7f02520f83144907e40ae908c14ceb9955ce4d97262760a9b503b"
+    },
+    {
+      "path": "scripts/audit_crossings.py",
+      "sha256": "2c586f866c8e75a36be445485b9bbc3a110cd8e41f441c5d96d6905aa19646c4"
+    },
+    {
+      "path": "scripts/audit_multiyear.py",
+      "sha256": "7f6b46682d15fe5bd6c622ca3bdc32089551b4b341d4a56e34cbbafcca6c1f64"
+    },
+    {
+      "path": "scripts/audit_water_year.py",
+      "sha256": "174cd12868feb686ab84cfe9ea66a3486edc81f250318d7acbdb9e81a3999adb"
+    },
+    {
+      "path": "scripts/audit_water_year_inventory.py",
+      "sha256": "952a5badd316b23f3418e1f5b634436f45d91aa2d51a7ded690465b344ca2d79"
+    },
+    {
+      "path": "scripts/build_pilot_2025.py",
+      "sha256": "930094b37b22a2733bb283b87e4aa765d8e6735856cfb28bea7ff061b0ac9279"
+    },
+    {
+      "path": "scripts/build_water_year_dataset.py",
+      "sha256": "176a1f8fed3e258a457276109e8fc8f51b2c4db7d38cc16a68391e51c094e6f5"
+    },
+    {
+      "path": "scripts/plot_available_flow.py",
+      "sha256": "bf543b73654980307f145eeb086d1545ce805ae35ad7acac331b2fac52be8a26"
+    },
+    {
+      "path": "scripts/plot_pilot_2025.py",
+      "sha256": "d3dc9292a99a9775d041a1925e69e94a91b7a21bc01fbe6ae5ad028a84f2b32b"
+    },
+    {
+      "path": "scripts/plot_water_year_audit.py",
+      "sha256": "1e8bde967cb1de15cce1463cd9d7c7aba56d96ca743d87fe7641e29429c7e742"
+    },
+    {
+      "path": "scripts/probe_basin_qpf.py",
+      "sha256": "c29d195e6a8f92c88c0ed8b2af9eb35374f3da7f6634aefa99773a984e4be80b"
+    },
+    {
+      "path": "scripts/setup_grib2io.sh",
+      "sha256": "d8f0ea6b2d428a41955cf05156ec686ee8d253d260f1078b407b4d548f02bbd7"
+    },
+    {
+      "path": "scripts/summarize_water_year_dataset.py",
+      "sha256": "e8cacdb42c14238a2134e8f16cdc290eeb6cc1fec665b50b9b4153ef95d400e5"
+    },
+    {
+      "path": "scripts/test_bounded_audits.py",
+      "sha256": "db358efdbc2c937ba2e40c4de5406de8590307bef914a5591898526046a8e463"
+    },
+    {
+      "path": "scripts/test_feasibility_offline.py",
+      "sha256": "f6bfacd06d57f5203b388681aac1b3bc88cf147f57808221c1e29f5551409437"
+    },
+    {
+      "path": "scripts/test_ncei_subset.py",
+      "sha256": "5f4a78caab19e842a31b400297d155e7b39776cdb2db88749fbde6a48d6cde9b"
+    },
+    {
+      "path": "scripts/test_pilot_2025.py",
+      "sha256": "1555a28253db85cd8788f173390c3bb63991e4fdb1099f002a42fa7941d541ab"
+    },
+    {
+      "path": "scripts/test_qpf_archive.py",
+      "sha256": "973e4eeb5e5e1bca124b6a3a23d06e02da1dfaffe85941e91f1142928c538996"
+    },
+    {
+      "path": "scripts/test_usgs.py",
+      "sha256": "9de1602432682a66c31124c51c6bbb44666d5c6eed24a43a056f2ca3e9ec00b8"
+    },
+    {
+      "path": "scripts/test_water_year_dataset.py",
+      "sha256": "67877b62e499c9883132feccd55f50dafce3015491cd667efbc3244218608be6"
+    },
+    {
+      "path": "scripts/validate_pilot_2025.py",
+      "sha256": "f4258865137fa501aef4bab7f4a123ae8f76d600f15c9aaaa7217f11209dc205"
+    },
+    {
+      "path": "scripts/validate_water_year_dataset.py",
+      "sha256": "027e36478ed8bc68d8630b1a5e207ed9de4b6af4af6583aabe85857d7a3a19dd"
+    },
+    {
+      "path": "configs/dataset_2025.json",
+      "sha256": "683903021e4f2a7cec8e5b28db27ccb16d616353a66d5299b0e3170b54f7b522"
+    },
+    {
+      "path": "configs/pilot_2025.json",
+      "sha256": "b172ca393f677c17fb28222b7e65d2c129e142bbf34daaa322ef348b3eb5d8de"
+    },
+    {
+      "path": "data/dataset_2025/README.md",
+      "sha256": "d7d7fa0912c9525aad02476a3fd603519e60d1987b5bfd4373bc37e29c30fa42"
+    },
+    {
+      "path": "data/dataset_2025/audit.csv",
+      "sha256": "c55a146aa6620ad7466bb217ec6b2807feb71a6cc6b3b70bb103101a5486447c"
+    },
+    {
+      "path": "data/dataset_2025/cost_checks.json",
+      "sha256": "7fb685d3daca7a1e35baac455f0dda9efc1e510cbf550df0046921cd02567617"
+    },
+    {
+      "path": "data/dataset_2025/coverage_report.json",
+      "sha256": "b7d66e3c0a1144b8ecd8ee04af66b68c1a43fc1ce73672a3f38bed481ddf1a65"
+    },
+    {
+      "path": "data/dataset_2025/features.csv",
+      "sha256": "8cac9cee980d0348d72930818a5d9aee47b056c14ee124277d37c610d4887457"
+    },
+    {
+      "path": "data/dataset_2025/labels.csv",
+      "sha256": "1951fe754a575633886ec7bd26397991e9246008de3ffd24ae571500e9792d2c"
+    },
+    {
+      "path": "data/dataset_2025/provenance.csv",
+      "sha256": "51f726bf2cfe344d15f06b8f667067611d27b7ee3cb26aa57c4c099c46bfb23c"
+    },
+    {
+      "path": "data/dataset_2025/qpf_intervals.csv",
+      "sha256": "ca044cbda1b902f8f636f028ddd4ae15928b93cf9f9835f0050a2c47593bfbce"
+    },
+    {
+      "path": "data/pilot_2025/README.md",
+      "sha256": "6cbdee00f8fe3264ac340d759a969599c1af9110b0b1a645be064b80d7f19b34"
+    },
+    {
+      "path": "data/pilot_2025/cost_checks.json",
+      "sha256": "3a1d2e66fcbd7492af16f1f02ce292bbfb9e65c5fc63d019cd591048fa0a100e"
+    },
+    {
+      "path": "data/pilot_2025/features.csv",
+      "sha256": "cfedf5682644c1a01c2b324fc9b09885a1f5a0b7a3448ea52194b56aabb21282"
+    },
+    {
+      "path": "data/pilot_2025/labels.csv",
+      "sha256": "4c3c3f4655604fcfd657676a5c95fe5c968c7ec3ff422c5ef7532994f531630f"
+    },
+    {
+      "path": "data/pilot_2025/manifest.json",
+      "sha256": "b8e0cb3b1f83186c6c167e22964606ad884f03ac7c4f131eaae684e6ae7f3999"
+    },
+    {
+      "path": "data/pilot_2025/provenance.csv",
+      "sha256": "f5dc93639afc710bd8eed0df8f3edb21569f3c266516960c4dd3835498366178"
+    },
+    {
+      "path": "data/pilot_2025/qpf_intervals.csv",
+      "sha256": "b1c5b2ec639bf2be1c96589a621dfd9314171ced6598acb778591a582c99b009"
+    }
+  ],
+  "validation": {
+    "offline_regression_tests_passed": 35,
+    "pilot_pairs_validated": 12,
+    "annual_pairs_validated": 258,
+    "scheduled_decisions_accounted_for": 365,
+    "cached_replay_new_download_bytes": 0,
+    "csv_output_hashes_match_original": true
+  }
+}

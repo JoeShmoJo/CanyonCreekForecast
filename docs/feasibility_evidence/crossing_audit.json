@@ -1,0 +1,170 @@
+{
+  "tested_at_utc": "2026-10-25T19:15:14.625678+00:00",
+  "rule": "Strictly below to strictly above 450; equality retains state; no crossing across gaps; first crossing per America/Los_Angeles calendar day.",
+  "samples": [
+    {
+      "window_or_input": "2019-01-01/2019-02-01",
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&limit=10000&datetime=2019-01-01T00%3A00%3A00Z%2F2019-02-01T00%3A00%3A00Z",
+      "used_cached_response": true,
+      "first_utc": "2019-01-01T00:00:00+00:00",
+      "last_utc": "2019-02-01T00:00:00+00:00",
+      "observations": 2977,
+      "missing_values": 0,
+      "non_15min_intervals": 0,
+      "min_cfs": 246.0,
+      "max_cfs": 1410.0,
+      "raw_upcrossings": 3,
+      "crossings_on_partial_first_local_day_excluded": 0,
+      "deduplicated_crossings": 3,
+      "same_day_repeats_removed": 0,
+      "above_threshold_segment_starts_with_unknown_crossing": 1,
+      "complete_72h_hourly_decisions_below_450": 224,
+      "decisions_with_future_deduplicated_crossing": 116,
+      "qualifier_counts": {
+        "Approved": 2977
+      },
+      "events": [
+        {
+          "time_utc": "2019-01-10T03:00:00+00:00",
+          "local_day": "2019-01-09",
+          "discharge_cfs": 463.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2019-01-19T08:15:00+00:00",
+          "local_day": "2019-01-19",
+          "discharge_cfs": 459.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2019-01-23T02:00:00+00:00",
+          "local_day": "2019-01-22",
+          "discharge_cfs": 459.0,
+          "qualifiers": "Approved"
+        }
+      ]
+    },
+    {
+      "window_or_input": "2021-02-01/2021-03-01",
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&limit=10000&datetime=2021-02-01T00%3A00%3A00Z%2F2021-03-01T00%3A00%3A00Z",
+      "used_cached_response": true,
+      "first_utc": "2021-02-01T00:00:00+00:00",
+      "last_utc": "2021-03-01T00:00:00+00:00",
+      "observations": 2689,
+      "missing_values": 0,
+      "non_15min_intervals": 0,
+      "min_cfs": 267.0,
+      "max_cfs": 4210.0,
+      "raw_upcrossings": 4,
+      "crossings_on_partial_first_local_day_excluded": 0,
+      "deduplicated_crossings": 3,
+      "same_day_repeats_removed": 1,
+      "above_threshold_segment_starts_with_unknown_crossing": 0,
+      "complete_72h_hourly_decisions_below_450": 141,
+      "decisions_with_future_deduplicated_crossing": 88,
+      "qualifier_counts": {
+        "Approved": 2689
+      },
+      "events": [
+        {
+          "time_utc": "2021-02-02T00:00:00+00:00",
+          "local_day": "2021-02-01",
+          "discharge_cfs": 457.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2021-02-10T17:45:00+00:00",
+          "local_day": "2021-02-10",
+          "discharge_cfs": 457.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2021-02-15T23:45:00+00:00",
+          "local_day": "2021-02-15",
+          "discharge_cfs": 457.0,
+          "qualifiers": "Approved"
+        }
+      ]
+    },
+    {
+      "window_or_input": "2023-01-01/2023-02-01",
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&limit=10000&datetime=2023-01-01T00%3A00%3A00Z%2F2023-02-01T00%3A00%3A00Z",
+      "used_cached_response": true,
+      "first_utc": "2023-01-01T00:00:00+00:00",
+      "last_utc": "2023-02-01T00:00:00+00:00",
+      "observations": 2977,
+      "missing_values": 0,
+      "non_15min_intervals": 0,
+      "min_cfs": 287.0,
+      "max_cfs": 1160.0,
+      "raw_upcrossings": 12,
+      "crossings_on_partial_first_local_day_excluded": 0,
+      "deduplicated_crossings": 3,
+      "same_day_repeats_removed": 9,
+      "above_threshold_segment_starts_with_unknown_crossing": 1,
+      "complete_72h_hourly_decisions_below_450": 240,
+      "decisions_with_future_deduplicated_crossing": 72,
+      "qualifier_counts": {
+        "Approved": 2977
+      },
+      "events": [
+        {
+          "time_utc": "2023-01-04T19:00:00+00:00",
+          "local_day": "2023-01-04",
+          "discharge_cfs": 457.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2023-01-08T20:45:00+00:00",
+          "local_day": "2023-01-08",
+          "discharge_cfs": 465.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2023-01-22T18:45:00+00:00",
+          "local_day": "2023-01-22",
+          "discharge_cfs": 457.0,
+          "qualifiers": "Approved"
+        }
+      ]
+    },
+    {
+      "window_or_input": "2025-03-01/2025-04-01",
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&limit=10000&datetime=2025-03-01T00%3A00%3A00Z%2F2025-04-01T00%3A00%3A00Z",
+      "used_cached_response": true,
+      "first_utc": "2025-03-01T00:00:00+00:00",
+      "last_utc": "2025-04-01T00:00:00+00:00",
+      "observations": 2977,
+      "missing_values": 0,
+      "non_15min_intervals": 0,
+      "min_cfs": 224.0,
+      "max_cfs": 2450.0,
+      "raw_upcrossings": 2,
+      "crossings_on_partial_first_local_day_excluded": 0,
+      "deduplicated_crossings": 2,
+      "same_day_repeats_removed": 0,
+      "above_threshold_segment_starts_with_unknown_crossing": 1,
+      "complete_72h_hourly_decisions_below_450": 306,
+      "decisions_with_future_deduplicated_crossing": 86,
+      "qualifier_counts": {
+        "Approved": 2977
+      },
+      "events": [
+        {
+          "time_utc": "2025-03-15T09:30:00+00:00",
+          "local_day": "2025-03-15",
+          "discharge_cfs": 452.0,
+          "qualifiers": "Approved"
+        },
+        {
+          "time_utc": "2025-03-20T07:15:00+00:00",
+          "local_day": "2025-03-20",
+          "discharge_cfs": 452.0,
+          "qualifiers": "Approved"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "full_history_audited": false
+}

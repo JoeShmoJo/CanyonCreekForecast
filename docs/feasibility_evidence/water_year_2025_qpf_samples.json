@@ -1,0 +1,4601 @@
+{
+  "tested_at_utc": "2026-10-25T19:23:00.611669+00:00",
+  "listings": [
+    {
+      "url": "https://noaa-ndfd-pds.s3.amazonaws.com/?list-type=2&prefix=wmo%2F&max-keys=200&delimiter=%2F",
+      "truncated": false,
+      "prefixes": [
+        "wmo/apt/",
+        "wmo/cig/",
+        "wmo/conhazo/",
+        "wmo/critfireo/",
+        "wmo/dryfireo/",
+        "wmo/fret/",
+        "wmo/fretdep/",
+        "wmo/frettot/",
+        "wmo/fwspd/",
+        "wmo/heatrisk/",
+        "wmo/iceaccum/",
+        "wmo/llwsdir/",
+        "wmo/llwshgt/",
+        "wmo/llwsspd/",
+        "wmo/maxrh/",
+        "wmo/maxt/",
+        "wmo/minrh/",
+        "wmo/mint/",
+        "wmo/p24less0025/",
+        "wmo/phail/",
+        "wmo/pop12/",
+        "wmo/ppi/",
+        "wmo/prcpabv14d/",
+        "wmo/prcpabv30d/",
+        "wmo/prcpabv90d/",
+        "wmo/prcpblw14d/",
+        "wmo/prcpblw30d/",
+        "wmo/prcpblw90d/",
+        "wmo/ptornado/",
+        "wmo/ptotsvrtstm/",
+        "wmo/ptotxsvrtstm/",
+        "wmo/ptstmwinds/",
+        "wmo/pxhail/",
+        "wmo/pxtornado/",
+        "wmo/pxtstmwinds/",
+        "wmo/qpf/",
+        "wmo/rhm/",
+        "wmo/sky/",
+        "wmo/snow/",
+        "wmo/snow24e10/",
+        "wmo/snow24e90/",
+        "wmo/snow48e10/",
+        "wmo/snow48e90/",
+        "wmo/snow72e10/",
+        "wmo/snow72e90/",
+        "wmo/snowlevel/",
+        "wmo/snowratio/",
+        "wmo/tcfrt/",
+        "wmo/tcsst/",
+        "wmo/tctt/",
+        "wmo/tcwspdabv34c/",
+        "wmo/tcwspdabv34i/",
+        "wmo/tcwspdabv50c/",
+        "wmo/tcwspdabv50i/",
+        "wmo/tcwspdabv64c/",
+        "wmo/tcwspdabv64i/",
+        "wmo/tcwt/",
+        "wmo/td/",
+        "wmo/temp/",
+        "wmo/tmpabv14d/",
+        "wmo/tmpabv30d/",
+        "wmo/tmpabv90d/",
+        "wmo/tmpblw14d/",
+        "wmo/tmpblw30d/",
+        "wmo/tmpblw90d/",
+        "wmo/vis/",
+        "wmo/waveh/",
+        "wmo/wbgt/",
+        "wmo/wdir/",
+        "wmo/wgust/",
+        "wmo/wspd/",
+        "wmo/wwa/",
+        "wmo/wx/"
+      ],
+      "objects": []
+    },
+    {
+      "url": "https://noaa-ndfd-pds.s3.amazonaws.com/?list-type=2&prefix=wmo%2Fqpf%2F2024%2F11%2F15%2F&max-keys=200",
+      "truncated": false,
+      "prefixes": [],
+      "objects": [
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150047",
+          "size": 455687,
+          "last_modified": "2024-11-15T00:51:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150147",
+          "size": 455687,
+          "last_modified": "2024-11-15T01:50:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150246",
+          "size": 496894,
+          "last_modified": "2024-11-15T02:48:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150347",
+          "size": 496894,
+          "last_modified": "2024-11-15T03:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150446",
+          "size": 496894,
+          "last_modified": "2024-11-15T04:52:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150546",
+          "size": 453803,
+          "last_modified": "2024-11-15T05:50:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150646",
+          "size": 453803,
+          "last_modified": "2024-11-15T06:49:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150746",
+          "size": 478579,
+          "last_modified": "2024-11-15T07:53:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150846",
+          "size": 478579,
+          "last_modified": "2024-11-15T08:52:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411150946",
+          "size": 478579,
+          "last_modified": "2024-11-15T09:51:01.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151046",
+          "size": 478579,
+          "last_modified": "2024-11-15T10:49:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151146",
+          "size": 432706,
+          "last_modified": "2024-11-15T11:48:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151247",
+          "size": 466669,
+          "last_modified": "2024-11-15T12:52:40.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151346",
+          "size": 466669,
+          "last_modified": "2024-11-15T13:51:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151446",
+          "size": 466669,
+          "last_modified": "2024-11-15T14:50:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151546",
+          "size": 465850,
+          "last_modified": "2024-11-15T15:49:07.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151646",
+          "size": 465850,
+          "last_modified": "2024-11-15T16:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151746",
+          "size": 418438,
+          "last_modified": "2024-11-15T17:51:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151846",
+          "size": 418438,
+          "last_modified": "2024-11-15T18:50:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411151946",
+          "size": 418438,
+          "last_modified": "2024-11-15T19:48:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411152046",
+          "size": 420571,
+          "last_modified": "2024-11-15T20:53:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411152147",
+          "size": 452923,
+          "last_modified": "2024-11-15T21:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411152247",
+          "size": 452923,
+          "last_modified": "2024-11-15T22:50:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIAZ98_KWBN_202411152347",
+          "size": 406083,
+          "last_modified": "2024-11-15T23:49:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150047",
+          "size": 635315,
+          "last_modified": "2024-11-15T00:52:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150147",
+          "size": 674772,
+          "last_modified": "2024-11-15T01:49:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150246",
+          "size": 674772,
+          "last_modified": "2024-11-15T02:51:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150347",
+          "size": 674772,
+          "last_modified": "2024-11-15T03:53:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150447",
+          "size": 689215,
+          "last_modified": "2024-11-15T04:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150547",
+          "size": 626357,
+          "last_modified": "2024-11-15T05:52:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150646",
+          "size": 629784,
+          "last_modified": "2024-11-15T06:54:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150747",
+          "size": 629784,
+          "last_modified": "2024-11-15T07:51:17.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150847",
+          "size": 629784,
+          "last_modified": "2024-11-15T08:53:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411150946",
+          "size": 629784,
+          "last_modified": "2024-11-15T09:50:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151046",
+          "size": 629784,
+          "last_modified": "2024-11-15T10:52:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151146",
+          "size": 562218,
+          "last_modified": "2024-11-15T11:54:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151247",
+          "size": 560318,
+          "last_modified": "2024-11-15T12:51:16.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151346",
+          "size": 527004,
+          "last_modified": "2024-11-15T13:53:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151446",
+          "size": 527004,
+          "last_modified": "2024-11-15T14:50:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151546",
+          "size": 527004,
+          "last_modified": "2024-11-15T15:52:25.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151646",
+          "size": 527004,
+          "last_modified": "2024-11-15T16:54:30.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151746",
+          "size": 464761,
+          "last_modified": "2024-11-15T17:51:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151846",
+          "size": 464761,
+          "last_modified": "2024-11-15T18:53:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411151946",
+          "size": 464761,
+          "last_modified": "2024-11-15T19:50:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411152046",
+          "size": 464761,
+          "last_modified": "2024-11-15T20:52:35.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411152147",
+          "size": 563665,
+          "last_modified": "2024-11-15T21:54:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411152247",
+          "size": 567547,
+          "last_modified": "2024-11-15T22:51:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ88_KWBN_202411152347",
+          "size": 563642,
+          "last_modified": "2024-11-15T23:53:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150047",
+          "size": 1965536,
+          "last_modified": "2024-11-15T00:51:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150147",
+          "size": 2303249,
+          "last_modified": "2024-11-15T01:50:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150246",
+          "size": 2303249,
+          "last_modified": "2024-11-15T02:48:51.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150347",
+          "size": 2303249,
+          "last_modified": "2024-11-15T03:52:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150447",
+          "size": 2345115,
+          "last_modified": "2024-11-15T04:51:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150547",
+          "size": 2137989,
+          "last_modified": "2024-11-15T05:50:48.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150646",
+          "size": 2152605,
+          "last_modified": "2024-11-15T06:49:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150747",
+          "size": 2152605,
+          "last_modified": "2024-11-15T07:53:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150847",
+          "size": 2152605,
+          "last_modified": "2024-11-15T08:52:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411150946",
+          "size": 2152605,
+          "last_modified": "2024-11-15T09:50:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151046",
+          "size": 2152605,
+          "last_modified": "2024-11-15T10:49:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151146",
+          "size": 1929210,
+          "last_modified": "2024-11-15T11:48:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151247",
+          "size": 2120494,
+          "last_modified": "2024-11-15T12:52:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151346",
+          "size": 1849647,
+          "last_modified": "2024-11-15T13:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151446",
+          "size": 1849647,
+          "last_modified": "2024-11-15T14:50:17.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151546",
+          "size": 1849647,
+          "last_modified": "2024-11-15T15:49:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151646",
+          "size": 1849647,
+          "last_modified": "2024-11-15T16:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151746",
+          "size": 1643770,
+          "last_modified": "2024-11-15T17:51:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151846",
+          "size": 1643770,
+          "last_modified": "2024-11-15T18:50:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411151946",
+          "size": 1643770,
+          "last_modified": "2024-11-15T19:48:55.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411152046",
+          "size": 1643770,
+          "last_modified": "2024-11-15T20:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411152147",
+          "size": 1786496,
+          "last_modified": "2024-11-15T21:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411152247",
+          "size": 1797920,
+          "last_modified": "2024-11-15T22:50:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIRZ98_KWBN_202411152347",
+          "size": 1838891,
+          "last_modified": "2024-11-15T23:49:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150047",
+          "size": 157180,
+          "last_modified": "2024-11-15T00:51:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150147",
+          "size": 157180,
+          "last_modified": "2024-11-15T01:50:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150246",
+          "size": 157180,
+          "last_modified": "2024-11-15T02:48:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150347",
+          "size": 157180,
+          "last_modified": "2024-11-15T03:53:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150447",
+          "size": 157180,
+          "last_modified": "2024-11-15T04:52:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150547",
+          "size": 145453,
+          "last_modified": "2024-11-15T05:50:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150646",
+          "size": 145453,
+          "last_modified": "2024-11-15T06:49:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150747",
+          "size": 145453,
+          "last_modified": "2024-11-15T07:53:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150847",
+          "size": 145453,
+          "last_modified": "2024-11-15T08:52:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411150946",
+          "size": 145453,
+          "last_modified": "2024-11-15T09:51:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151046",
+          "size": 145453,
+          "last_modified": "2024-11-15T10:49:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151146",
+          "size": 135972,
+          "last_modified": "2024-11-15T11:48:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151247",
+          "size": 142398,
+          "last_modified": "2024-11-15T12:52:40.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151346",
+          "size": 142398,
+          "last_modified": "2024-11-15T13:51:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151446",
+          "size": 142398,
+          "last_modified": "2024-11-15T14:50:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151546",
+          "size": 142398,
+          "last_modified": "2024-11-15T15:49:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151646",
+          "size": 142398,
+          "last_modified": "2024-11-15T16:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151746",
+          "size": 129034,
+          "last_modified": "2024-11-15T17:51:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151846",
+          "size": 129034,
+          "last_modified": "2024-11-15T18:50:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411151946",
+          "size": 129034,
+          "last_modified": "2024-11-15T19:48:57.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411152046",
+          "size": 129034,
+          "last_modified": "2024-11-15T20:53:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411152147",
+          "size": 153470,
+          "last_modified": "2024-11-15T21:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411152247",
+          "size": 153470,
+          "last_modified": "2024-11-15T22:50:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YISZ98_KWBN_202411152347",
+          "size": 146653,
+          "last_modified": "2024-11-15T23:49:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150046",
+          "size": 1299476,
+          "last_modified": "2024-11-15T00:52:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150147",
+          "size": 1299243,
+          "last_modified": "2024-11-15T01:49:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150246",
+          "size": 1297083,
+          "last_modified": "2024-11-15T02:51:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150346",
+          "size": 1296241,
+          "last_modified": "2024-11-15T03:53:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150446",
+          "size": 1298531,
+          "last_modified": "2024-11-15T04:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150546",
+          "size": 1177153,
+          "last_modified": "2024-11-15T05:52:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150646",
+          "size": 1177447,
+          "last_modified": "2024-11-15T06:54:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150746",
+          "size": 1170715,
+          "last_modified": "2024-11-15T07:51:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150846",
+          "size": 1163162,
+          "last_modified": "2024-11-15T08:53:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411150946",
+          "size": 1146046,
+          "last_modified": "2024-11-15T09:50:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151046",
+          "size": 1141815,
+          "last_modified": "2024-11-15T10:52:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151146",
+          "size": 1029772,
+          "last_modified": "2024-11-15T11:54:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151247",
+          "size": 1032366,
+          "last_modified": "2024-11-15T12:51:17.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151346",
+          "size": 1032556,
+          "last_modified": "2024-11-15T13:53:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151446",
+          "size": 1032556,
+          "last_modified": "2024-11-15T14:50:23.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151546",
+          "size": 1032570,
+          "last_modified": "2024-11-15T15:52:25.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151646",
+          "size": 1031788,
+          "last_modified": "2024-11-15T16:54:30.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151746",
+          "size": 926046,
+          "last_modified": "2024-11-15T17:51:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151846",
+          "size": 925595,
+          "last_modified": "2024-11-15T18:53:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411151946",
+          "size": 929985,
+          "last_modified": "2024-11-15T19:50:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411152046",
+          "size": 920153,
+          "last_modified": "2024-11-15T20:52:35.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411152147",
+          "size": 1535290,
+          "last_modified": "2024-11-15T21:54:40.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411152247",
+          "size": 1535592,
+          "last_modified": "2024-11-15T22:51:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ88_KWBN_202411152347",
+          "size": 1433119,
+          "last_modified": "2024-11-15T23:53:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150016",
+          "size": 4464698,
+          "last_modified": "2024-11-15T00:19:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150046",
+          "size": 4466364,
+          "last_modified": "2024-11-15T00:51:32.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150116",
+          "size": 4465756,
+          "last_modified": "2024-11-15T01:17:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150146",
+          "size": 4465553,
+          "last_modified": "2024-11-15T01:50:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150216",
+          "size": 4468041,
+          "last_modified": "2024-11-15T02:22:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150246",
+          "size": 4459697,
+          "last_modified": "2024-11-15T02:48:51.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150306",
+          "size": 4454462,
+          "last_modified": "2024-11-15T03:10:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150346",
+          "size": 4454462,
+          "last_modified": "2024-11-15T03:52:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150406",
+          "size": 4454462,
+          "last_modified": "2024-11-15T04:09:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150446",
+          "size": 4461608,
+          "last_modified": "2024-11-15T04:51:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150506",
+          "size": 4461608,
+          "last_modified": "2024-11-15T05:08:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150546",
+          "size": 4040663,
+          "last_modified": "2024-11-15T05:50:48.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150606",
+          "size": 4039784,
+          "last_modified": "2024-11-15T06:12:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150646",
+          "size": 4042951,
+          "last_modified": "2024-11-15T06:49:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150716",
+          "size": 4046332,
+          "last_modified": "2024-11-15T07:21:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150746",
+          "size": 4024205,
+          "last_modified": "2024-11-15T07:53:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150816",
+          "size": 4020082,
+          "last_modified": "2024-11-15T08:20:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150846",
+          "size": 3999258,
+          "last_modified": "2024-11-15T08:52:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150916",
+          "size": 3949982,
+          "last_modified": "2024-11-15T09:18:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150946",
+          "size": 3938287,
+          "last_modified": "2024-11-15T09:50:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151016",
+          "size": 3922828,
+          "last_modified": "2024-11-15T10:23:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151046",
+          "size": 4916377,
+          "last_modified": "2024-11-15T10:49:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151116",
+          "size": 4913111,
+          "last_modified": "2024-11-15T11:21:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151146",
+          "size": 4529143,
+          "last_modified": "2024-11-15T11:48:32.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151216",
+          "size": 4537473,
+          "last_modified": "2024-11-15T12:20:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151246",
+          "size": 4538077,
+          "last_modified": "2024-11-15T12:52:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151316",
+          "size": 4538447,
+          "last_modified": "2024-11-15T13:19:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151346",
+          "size": 4538573,
+          "last_modified": "2024-11-15T13:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151415",
+          "size": 4538573,
+          "last_modified": "2024-11-15T14:18:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151446",
+          "size": 4538571,
+          "last_modified": "2024-11-15T14:50:17.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151515",
+          "size": 4538571,
+          "last_modified": "2024-11-15T15:22:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151546",
+          "size": 4538455,
+          "last_modified": "2024-11-15T15:49:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151616",
+          "size": 4534670,
+          "last_modified": "2024-11-15T16:21:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151646",
+          "size": 4534687,
+          "last_modified": "2024-11-15T16:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151716",
+          "size": 4537315,
+          "last_modified": "2024-11-15T17:19:47.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151746",
+          "size": 4176153,
+          "last_modified": "2024-11-15T17:51:51.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151816",
+          "size": 4171919,
+          "last_modified": "2024-11-15T18:18:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151846",
+          "size": 4178567,
+          "last_modified": "2024-11-15T18:50:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151916",
+          "size": 4203754,
+          "last_modified": "2024-11-15T19:22:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411151946",
+          "size": 4223536,
+          "last_modified": "2024-11-15T19:48:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152016",
+          "size": 4235423,
+          "last_modified": "2024-11-15T20:20:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152046",
+          "size": 4239813,
+          "last_modified": "2024-11-15T20:53:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152116",
+          "size": 4201908,
+          "last_modified": "2024-11-15T21:19:30.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152147",
+          "size": 5304199,
+          "last_modified": "2024-11-15T21:51:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152216",
+          "size": 5305988,
+          "last_modified": "2024-11-15T22:18:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152247",
+          "size": 5304305,
+          "last_modified": "2024-11-15T22:50:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152316",
+          "size": 5304378,
+          "last_modified": "2024-11-15T23:22:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2024/11/15/YIUZ98_KWBN_202411152347",
+          "size": 4953998,
+          "last_modified": "2024-11-15T23:49:03.000Z"
+        }
+      ],
+      "requested_date": "2024-11-15",
+      "prefix_inferred": false
+    },
+    {
+      "url": "https://noaa-ndfd-pds.s3.amazonaws.com/?list-type=2&prefix=wmo%2Fqpf%2F2025%2F01%2F15%2F&max-keys=200",
+      "truncated": false,
+      "prefixes": [],
+      "objects": [
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150047",
+          "size": 240566,
+          "last_modified": "2025-01-15T00:50:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150146",
+          "size": 240566,
+          "last_modified": "2025-01-15T01:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150246",
+          "size": 233521,
+          "last_modified": "2025-01-15T02:48:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150346",
+          "size": 233521,
+          "last_modified": "2025-01-15T03:52:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150446",
+          "size": 233521,
+          "last_modified": "2025-01-15T04:51:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150546",
+          "size": 220341,
+          "last_modified": "2025-01-15T05:50:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150646",
+          "size": 220341,
+          "last_modified": "2025-01-15T06:49:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150746",
+          "size": 220341,
+          "last_modified": "2025-01-15T07:53:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150846",
+          "size": 199964,
+          "last_modified": "2025-01-15T08:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501150946",
+          "size": 199964,
+          "last_modified": "2025-01-15T09:51:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151046",
+          "size": 199964,
+          "last_modified": "2025-01-15T10:50:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151146",
+          "size": 189308,
+          "last_modified": "2025-01-15T11:49:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151246",
+          "size": 255453,
+          "last_modified": "2025-01-15T12:53:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151346",
+          "size": 269392,
+          "last_modified": "2025-01-15T13:52:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151446",
+          "size": 269392,
+          "last_modified": "2025-01-15T14:51:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151546",
+          "size": 269392,
+          "last_modified": "2025-01-15T15:50:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151646",
+          "size": 269392,
+          "last_modified": "2025-01-15T16:49:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501151946",
+          "size": 257977,
+          "last_modified": "2025-01-15T20:47:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501152247",
+          "size": 294806,
+          "last_modified": "2025-01-15T22:53:16.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIAZ98_KWBN_202501152347",
+          "size": 280099,
+          "last_modified": "2025-01-15T23:48:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150047",
+          "size": 548671,
+          "last_modified": "2025-01-15T00:52:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150146",
+          "size": 548671,
+          "last_modified": "2025-01-15T01:49:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150247",
+          "size": 548671,
+          "last_modified": "2025-01-15T02:51:30.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150347",
+          "size": 548671,
+          "last_modified": "2025-01-15T03:53:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150446",
+          "size": 548671,
+          "last_modified": "2025-01-15T04:50:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150547",
+          "size": 508319,
+          "last_modified": "2025-01-15T05:52:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150646",
+          "size": 512106,
+          "last_modified": "2025-01-15T06:49:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150746",
+          "size": 512106,
+          "last_modified": "2025-01-15T07:51:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150847",
+          "size": 512106,
+          "last_modified": "2025-01-15T08:54:01.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501150946",
+          "size": 512106,
+          "last_modified": "2025-01-15T09:51:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151046",
+          "size": 512106,
+          "last_modified": "2025-01-15T10:53:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151146",
+          "size": 474668,
+          "last_modified": "2025-01-15T11:50:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151246",
+          "size": 439314,
+          "last_modified": "2025-01-15T12:52:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151346",
+          "size": 435658,
+          "last_modified": "2025-01-15T13:49:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151447",
+          "size": 439987,
+          "last_modified": "2025-01-15T14:51:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151546",
+          "size": 439987,
+          "last_modified": "2025-01-15T15:53:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151646",
+          "size": 439987,
+          "last_modified": "2025-01-15T16:50:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501151746",
+          "size": 393908,
+          "last_modified": "2025-01-15T17:52:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501152046",
+          "size": 393908,
+          "last_modified": "2025-01-15T20:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501152147",
+          "size": 602754,
+          "last_modified": "2025-01-15T21:54:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501152247",
+          "size": 605183,
+          "last_modified": "2025-01-15T22:50:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ88_KWBN_202501152347",
+          "size": 561210,
+          "last_modified": "2025-01-15T23:50:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150047",
+          "size": 1839685,
+          "last_modified": "2025-01-15T00:50:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150146",
+          "size": 1839685,
+          "last_modified": "2025-01-15T01:49:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150247",
+          "size": 1839685,
+          "last_modified": "2025-01-15T02:48:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150347",
+          "size": 1839685,
+          "last_modified": "2025-01-15T03:52:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150446",
+          "size": 1839685,
+          "last_modified": "2025-01-15T04:51:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150547",
+          "size": 1707045,
+          "last_modified": "2025-01-15T05:50:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150646",
+          "size": 1722167,
+          "last_modified": "2025-01-15T06:49:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150746",
+          "size": 1722167,
+          "last_modified": "2025-01-15T07:53:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150847",
+          "size": 1722167,
+          "last_modified": "2025-01-15T08:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501150946",
+          "size": 1722167,
+          "last_modified": "2025-01-15T09:51:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151046",
+          "size": 1722167,
+          "last_modified": "2025-01-15T10:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151146",
+          "size": 1597641,
+          "last_modified": "2025-01-15T11:49:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151246",
+          "size": 1795770,
+          "last_modified": "2025-01-15T12:53:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151346",
+          "size": 1761720,
+          "last_modified": "2025-01-15T13:52:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151447",
+          "size": 1775119,
+          "last_modified": "2025-01-15T14:51:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151546",
+          "size": 1775119,
+          "last_modified": "2025-01-15T15:49:57.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151646",
+          "size": 1775119,
+          "last_modified": "2025-01-15T16:49:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151746",
+          "size": 1631368,
+          "last_modified": "2025-01-15T17:52:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501151946",
+          "size": 1631368,
+          "last_modified": "2025-01-15T20:47:07.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501152046",
+          "size": 1631368,
+          "last_modified": "2025-01-15T20:52:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501152147",
+          "size": 1915186,
+          "last_modified": "2025-01-15T21:52:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501152247",
+          "size": 1917613,
+          "last_modified": "2025-01-15T22:53:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIRZ98_KWBN_202501152347",
+          "size": 1780070,
+          "last_modified": "2025-01-15T23:48:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150047",
+          "size": 147005,
+          "last_modified": "2025-01-15T00:50:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150146",
+          "size": 147005,
+          "last_modified": "2025-01-15T01:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150247",
+          "size": 147005,
+          "last_modified": "2025-01-15T02:48:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150347",
+          "size": 164087,
+          "last_modified": "2025-01-15T03:52:49.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150446",
+          "size": 164087,
+          "last_modified": "2025-01-15T04:51:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150547",
+          "size": 154285,
+          "last_modified": "2025-01-15T05:50:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150646",
+          "size": 154285,
+          "last_modified": "2025-01-15T06:49:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150746",
+          "size": 154285,
+          "last_modified": "2025-01-15T07:53:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150847",
+          "size": 154285,
+          "last_modified": "2025-01-15T08:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501150946",
+          "size": 154285,
+          "last_modified": "2025-01-15T09:51:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151046",
+          "size": 154285,
+          "last_modified": "2025-01-15T10:50:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151146",
+          "size": 90591,
+          "last_modified": "2025-01-15T11:49:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151246",
+          "size": 110048,
+          "last_modified": "2025-01-15T12:53:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151346",
+          "size": 110048,
+          "last_modified": "2025-01-15T13:52:07.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151447",
+          "size": 110048,
+          "last_modified": "2025-01-15T14:51:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151546",
+          "size": 110048,
+          "last_modified": "2025-01-15T15:49:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151646",
+          "size": 110048,
+          "last_modified": "2025-01-15T16:49:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501151946",
+          "size": 99258,
+          "last_modified": "2025-01-15T20:47:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501152046",
+          "size": 99258,
+          "last_modified": "2025-01-15T20:52:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501152247",
+          "size": 112096,
+          "last_modified": "2025-01-15T22:53:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YISZ98_KWBN_202501152347",
+          "size": 104480,
+          "last_modified": "2025-01-15T23:48:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150047",
+          "size": 951497,
+          "last_modified": "2025-01-15T00:52:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150146",
+          "size": 950613,
+          "last_modified": "2025-01-15T01:49:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150246",
+          "size": 951161,
+          "last_modified": "2025-01-15T02:51:30.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150346",
+          "size": 949898,
+          "last_modified": "2025-01-15T03:53:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150446",
+          "size": 949895,
+          "last_modified": "2025-01-15T04:50:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150546",
+          "size": 873450,
+          "last_modified": "2025-01-15T05:52:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150646",
+          "size": 873283,
+          "last_modified": "2025-01-15T06:49:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150746",
+          "size": 869475,
+          "last_modified": "2025-01-15T07:51:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150846",
+          "size": 880078,
+          "last_modified": "2025-01-15T08:54:01.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501150946",
+          "size": 889402,
+          "last_modified": "2025-01-15T09:51:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151046",
+          "size": 887998,
+          "last_modified": "2025-01-15T10:53:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151146",
+          "size": 814824,
+          "last_modified": "2025-01-15T11:50:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151246",
+          "size": 814991,
+          "last_modified": "2025-01-15T12:52:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151346",
+          "size": 814970,
+          "last_modified": "2025-01-15T13:49:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151446",
+          "size": 814627,
+          "last_modified": "2025-01-15T14:51:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151546",
+          "size": 814033,
+          "last_modified": "2025-01-15T15:53:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151646",
+          "size": 814826,
+          "last_modified": "2025-01-15T16:50:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501151746",
+          "size": 736624,
+          "last_modified": "2025-01-15T17:52:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501152046",
+          "size": 754924,
+          "last_modified": "2025-01-15T20:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501152147",
+          "size": 1279727,
+          "last_modified": "2025-01-15T21:55:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501152247",
+          "size": 1280552,
+          "last_modified": "2025-01-15T22:50:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ88_KWBN_202501152346",
+          "size": 1207155,
+          "last_modified": "2025-01-15T23:50:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016",
+          "size": 3269373,
+          "last_modified": "2025-01-15T00:18:34.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150047",
+          "size": 3272412,
+          "last_modified": "2025-01-15T00:50:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150116",
+          "size": 3272410,
+          "last_modified": "2025-01-15T01:17:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150146",
+          "size": 3268498,
+          "last_modified": "2025-01-15T01:49:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150215",
+          "size": 3269659,
+          "last_modified": "2025-01-15T02:21:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150246",
+          "size": 3269688,
+          "last_modified": "2025-01-15T02:48:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150306",
+          "size": 3269354,
+          "last_modified": "2025-01-15T03:09:52.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150346",
+          "size": 3260691,
+          "last_modified": "2025-01-15T03:52:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150406",
+          "size": 3260758,
+          "last_modified": "2025-01-15T04:08:52.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150446",
+          "size": 3260610,
+          "last_modified": "2025-01-15T04:51:40.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150506",
+          "size": 3260610,
+          "last_modified": "2025-01-15T05:07:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150546",
+          "size": 2990245,
+          "last_modified": "2025-01-15T05:50:31.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150606",
+          "size": 2993213,
+          "last_modified": "2025-01-15T06:11:55.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150646",
+          "size": 2989556,
+          "last_modified": "2025-01-15T06:49:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150716",
+          "size": 2992567,
+          "last_modified": "2025-01-15T07:21:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150746",
+          "size": 3019401,
+          "last_modified": "2025-01-15T07:53:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150816",
+          "size": 2981946,
+          "last_modified": "2025-01-15T08:20:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150846",
+          "size": 3058266,
+          "last_modified": "2025-01-15T08:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150916",
+          "size": 3100900,
+          "last_modified": "2025-01-15T09:19:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150946",
+          "size": 3108544,
+          "last_modified": "2025-01-15T09:51:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151016",
+          "size": 3108228,
+          "last_modified": "2025-01-15T10:18:01.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151046",
+          "size": 4002993,
+          "last_modified": "2025-01-15T10:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151116",
+          "size": 4003214,
+          "last_modified": "2025-01-15T11:22:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151146",
+          "size": 3742766,
+          "last_modified": "2025-01-15T11:49:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151216",
+          "size": 3748085,
+          "last_modified": "2025-01-15T12:21:16.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151246",
+          "size": 3748085,
+          "last_modified": "2025-01-15T12:53:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151315",
+          "size": 3748088,
+          "last_modified": "2025-01-15T13:20:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151346",
+          "size": 3747934,
+          "last_modified": "2025-01-15T13:52:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151415",
+          "size": 3747934,
+          "last_modified": "2025-01-15T14:18:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151446",
+          "size": 3746807,
+          "last_modified": "2025-01-15T14:51:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151516",
+          "size": 3745542,
+          "last_modified": "2025-01-15T15:17:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151546",
+          "size": 3744706,
+          "last_modified": "2025-01-15T15:49:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151616",
+          "size": 3746783,
+          "last_modified": "2025-01-15T16:22:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151646",
+          "size": 3747311,
+          "last_modified": "2025-01-15T16:49:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151716",
+          "size": 3738041,
+          "last_modified": "2025-01-15T17:21:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151746",
+          "size": 3468813,
+          "last_modified": "2025-01-15T17:52:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501151816",
+          "size": 3477999,
+          "last_modified": "2025-01-15T18:19:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152046",
+          "size": 3540502,
+          "last_modified": "2025-01-15T20:52:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152116",
+          "size": 3528486,
+          "last_modified": "2025-01-15T21:17:23.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152147",
+          "size": 4449488,
+          "last_modified": "2025-01-15T21:52:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152216",
+          "size": 4450252,
+          "last_modified": "2025-01-15T22:17:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152247",
+          "size": 4451103,
+          "last_modified": "2025-01-15T22:53:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152316",
+          "size": 4451030,
+          "last_modified": "2025-01-15T23:18:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/01/15/YIUZ98_KWBN_202501152346",
+          "size": 4197617,
+          "last_modified": "2025-01-15T23:48:45.000Z"
+        }
+      ],
+      "requested_date": "2025-01-15",
+      "prefix_inferred": false
+    },
+    {
+      "url": "https://noaa-ndfd-pds.s3.amazonaws.com/?list-type=2&prefix=wmo%2Fqpf%2F2025%2F07%2F15%2F&max-keys=200",
+      "truncated": false,
+      "prefixes": [],
+      "objects": [
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150046",
+          "size": 398121,
+          "last_modified": "2025-07-15T00:48:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150146",
+          "size": 398121,
+          "last_modified": "2025-07-15T01:48:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150246",
+          "size": 398121,
+          "last_modified": "2025-07-15T02:49:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150346",
+          "size": 398121,
+          "last_modified": "2025-07-15T03:50:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150446",
+          "size": 398121,
+          "last_modified": "2025-07-15T04:50:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150546",
+          "size": 349646,
+          "last_modified": "2025-07-15T05:51:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150646",
+          "size": 349646,
+          "last_modified": "2025-07-15T06:51:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150746",
+          "size": 349646,
+          "last_modified": "2025-07-15T07:52:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150847",
+          "size": 439797,
+          "last_modified": "2025-07-15T08:52:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507150947",
+          "size": 439797,
+          "last_modified": "2025-07-15T09:48:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151046",
+          "size": 439797,
+          "last_modified": "2025-07-15T10:48:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151146",
+          "size": 398972,
+          "last_modified": "2025-07-15T11:49:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151246",
+          "size": 424157,
+          "last_modified": "2025-07-15T12:58:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151346",
+          "size": 424157,
+          "last_modified": "2025-07-15T13:50:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151446",
+          "size": 424157,
+          "last_modified": "2025-07-15T14:50:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151546",
+          "size": 424157,
+          "last_modified": "2025-07-15T15:51:20.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151646",
+          "size": 424157,
+          "last_modified": "2025-07-15T16:51:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151746",
+          "size": 380226,
+          "last_modified": "2025-07-15T17:57:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151846",
+          "size": 380226,
+          "last_modified": "2025-07-15T18:52:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507151946",
+          "size": 380226,
+          "last_modified": "2025-07-15T19:48:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507152046",
+          "size": 380226,
+          "last_modified": "2025-07-15T20:48:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507152147",
+          "size": 425368,
+          "last_modified": "2025-07-15T21:49:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507152246",
+          "size": 425368,
+          "last_modified": "2025-07-15T22:49:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIAZ98_KWBN_202507152346",
+          "size": 376385,
+          "last_modified": "2025-07-15T23:50:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150046",
+          "size": 631724,
+          "last_modified": "2025-07-15T00:52:23.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150146",
+          "size": 631724,
+          "last_modified": "2025-07-15T01:52:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150246",
+          "size": 631724,
+          "last_modified": "2025-07-15T02:52:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150346",
+          "size": 631724,
+          "last_modified": "2025-07-15T03:53:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150446",
+          "size": 636667,
+          "last_modified": "2025-07-15T04:53:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150546",
+          "size": 576109,
+          "last_modified": "2025-07-15T05:53:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150646",
+          "size": 576109,
+          "last_modified": "2025-07-15T06:53:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150746",
+          "size": 576135,
+          "last_modified": "2025-07-15T07:49:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150847",
+          "size": 594303,
+          "last_modified": "2025-07-15T08:49:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507150947",
+          "size": 602907,
+          "last_modified": "2025-07-15T09:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151046",
+          "size": 590885,
+          "last_modified": "2025-07-15T10:49:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151146",
+          "size": 532073,
+          "last_modified": "2025-07-15T11:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151246",
+          "size": 532073,
+          "last_modified": "2025-07-15T12:58:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151346",
+          "size": 532070,
+          "last_modified": "2025-07-15T13:50:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151446",
+          "size": 532080,
+          "last_modified": "2025-07-15T14:50:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151546",
+          "size": 532080,
+          "last_modified": "2025-07-15T15:51:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151646",
+          "size": 532080,
+          "last_modified": "2025-07-15T16:51:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151746",
+          "size": 473274,
+          "last_modified": "2025-07-15T17:51:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151846",
+          "size": 473274,
+          "last_modified": "2025-07-15T18:51:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507151946",
+          "size": 473274,
+          "last_modified": "2025-07-15T19:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507152046",
+          "size": 473274,
+          "last_modified": "2025-07-15T20:52:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507152147",
+          "size": 626290,
+          "last_modified": "2025-07-15T21:52:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507152246",
+          "size": 654978,
+          "last_modified": "2025-07-15T22:52:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ88_KWBN_202507152346",
+          "size": 595144,
+          "last_modified": "2025-07-15T23:53:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150046",
+          "size": 2059652,
+          "last_modified": "2025-07-15T00:48:25.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150146",
+          "size": 2059652,
+          "last_modified": "2025-07-15T01:48:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150246",
+          "size": 2059652,
+          "last_modified": "2025-07-15T02:49:25.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150346",
+          "size": 2059652,
+          "last_modified": "2025-07-15T03:49:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150446",
+          "size": 2083972,
+          "last_modified": "2025-07-15T04:50:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150546",
+          "size": 1882785,
+          "last_modified": "2025-07-15T05:51:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150646",
+          "size": 1882785,
+          "last_modified": "2025-07-15T06:51:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150746",
+          "size": 1882929,
+          "last_modified": "2025-07-15T07:52:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150847",
+          "size": 1955603,
+          "last_modified": "2025-07-15T08:52:35.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507150947",
+          "size": 1981874,
+          "last_modified": "2025-07-15T09:48:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151046",
+          "size": 1940909,
+          "last_modified": "2025-07-15T10:48:40.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151146",
+          "size": 1745715,
+          "last_modified": "2025-07-15T11:49:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151246",
+          "size": 1978771,
+          "last_modified": "2025-07-15T12:58:00.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151346",
+          "size": 1979473,
+          "last_modified": "2025-07-15T13:50:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151446",
+          "size": 1979451,
+          "last_modified": "2025-07-15T14:50:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151546",
+          "size": 1979451,
+          "last_modified": "2025-07-15T15:51:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151646",
+          "size": 1979451,
+          "last_modified": "2025-07-15T16:51:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151746",
+          "size": 1782158,
+          "last_modified": "2025-07-15T17:57:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151846",
+          "size": 1782158,
+          "last_modified": "2025-07-15T18:52:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507151946",
+          "size": 1782158,
+          "last_modified": "2025-07-15T19:48:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507152046",
+          "size": 1782158,
+          "last_modified": "2025-07-15T20:48:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507152147",
+          "size": 2005249,
+          "last_modified": "2025-07-15T21:49:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507152246",
+          "size": 2091956,
+          "last_modified": "2025-07-15T22:49:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIRZ98_KWBN_202507152346",
+          "size": 1893781,
+          "last_modified": "2025-07-15T23:50:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150046",
+          "size": 164119,
+          "last_modified": "2025-07-15T00:48:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150146",
+          "size": 98483,
+          "last_modified": "2025-07-15T01:48:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150246",
+          "size": 98483,
+          "last_modified": "2025-07-15T02:49:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150346",
+          "size": 98483,
+          "last_modified": "2025-07-15T03:49:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150446",
+          "size": 98483,
+          "last_modified": "2025-07-15T04:50:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150546",
+          "size": 85277,
+          "last_modified": "2025-07-15T05:51:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150646",
+          "size": 85277,
+          "last_modified": "2025-07-15T06:51:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150746",
+          "size": 85277,
+          "last_modified": "2025-07-15T07:52:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150847",
+          "size": 85277,
+          "last_modified": "2025-07-15T08:52:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507150947",
+          "size": 85277,
+          "last_modified": "2025-07-15T09:48:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151046",
+          "size": 85277,
+          "last_modified": "2025-07-15T10:48:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151146",
+          "size": 70216,
+          "last_modified": "2025-07-15T11:49:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151246",
+          "size": 86364,
+          "last_modified": "2025-07-15T12:58:03.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151346",
+          "size": 126541,
+          "last_modified": "2025-07-15T13:50:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151446",
+          "size": 126541,
+          "last_modified": "2025-07-15T14:50:45.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151546",
+          "size": 126541,
+          "last_modified": "2025-07-15T15:51:19.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151646",
+          "size": 126541,
+          "last_modified": "2025-07-15T16:51:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151746",
+          "size": 113024,
+          "last_modified": "2025-07-15T17:57:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151846",
+          "size": 113024,
+          "last_modified": "2025-07-15T18:52:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507151946",
+          "size": 113024,
+          "last_modified": "2025-07-15T19:48:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507152046",
+          "size": 113024,
+          "last_modified": "2025-07-15T20:48:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507152147",
+          "size": 137365,
+          "last_modified": "2025-07-15T21:49:07.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507152246",
+          "size": 137365,
+          "last_modified": "2025-07-15T22:49:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YISZ98_KWBN_202507152346",
+          "size": 125972,
+          "last_modified": "2025-07-15T23:50:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150046",
+          "size": 2067047,
+          "last_modified": "2025-07-15T00:52:23.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150146",
+          "size": 2067512,
+          "last_modified": "2025-07-15T01:52:38.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150246",
+          "size": 2068735,
+          "last_modified": "2025-07-15T02:52:53.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150346",
+          "size": 2072381,
+          "last_modified": "2025-07-15T03:53:08.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150446",
+          "size": 2084262,
+          "last_modified": "2025-07-15T04:53:27.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150546",
+          "size": 1929126,
+          "last_modified": "2025-07-15T05:53:42.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150646",
+          "size": 1928369,
+          "last_modified": "2025-07-15T06:53:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150746",
+          "size": 1933776,
+          "last_modified": "2025-07-15T07:49:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150846",
+          "size": 1906619,
+          "last_modified": "2025-07-15T08:49:24.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507150946",
+          "size": 1901188,
+          "last_modified": "2025-07-15T09:49:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151046",
+          "size": 1906822,
+          "last_modified": "2025-07-15T10:49:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151146",
+          "size": 1785052,
+          "last_modified": "2025-07-15T11:50:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151246",
+          "size": 1776356,
+          "last_modified": "2025-07-15T12:58:02.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151346",
+          "size": 1777418,
+          "last_modified": "2025-07-15T13:50:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151446",
+          "size": 1782336,
+          "last_modified": "2025-07-15T14:50:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151546",
+          "size": 1784853,
+          "last_modified": "2025-07-15T15:51:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151646",
+          "size": 1786932,
+          "last_modified": "2025-07-15T16:51:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151746",
+          "size": 1653031,
+          "last_modified": "2025-07-15T17:51:43.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151846",
+          "size": 1651928,
+          "last_modified": "2025-07-15T18:51:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507151946",
+          "size": 1656677,
+          "last_modified": "2025-07-15T19:52:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507152046",
+          "size": 1638348,
+          "last_modified": "2025-07-15T20:52:29.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507152147",
+          "size": 2178536,
+          "last_modified": "2025-07-15T21:52:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507152246",
+          "size": 2177977,
+          "last_modified": "2025-07-15T22:52:58.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ88_KWBN_202507152346",
+          "size": 1949026,
+          "last_modified": "2025-07-15T23:53:15.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016",
+          "size": 6972073,
+          "last_modified": "2025-07-15T00:18:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150046",
+          "size": 6972621,
+          "last_modified": "2025-07-15T00:48:25.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150116",
+          "size": 6972552,
+          "last_modified": "2025-07-15T01:18:39.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150146",
+          "size": 6972114,
+          "last_modified": "2025-07-15T01:48:54.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150216",
+          "size": 6973500,
+          "last_modified": "2025-07-15T02:19:10.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150246",
+          "size": 6975367,
+          "last_modified": "2025-07-15T02:49:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150306",
+          "size": 6983699,
+          "last_modified": "2025-07-15T03:09:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150346",
+          "size": 6996824,
+          "last_modified": "2025-07-15T03:49:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150407",
+          "size": 7010725,
+          "last_modified": "2025-07-15T04:10:12.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150446",
+          "size": 7046849,
+          "last_modified": "2025-07-15T04:50:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150506",
+          "size": 7056590,
+          "last_modified": "2025-07-15T05:10:47.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150546",
+          "size": 6520999,
+          "last_modified": "2025-07-15T05:51:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150607",
+          "size": 6528304,
+          "last_modified": "2025-07-15T06:11:16.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150646",
+          "size": 6554800,
+          "last_modified": "2025-07-15T06:51:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150716",
+          "size": 6586623,
+          "last_modified": "2025-07-15T07:21:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150746",
+          "size": 6575490,
+          "last_modified": "2025-07-15T07:52:04.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150816",
+          "size": 6546395,
+          "last_modified": "2025-07-15T08:17:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150846",
+          "size": 6499976,
+          "last_modified": "2025-07-15T08:52:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150916",
+          "size": 6471142,
+          "last_modified": "2025-07-15T09:22:50.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150946",
+          "size": 6448205,
+          "last_modified": "2025-07-15T09:48:05.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151016",
+          "size": 6464967,
+          "last_modified": "2025-07-15T10:18:21.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151046",
+          "size": 7434980,
+          "last_modified": "2025-07-15T10:48:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151116",
+          "size": 7434980,
+          "last_modified": "2025-07-15T11:18:55.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151146",
+          "size": 7009239,
+          "last_modified": "2025-07-15T11:49:11.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151216",
+          "size": 7030015,
+          "last_modified": "2025-07-15T12:19:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151246",
+          "size": 7030363,
+          "last_modified": "2025-07-15T12:57:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151316",
+          "size": 7035035,
+          "last_modified": "2025-07-15T13:19:55.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151346",
+          "size": 7035035,
+          "last_modified": "2025-07-15T13:50:13.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151416",
+          "size": 7026539,
+          "last_modified": "2025-07-15T14:20:28.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151446",
+          "size": 7018095,
+          "last_modified": "2025-07-15T14:50:44.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151516",
+          "size": 7015143,
+          "last_modified": "2025-07-15T15:20:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151546",
+          "size": 7008349,
+          "last_modified": "2025-07-15T15:51:18.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151616",
+          "size": 7028739,
+          "last_modified": "2025-07-15T16:21:33.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151646",
+          "size": 7025027,
+          "last_modified": "2025-07-15T16:51:46.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151716",
+          "size": 7042742,
+          "last_modified": "2025-07-15T17:21:59.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151746",
+          "size": 6585191,
+          "last_modified": "2025-07-15T17:57:14.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151816",
+          "size": 6528470,
+          "last_modified": "2025-07-15T18:22:26.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151846",
+          "size": 6524136,
+          "last_modified": "2025-07-15T18:52:41.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151916",
+          "size": 6523183,
+          "last_modified": "2025-07-15T19:22:56.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507151946",
+          "size": 6515904,
+          "last_modified": "2025-07-15T19:48:09.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152016",
+          "size": 6477453,
+          "last_modified": "2025-07-15T20:18:23.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152046",
+          "size": 6447830,
+          "last_modified": "2025-07-15T20:48:37.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152116",
+          "size": 6428047,
+          "last_modified": "2025-07-15T21:18:51.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152147",
+          "size": 7353407,
+          "last_modified": "2025-07-15T21:49:06.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152216",
+          "size": 7348637,
+          "last_modified": "2025-07-15T22:19:22.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152246",
+          "size": 7348754,
+          "last_modified": "2025-07-15T22:49:36.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152316",
+          "size": 7349038,
+          "last_modified": "2025-07-15T23:19:51.000Z"
+        },
+        {
+          "key": "wmo/qpf/2025/07/15/YIUZ98_KWBN_202507152346",
+          "size": 6575661,
+          "last_modified": "2025-07-15T23:50:05.000Z"
+        }
+      ],
+      "requested_date": "2025-07-15",
+      "prefix_inferred": false
+    }
+  ],
+  "files": [
+    {
+      "requested_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150016",
+      "final_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2024/11/15/YIUZ98_KWBN_202411150016",
+      "download_bytes": 4464698,
+      "download_sha256": "77d4e59d7dbbb04b69df5e83dab13510fff5763d5e1e83cd354a4014c3bfa74a",
+      "path": ".cache/feasibility/water-year-2025/seasonal-qpf/77d4e59d7dbbb04b69df5e83dab13510fff5763d5e1e83cd354a4014c3bfa74a.grib2",
+      "messages": [
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 0,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": 0,
+          "endStep": 6,
+          "stepUnits": 1,
+          "stepRange": "0-6",
+          "validityDate": 20241115,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 1,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-15T06:00:00+00:00",
+          "accumulation_start_utc": "2024-11-15T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 330,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "330m",
+          "endStep": "690m",
+          "stepUnits": 0,
+          "stepRange": "330m-690m",
+          "validityDate": 20241115,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 2,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-15T12:00:00+00:00",
+          "accumulation_start_utc": "2024-11-15T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 690,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "690m",
+          "endStep": "1050m",
+          "stepUnits": 0,
+          "stepRange": "690m-1050m",
+          "validityDate": 20241115,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 3,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-15T18:00:00+00:00",
+          "accumulation_start_utc": "2024-11-15T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1050,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1050m",
+          "endStep": "1410m",
+          "stepUnits": 0,
+          "stepRange": "1050m-1410m",
+          "validityDate": 20241116,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 4,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-16T00:00:00+00:00",
+          "accumulation_start_utc": "2024-11-15T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1410,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1410m",
+          "endStep": "1770m",
+          "stepUnits": 0,
+          "stepRange": "1410m-1770m",
+          "validityDate": 20241116,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 5,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-16T06:00:00+00:00",
+          "accumulation_start_utc": "2024-11-16T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1770,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1770m",
+          "endStep": "2130m",
+          "stepUnits": 0,
+          "stepRange": "1770m-2130m",
+          "validityDate": 20241116,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 6,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-16T12:00:00+00:00",
+          "accumulation_start_utc": "2024-11-16T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2130,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2130m",
+          "endStep": "2490m",
+          "stepUnits": 0,
+          "stepRange": "2130m-2490m",
+          "validityDate": 20241116,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 7,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-16T18:00:00+00:00",
+          "accumulation_start_utc": "2024-11-16T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2490,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2490m",
+          "endStep": "2850m",
+          "stepUnits": 0,
+          "stepRange": "2490m-2850m",
+          "validityDate": 20241117,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 8,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-17T00:00:00+00:00",
+          "accumulation_start_utc": "2024-11-16T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2850,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2850m",
+          "endStep": "3210m",
+          "stepUnits": 0,
+          "stepRange": "2850m-3210m",
+          "validityDate": 20241117,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 9,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-17T06:00:00+00:00",
+          "accumulation_start_utc": "2024-11-17T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3210,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3210m",
+          "endStep": "3570m",
+          "stepUnits": 0,
+          "stepRange": "3210m-3570m",
+          "validityDate": 20241117,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 10,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-17T12:00:00+00:00",
+          "accumulation_start_utc": "2024-11-17T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3570,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3570m",
+          "endStep": "3930m",
+          "stepUnits": 0,
+          "stepRange": "3570m-3930m",
+          "validityDate": 20241117,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479384,
+          "message": 11,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-17T18:00:00+00:00",
+          "accumulation_start_utc": "2024-11-17T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20241115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3930,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3930m",
+          "endStep": "4290m",
+          "stepUnits": 0,
+          "stepRange": "3930m-4290m",
+          "validityDate": 20241118,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479384,
+          "message": 12,
+          "reference_time_utc": "2024-11-15T00:30:00+00:00",
+          "valid_end_utc": "2024-11-18T00:00:00+00:00",
+          "accumulation_start_utc": "2024-11-17T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        }
+      ]
+    },
+    {
+      "requested_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016",
+      "final_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016",
+      "download_bytes": 3269373,
+      "download_sha256": "4a84b078a14a11dd3b501eb8c846f9432a6db9615d7987f535591517b7913235",
+      "path": ".cache/feasibility/water-year-2025/seasonal-qpf/4a84b078a14a11dd3b501eb8c846f9432a6db9615d7987f535591517b7913235.grib2",
+      "messages": [
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 0,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": 0,
+          "endStep": 6,
+          "stepUnits": 1,
+          "stepRange": "0-6",
+          "validityDate": 20250115,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 1,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-15T06:00:00+00:00",
+          "accumulation_start_utc": "2025-01-15T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 330,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "330m",
+          "endStep": "690m",
+          "stepUnits": 0,
+          "stepRange": "330m-690m",
+          "validityDate": 20250115,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 2,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-15T12:00:00+00:00",
+          "accumulation_start_utc": "2025-01-15T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 690,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "690m",
+          "endStep": "1050m",
+          "stepUnits": 0,
+          "stepRange": "690m-1050m",
+          "validityDate": 20250115,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 3,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-15T18:00:00+00:00",
+          "accumulation_start_utc": "2025-01-15T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1050,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1050m",
+          "endStep": "1410m",
+          "stepUnits": 0,
+          "stepRange": "1050m-1410m",
+          "validityDate": 20250116,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 4,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-16T00:00:00+00:00",
+          "accumulation_start_utc": "2025-01-15T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1410,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1410m",
+          "endStep": "1770m",
+          "stepUnits": 0,
+          "stepRange": "1410m-1770m",
+          "validityDate": 20250116,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 5,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-16T06:00:00+00:00",
+          "accumulation_start_utc": "2025-01-16T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1770,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1770m",
+          "endStep": "2130m",
+          "stepUnits": 0,
+          "stepRange": "1770m-2130m",
+          "validityDate": 20250116,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 6,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-16T12:00:00+00:00",
+          "accumulation_start_utc": "2025-01-16T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2130,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2130m",
+          "endStep": "2490m",
+          "stepUnits": 0,
+          "stepRange": "2130m-2490m",
+          "validityDate": 20250116,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 7,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-16T18:00:00+00:00",
+          "accumulation_start_utc": "2025-01-16T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2490,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2490m",
+          "endStep": "2850m",
+          "stepUnits": 0,
+          "stepRange": "2490m-2850m",
+          "validityDate": 20250117,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 8,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-17T00:00:00+00:00",
+          "accumulation_start_utc": "2025-01-16T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2850,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2850m",
+          "endStep": "3210m",
+          "stepUnits": 0,
+          "stepRange": "2850m-3210m",
+          "validityDate": 20250117,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 9,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-17T06:00:00+00:00",
+          "accumulation_start_utc": "2025-01-17T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3210,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3210m",
+          "endStep": "3570m",
+          "stepUnits": 0,
+          "stepRange": "3210m-3570m",
+          "validityDate": 20250117,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 10,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-17T12:00:00+00:00",
+          "accumulation_start_utc": "2025-01-17T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3570,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3570m",
+          "endStep": "3930m",
+          "stepUnits": 0,
+          "stepRange": "3570m-3930m",
+          "validityDate": 20250117,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479384,
+          "message": 11,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-17T18:00:00+00:00",
+          "accumulation_start_utc": "2025-01-17T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250115,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3930,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3930m",
+          "endStep": "4290m",
+          "stepUnits": 0,
+          "stepRange": "3930m-4290m",
+          "validityDate": 20250118,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479384,
+          "message": 12,
+          "reference_time_utc": "2025-01-15T00:30:00+00:00",
+          "valid_end_utc": "2025-01-18T00:00:00+00:00",
+          "accumulation_start_utc": "2025-01-17T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        }
+      ]
+    },
+    {
+      "requested_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016",
+      "final_url": "https://noaa-ndfd-pds.s3.amazonaws.com/wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016",
+      "download_bytes": 6972073,
+      "download_sha256": "91d1ca0c4ccf4633ece9c8d1b6d3a5a5dbf240b85ffbba64200738760a691140",
+      "path": ".cache/feasibility/water-year-2025/seasonal-qpf/91d1ca0c4ccf4633ece9c8d1b6d3a5a5dbf240b85ffbba64200738760a691140.grib2",
+      "messages": [
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 0,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": 0,
+          "endStep": 6,
+          "stepUnits": 1,
+          "stepRange": "0-6",
+          "validityDate": 20250715,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 1,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-15T06:00:00+00:00",
+          "accumulation_start_utc": "2025-07-15T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 330,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "330m",
+          "endStep": "690m",
+          "stepUnits": 0,
+          "stepRange": "330m-690m",
+          "validityDate": 20250715,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 2,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-15T12:00:00+00:00",
+          "accumulation_start_utc": "2025-07-15T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 690,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "690m",
+          "endStep": "1050m",
+          "stepUnits": 0,
+          "stepRange": "690m-1050m",
+          "validityDate": 20250715,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 3,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-15T18:00:00+00:00",
+          "accumulation_start_utc": "2025-07-15T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1050,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1050m",
+          "endStep": "1410m",
+          "stepUnits": 0,
+          "stepRange": "1050m-1410m",
+          "validityDate": 20250716,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 4,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-16T00:00:00+00:00",
+          "accumulation_start_utc": "2025-07-15T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1410,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1410m",
+          "endStep": "1770m",
+          "stepUnits": 0,
+          "stepRange": "1410m-1770m",
+          "validityDate": 20250716,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 5,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-16T06:00:00+00:00",
+          "accumulation_start_utc": "2025-07-16T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 1770,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "1770m",
+          "endStep": "2130m",
+          "stepUnits": 0,
+          "stepRange": "1770m-2130m",
+          "validityDate": 20250716,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 6,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-16T12:00:00+00:00",
+          "accumulation_start_utc": "2025-07-16T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2130,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2130m",
+          "endStep": "2490m",
+          "stepUnits": 0,
+          "stepRange": "2130m-2490m",
+          "validityDate": 20250716,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 7,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-16T18:00:00+00:00",
+          "accumulation_start_utc": "2025-07-16T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2490,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2490m",
+          "endStep": "2850m",
+          "stepUnits": 0,
+          "stepRange": "2490m-2850m",
+          "validityDate": 20250717,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 8,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-17T00:00:00+00:00",
+          "accumulation_start_utc": "2025-07-16T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 2850,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "2850m",
+          "endStep": "3210m",
+          "stepUnits": 0,
+          "stepRange": "2850m-3210m",
+          "validityDate": 20250717,
+          "validityTime": 600,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 9,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-17T06:00:00+00:00",
+          "accumulation_start_utc": "2025-07-17T00:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3210,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3210m",
+          "endStep": "3570m",
+          "stepUnits": 0,
+          "stepRange": "3210m-3570m",
+          "validityDate": 20250717,
+          "validityTime": 1200,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1479351,
+          "message": 10,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-17T12:00:00+00:00",
+          "accumulation_start_utc": "2025-07-17T06:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3570,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3570m",
+          "endStep": "3930m",
+          "stepUnits": 0,
+          "stepRange": "3570m-3930m",
+          "validityDate": 20250717,
+          "validityTime": 1800,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1487978,
+          "message": 11,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-17T18:00:00+00:00",
+          "accumulation_start_utc": "2025-07-17T12:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        },
+        {
+          "edition": 2,
+          "centre": "8",
+          "subCentre": 65535,
+          "shortName": "unknown",
+          "name": "unknown",
+          "units": "unknown",
+          "discipline": 0,
+          "parameterCategory": 1,
+          "parameterNumber": 8,
+          "typeOfLevel": "surface",
+          "dataDate": 20250715,
+          "dataTime": 30,
+          "significanceOfReferenceTime": 1,
+          "stepType": "accum",
+          "forecastTime": 3930,
+          "indicatorOfUnitOfTimeRange": 0,
+          "tablesVersion": 1,
+          "localTablesVersion": 0,
+          "typeOfGeneratingProcess": 2,
+          "startStep": "3930m",
+          "endStep": "4290m",
+          "stepUnits": 0,
+          "stepRange": "3930m-4290m",
+          "validityDate": 20250718,
+          "validityTime": 0,
+          "lengthOfTimeRange": 6,
+          "indicatorOfUnitForTimeRange": 1,
+          "productDefinitionTemplateNumber": 8,
+          "typeOfProcessedData": "fc",
+          "gridType": "lambert",
+          "Nx": 2145,
+          "Ny": 1377,
+          "DxInMetres": 2539.703,
+          "DyInMetres": 2539.703,
+          "numberOfPoints": 2953665,
+          "iScansNegatively": 0,
+          "jScansPositively": 1,
+          "jPointsAreConsecutive": 0,
+          "alternativeRowScanning": 1,
+          "bitmapPresent": 0,
+          "numberOfMissing": 1487978,
+          "message": 12,
+          "reference_time_utc": "2025-07-15T00:30:00+00:00",
+          "valid_end_utc": "2025-07-18T00:00:00+00:00",
+          "accumulation_start_utc": "2025-07-17T18:00:00+00:00",
+          "accumulation_hours": 6.0,
+          "amboy_point_check": {
+            "latitude": 45.9404,
+            "longitude": -122.3226,
+            "nearest_grid_distance_km": 0.5321438486589668,
+            "inside_coordinate_envelope": true,
+            "note": "Check full supplied watershed intersection separately; not a basin mean."
+          },
+          "precipitation_candidate": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "ten_year_training_dataset_validated": false,
+  "total_download_bytes": 14706144,
+  "note": "Decode success does not establish issuance semantics, ten-year completeness or full watershed coverage."
+}

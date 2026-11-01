@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2">
+  <service name="HTTPonly" serviceType="HTTPServer" base="/thredds/fileServer/" />
+  <service name="ALL" serviceType="Compound" base="">
+    <service name="ncdods" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/grid/" />
+    <service name="HTTPServer" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+    <service name="iso" serviceType="ISO" base="/thredds/iso/" />
+    <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+  </service>
+  <dataset name="NDFD - Historical File Access for Core NDFD (Center Code: KWBN) Data With Human-Readable Names">
+    <property name="DatasetScan" value="true" />
+    <metadata inherited="true">
+      <serviceName>ALL</serviceName>
+      <authority>gov.noaa.ncei</authority>
+      <dataType>Grid</dataType>
+      <dataFormat>GRIB-2</dataFormat>
+      <documentation type="funding">Production: no information available - Archive &amp; Access: Provided by National Weather Service to National Centers for Enviornmental Information</documentation>
+      <documentation type="processing_level">no information provided</documentation>
+      <documentation type="dataset home" xlink:href="https://www.weather.gov/mdl/ndfd_home" xlink:title="National Weather Service site" />
+      <documentation type="NCEI site" xlink:href="https://www.ncdc.noaa.gov/model-data/national-digital-forecast-database-ndfd" xlink:title="NCEI NDFD information" />
+      <documentation type="file naming scheme" xlink:href="https://www.weather.gov/mdl/ndfd_info" xlink:title="NDFD format, file naming and WMO Header information" />
+      <documentation type="alternate access point" xlink:href="http://www.ncdc.noaa.gov/has/HAS.FileAppRouter?datasetname=9959_02&amp;subqueryby=STATION&amp;applname=&amp;outdest=FILE" xlink:title="NCEI HDSS Access System" />
+      <documentation type="rights">Electronic downloads of the data are free, however fees apply for data certification and distribution of the data on physical media. Fees vary based on order specifications.</documentation>
+      <documentation type="comment">NDFD data is archived only in operational state. If a product is deemed experimental by the producers, it will not be available here.</documentation>
+      <creator>
+        <name vocabulary="GCMD">DOC/NOAA/NWS</name>
+        <contact url="http://www.nws.noaa.gov/ndfd/" email="nws.ndfd@noaa.gov" />
+      </creator>
+      <keyword vocabulary="GCMD">Data, GOVERNMENT AGENCIES-U.S. FEDERAL AGENCIES, DOC, NOAA, DOC/NOAA/NESDIS/NCEI, National Climatic Data Center, National Centers for Environmental Information, NESDIS, U.S. Department of Commerce, National Digital Forecast Database, NDFD, NWS, Gridded Data, Gridded Forecast, Gridded Analysis, National Weather Service</keyword>
+      <project>National Digital Forecast Database</project>
+      <publisher>
+        <name vocabulary="GCMD">DOC/NOAA/NESDIS/NCEI</name>
+        <contact url="https://www.weather.gov/mdl/ndfd_home" email="nomads.ncdc@noaa.gov" />
+      </publisher>
+    </metadata>
+    <catalogRef xlink:href="201806/catalog.xml" xlink:title="201806" ID="NDFD_kwbn-old/201806" name="201806">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201807/catalog.xml" xlink:title="201807" ID="NDFD_kwbn-old/201807" name="201807">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201808/catalog.xml" xlink:title="201808" ID="NDFD_kwbn-old/201808" name="201808">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201809/catalog.xml" xlink:title="201809" ID="NDFD_kwbn-old/201809" name="201809">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201810/catalog.xml" xlink:title="201810" ID="NDFD_kwbn-old/201810" name="201810">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201811/catalog.xml" xlink:title="201811" ID="NDFD_kwbn-old/201811" name="201811">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201812/catalog.xml" xlink:title="201812" ID="NDFD_kwbn-old/201812" name="201812">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201901/catalog.xml" xlink:title="201901" ID="NDFD_kwbn-old/201901" name="201901">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201902/catalog.xml" xlink:title="201902" ID="NDFD_kwbn-old/201902" name="201902">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201903/catalog.xml" xlink:title="201903" ID="NDFD_kwbn-old/201903" name="201903">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201904/catalog.xml" xlink:title="201904" ID="NDFD_kwbn-old/201904" name="201904">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201905/catalog.xml" xlink:title="201905" ID="NDFD_kwbn-old/201905" name="201905">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201906/catalog.xml" xlink:title="201906" ID="NDFD_kwbn-old/201906" name="201906">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201907/catalog.xml" xlink:title="201907" ID="NDFD_kwbn-old/201907" name="201907">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201908/catalog.xml" xlink:title="201908" ID="NDFD_kwbn-old/201908" name="201908">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201909/catalog.xml" xlink:title="201909" ID="NDFD_kwbn-old/201909" name="201909">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201910/catalog.xml" xlink:title="201910" ID="NDFD_kwbn-old/201910" name="201910">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201911/catalog.xml" xlink:title="201911" ID="NDFD_kwbn-old/201911" name="201911">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="201912/catalog.xml" xlink:title="201912" ID="NDFD_kwbn-old/201912" name="201912">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202001/catalog.xml" xlink:title="202001" ID="NDFD_kwbn-old/202001" name="202001">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202002/catalog.xml" xlink:title="202002" ID="NDFD_kwbn-old/202002" name="202002">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202003/catalog.xml" xlink:title="202003" ID="NDFD_kwbn-old/202003" name="202003">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202004/catalog.xml" xlink:title="202004" ID="NDFD_kwbn-old/202004" name="202004">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="202005/catalog.xml" xlink:title="202005" ID="NDFD_kwbn-old/202005" name="202005">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+    <catalogRef xlink:href="corrupt/catalog.xml" xlink:title="corrupt" ID="NDFD_kwbn-old/corrupt" name="corrupt">
+      <property name="DatasetScan" value="true" />
+    </catalogRef>
+  </dataset>
+</catalog>

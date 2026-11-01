@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-15",
+  "catalog_url": "https://www.ncei.noaa.gov/thredds/catalog/model-ndfd-file/access/202503/20250315/catalog.xml",
+  "errors": [
+    "500 Server Error: Internal Server Error for url: https://www.ncei.noaa.gov/thredds/ncss/grid/model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151646/dataset.xml"
+  ],
+  "basin_subset_data_verified": false,
+  "catalog_qpf_paths": [
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151646",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151716",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151746",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151816",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151846",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151916",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151946",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152016",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152046",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152116",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152147",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152216",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152246",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152316",
+    "model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503152346"
+  ],
+  "ncss_metadata_url": "https://www.ncei.noaa.gov/thredds/ncss/grid/model-ndfd-file/access/202503/20250315/YIUZ98_KWBN_202503151646/dataset.xml",
+  "ncss_status": 500,
+  "ncss_response_excerpt": "IOException: software.amazon.awssdk.services.s3.model.S3Exception: (Service: S3, Status Code: 403, Request ID: 8614WDEM5RNNEWP3, Extended Request ID: EdLgNmtXDxmZDbOpfJpTP/dfD1A6qgAwL/7jakfJTr+lJh1WRjORc22mObBX/gQ4bq/bOWXyTc0=) (SDK Attempt Count: 1)"
+}

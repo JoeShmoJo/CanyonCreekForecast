@@ -1,0 +1,109 @@
+{
+  "source_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00003&datetime=2018-06-01T00%3A00%3A00Z%2F2026-10-25T00%3A00%3A00Z&limit=10000",
+  "method": "Daily mean discharge proxy; not instantaneous crossing or independent storm counts. Start requires previous observed day mean <=450.",
+  "first": "2018-06-01",
+  "last": "2026-10-24",
+  "returned_days": 3059,
+  "daily_means_above_450": 752,
+  "observed_daily_mean_upcrossings": 84,
+  "left_or_gap_censored_above_runs": 0,
+  "missing_dates": [
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30",
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02",
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05"
+  ],
+  "water_years": [
+    {
+      "water_year": 2018,
+      "days": 122,
+      "missing_days": 0,
+      "days_mean_above_450": 0,
+      "daily_mean_upcrossings": 0,
+      "complete_water_year": false
+    },
+    {
+      "water_year": 2019,
+      "days": 365,
+      "missing_days": 0,
+      "days_mean_above_450": 78,
+      "daily_mean_upcrossings": 12,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2020,
+      "days": 366,
+      "missing_days": 0,
+      "days_mean_above_450": 80,
+      "daily_mean_upcrossings": 10,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2021,
+      "days": 365,
+      "missing_days": 0,
+      "days_mean_above_450": 88,
+      "daily_mean_upcrossings": 11,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2022,
+      "days": 365,
+      "missing_days": 0,
+      "days_mean_above_450": 147,
+      "daily_mean_upcrossings": 11,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2023,
+      "days": 365,
+      "missing_days": 0,
+      "days_mean_above_450": 93,
+      "daily_mean_upcrossings": 13,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2024,
+      "days": 366,
+      "missing_days": 0,
+      "days_mean_above_450": 98,
+      "daily_mean_upcrossings": 10,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2025,
+      "days": 365,
+      "missing_days": 0,
+      "days_mean_above_450": 89,
+      "daily_mean_upcrossings": 8,
+      "complete_water_year": true
+    },
+    {
+      "water_year": 2026,
+      "days": 365,
+      "missing_days": 9,
+      "days_mean_above_450": 79,
+      "daily_mean_upcrossings": 9,
+      "complete_water_year": false
+    },
+    {
+      "water_year": 2027,
+      "days": 24,
+      "missing_days": 0,
+      "days_mean_above_450": 0,
+      "daily_mean_upcrossings": 0,
+      "complete_water_year": false
+    }
+  ],
+  "days_in_requested_record_span": 3068,
+  "complete_water_years_2019_2025_upcrossings": 75,
+  "returned_observation_approval_counts": {
+    "Approved": 2945,
+    "Provisional": 114
+  }
+}

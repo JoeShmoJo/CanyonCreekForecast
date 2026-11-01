@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "water_year": 2025,
+  "flow_csv": ".cache/feasibility/water-year-2025/discharge.csv",
+  "inventory_json": ".cache/feasibility/water-year-2025/inventory/report.json",
+  "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+  "decision_hour_utc": 6,
+  "flow_delay_minutes": 15,
+  "flow_lookback_hours": 72,
+  "forecast_delay_minutes": 60,
+  "max_forecast_age_hours": 6,
+  "qpf_horizons_hours": [6, 12, 24, 48, 60],
+  "target_horizon_hours": 72,
+  "new_download_budget_gib": 2,
+  "max_new_files": 365
+}

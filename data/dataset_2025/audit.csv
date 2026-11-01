@@ -1,0 +1,366 @@
+case_id,decision_time_utc,status,stage,reason_code,reason,source_key
+D20241002,2024-10-02T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-09-29 05:45:00+00:00 to 2024-10-02 05:45:00+00:00,
+D20241003,2024-10-03T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-09-30 05:45:00+00:00 to 2024-10-03 05:45:00+00:00,
+D20241004,2024-10-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/04/YIUZ98_KWBN_202410040017
+D20241005,2024-10-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/05/YIUZ98_KWBN_202410050017
+D20241006,2024-10-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/06/YIUZ98_KWBN_202410060016
+D20241007,2024-10-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/07/YIUZ98_KWBN_202410070017
+D20241008,2024-10-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/08/YIUZ98_KWBN_202410080017
+D20241009,2024-10-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/09/YIUZ98_KWBN_202410090016
+D20241010,2024-10-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/10/YIUZ98_KWBN_202410100017
+D20241011,2024-10-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/11/YIUZ98_KWBN_202410110017
+D20241012,2024-10-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/12/YIUZ98_KWBN_202410120017
+D20241013,2024-10-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/13/YIUZ98_KWBN_202410130017
+D20241014,2024-10-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/14/YIUZ98_KWBN_202410140017
+D20241015,2024-10-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/15/YIUZ98_KWBN_202410150017
+D20241016,2024-10-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/16/YIUZ98_KWBN_202410160017
+D20241017,2024-10-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/17/YIUZ98_KWBN_202410170016
+D20241018,2024-10-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/18/YIUZ98_KWBN_202410180017
+D20241019,2024-10-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/19/YIUZ98_KWBN_202410190016
+D20241020,2024-10-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/20/YIUZ98_KWBN_202410200017
+D20241021,2024-10-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/21/YIUZ98_KWBN_202410210016
+D20241022,2024-10-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/22/YIUZ98_KWBN_202410220016
+D20241023,2024-10-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/23/YIUZ98_KWBN_202410230016
+D20241024,2024-10-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/24/YIUZ98_KWBN_202410240017
+D20241025,2024-10-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/25/YIUZ98_KWBN_202410250016
+D20241026,2024-10-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/26/YIUZ98_KWBN_202410260016
+D20241027,2024-10-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/27/YIUZ98_KWBN_202410270016
+D20241028,2024-10-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/28/YIUZ98_KWBN_202410280016
+D20241029,2024-10-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/29/YIUZ98_KWBN_202410290016
+D20241030,2024-10-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/30/YIUZ98_KWBN_202410300016
+D20241031,2024-10-31T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/10/31/YIUZ98_KWBN_202410310016
+D20241101,2024-11-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/01/YIUZ98_KWBN_202411010016
+D20241102,2024-11-02T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241103,2024-11-03T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241104,2024-11-04T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241105,2024-11-05T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241106,2024-11-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/06/YIUZ98_KWBN_202411060016
+D20241107,2024-11-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/07/YIUZ98_KWBN_202411070016
+D20241108,2024-11-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/08/YIUZ98_KWBN_202411080016
+D20241109,2024-11-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/09/YIUZ98_KWBN_202411090016
+D20241110,2024-11-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/10/YIUZ98_KWBN_202411100016
+D20241111,2024-11-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/11/YIUZ98_KWBN_202411110016
+D20241112,2024-11-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/12/YIUZ98_KWBN_202411120016
+D20241113,2024-11-13T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241114,2024-11-14T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241115,2024-11-15T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241116,2024-11-16T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241117,2024-11-17T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241118,2024-11-18T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241119,2024-11-19T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241120,2024-11-20T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241121,2024-11-21T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241122,2024-11-22T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241123,2024-11-23T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241124,2024-11-24T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241125,2024-11-25T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241126,2024-11-26T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241127,2024-11-27T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241128,2024-11-28T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241129,2024-11-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/29/YIUZ98_KWBN_202411290016
+D20241130,2024-11-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/11/30/YIUZ98_KWBN_202411300016
+D20241201,2024-12-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/01/YIUZ98_KWBN_202412010016
+D20241202,2024-12-02T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/02/YIUZ98_KWBN_202412020016
+D20241203,2024-12-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/03/YIUZ98_KWBN_202412030016
+D20241204,2024-12-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/04/YIUZ98_KWBN_202412040016
+D20241205,2024-12-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/05/YIUZ98_KWBN_202412050016
+D20241206,2024-12-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/06/YIUZ98_KWBN_202412060016
+D20241207,2024-12-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2024/12/07/YIUZ98_KWBN_202412070016
+D20241208,2024-12-08T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241209,2024-12-09T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241210,2024-12-10T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241211,2024-12-11T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-10 08:00:00+00:00 to 2024-12-14 06:00:00+00:00,
+D20241212,2024-12-12T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-11 08:00:00+00:00 to 2024-12-15 06:00:00+00:00,
+D20241213,2024-12-13T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-12 08:00:00+00:00 to 2024-12-16 06:00:00+00:00,
+D20241214,2024-12-14T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-11 05:45:00+00:00 to 2024-12-14 05:45:00+00:00,
+D20241215,2024-12-15T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-12 05:45:00+00:00 to 2024-12-15 05:45:00+00:00,
+D20241216,2024-12-16T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2024-12-13 05:45:00+00:00 to 2024-12-16 05:45:00+00:00,
+D20241217,2024-12-17T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241218,2024-12-18T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241219,2024-12-19T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241220,2024-12-20T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241221,2024-12-21T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241222,2024-12-22T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241223,2024-12-23T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241224,2024-12-24T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241225,2024-12-25T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241226,2024-12-26T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241227,2024-12-27T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241228,2024-12-28T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241229,2024-12-29T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241230,2024-12-30T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20241231,2024-12-31T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250101,2025-01-01T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250102,2025-01-02T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250103,2025-01-03T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250104,2025-01-04T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250105,2025-01-05T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-02 05:45:00+00:00 to 2025-01-05 05:45:00+00:00,
+D20250106,2025-01-06T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-03 05:45:00+00:00 to 2025-01-06 05:45:00+00:00,
+D20250107,2025-01-07T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-04 05:45:00+00:00 to 2025-01-07 05:45:00+00:00,
+D20250108,2025-01-08T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250109,2025-01-09T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250110,2025-01-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/10/YIUZ98_KWBN_202501100016
+D20250111,2025-01-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/11/YIUZ98_KWBN_202501110016
+D20250112,2025-01-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/12/YIUZ98_KWBN_202501120016
+D20250113,2025-01-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/13/YIUZ98_KWBN_202501130016
+D20250114,2025-01-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/14/YIUZ98_KWBN_202501140016
+D20250115,2025-01-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/15/YIUZ98_KWBN_202501150016
+D20250116,2025-01-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/16/YIUZ98_KWBN_202501160016
+D20250117,2025-01-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/17/YIUZ98_KWBN_202501170016
+D20250118,2025-01-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/18/YIUZ98_KWBN_202501180016
+D20250119,2025-01-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/19/YIUZ98_KWBN_202501190016
+D20250120,2025-01-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/20/YIUZ98_KWBN_202501200016
+D20250121,2025-01-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/21/YIUZ98_KWBN_202501210016
+D20250122,2025-01-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/22/YIUZ98_KWBN_202501220016
+D20250123,2025-01-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/23/YIUZ98_KWBN_202501230016
+D20250124,2025-01-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/24/YIUZ98_KWBN_202501240016
+D20250125,2025-01-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/25/YIUZ98_KWBN_202501250016
+D20250126,2025-01-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/26/YIUZ98_KWBN_202501260016
+D20250127,2025-01-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/01/27/YIUZ98_KWBN_202501270016
+D20250128,2025-01-28T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-27 08:00:00+00:00 to 2025-01-31 06:00:00+00:00,
+D20250129,2025-01-29T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-28 08:00:00+00:00 to 2025-02-01 06:00:00+00:00,
+D20250130,2025-01-30T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-29 08:00:00+00:00 to 2025-02-02 06:00:00+00:00,
+D20250131,2025-01-31T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-28 05:45:00+00:00 to 2025-01-31 05:45:00+00:00,
+D20250201,2025-02-01T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-29 05:45:00+00:00 to 2025-02-01 05:45:00+00:00,
+D20250202,2025-02-02T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-01-30 05:45:00+00:00 to 2025-02-02 05:45:00+00:00,
+D20250203,2025-02-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/03/YIUZ98_KWBN_202502030016
+D20250204,2025-02-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/04/YIUZ98_KWBN_202502040016
+D20250205,2025-02-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/05/YIUZ98_KWBN_202502050016
+D20250206,2025-02-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/06/YIUZ98_KWBN_202502060016
+D20250207,2025-02-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/07/YIUZ98_KWBN_202502070016
+D20250208,2025-02-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/08/YIUZ98_KWBN_202502080016
+D20250209,2025-02-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/09/YIUZ98_KWBN_202502090016
+D20250210,2025-02-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/10/YIUZ98_KWBN_202502100016
+D20250211,2025-02-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/11/YIUZ98_KWBN_202502110016
+D20250212,2025-02-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/12/YIUZ98_KWBN_202502120016
+D20250213,2025-02-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/13/YIUZ98_KWBN_202502130016
+D20250214,2025-02-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/14/YIUZ98_KWBN_202502140016
+D20250215,2025-02-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/15/YIUZ98_KWBN_202502150016
+D20250216,2025-02-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/16/YIUZ98_KWBN_202502160016
+D20250217,2025-02-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/02/17/YIUZ98_KWBN_202502170016
+D20250218,2025-02-18T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250219,2025-02-19T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250220,2025-02-20T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250221,2025-02-21T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250222,2025-02-22T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250223,2025-02-23T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250224,2025-02-24T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250225,2025-02-25T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250226,2025-02-26T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250227,2025-02-27T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250228,2025-02-28T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250301,2025-03-01T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250302,2025-03-02T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250303,2025-03-03T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250304,2025-03-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/04/YIUZ98_KWBN_202503040016
+D20250305,2025-03-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/05/YIUZ98_KWBN_202503050016
+D20250306,2025-03-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/06/YIUZ98_KWBN_202503060016
+D20250307,2025-03-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/07/YIUZ98_KWBN_202503070016
+D20250308,2025-03-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/08/YIUZ98_KWBN_202503080016
+D20250309,2025-03-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/09/YIUZ98_KWBN_202503090016
+D20250310,2025-03-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/10/YIUZ98_KWBN_202503100015
+D20250311,2025-03-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/11/YIUZ98_KWBN_202503110016
+D20250312,2025-03-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/12/YIUZ98_KWBN_202503120016
+D20250313,2025-03-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/13/YIUZ98_KWBN_202503130016
+D20250314,2025-03-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/14/YIUZ98_KWBN_202503140016
+D20250315,2025-03-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/15/YIUZ98_KWBN_202503150016
+D20250316,2025-03-16T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250317,2025-03-17T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250318,2025-03-18T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250319,2025-03-19T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250320,2025-03-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/03/20/YIUZ98_KWBN_202503200016
+D20250321,2025-03-21T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250322,2025-03-22T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250323,2025-03-23T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250324,2025-03-24T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250325,2025-03-25T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250326,2025-03-26T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250327,2025-03-27T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250328,2025-03-28T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250329,2025-03-29T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250330,2025-03-30T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250331,2025-03-31T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250401,2025-04-01T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250402,2025-04-02T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250403,2025-04-03T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250404,2025-04-04T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250405,2025-04-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/05/YIUZ98_KWBN_202504050016
+D20250406,2025-04-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/06/YIUZ98_KWBN_202504060016
+D20250407,2025-04-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/07/YIUZ98_KWBN_202504070016
+D20250408,2025-04-08T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250409,2025-04-09T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250410,2025-04-10T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250411,2025-04-11T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250412,2025-04-12T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250413,2025-04-13T06:00:00+00:00,excluded,antecedent_flow,last_flow_not_below_450,Last available flow is not below 450 cfs,
+D20250414,2025-04-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/14/YIUZ98_KWBN_202504140016
+D20250415,2025-04-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/15/YIUZ98_KWBN_202504150015
+D20250416,2025-04-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/16/YIUZ98_KWBN_202504160016
+D20250417,2025-04-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/17/YIUZ98_KWBN_202504170016
+D20250418,2025-04-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/18/YIUZ98_KWBN_202504180016
+D20250419,2025-04-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/19/YIUZ98_KWBN_202504190016
+D20250420,2025-04-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/20/YIUZ98_KWBN_202504200016
+D20250421,2025-04-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/21/YIUZ98_KWBN_202504210016
+D20250422,2025-04-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/22/YIUZ98_KWBN_202504220016
+D20250423,2025-04-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/23/YIUZ98_KWBN_202504230016
+D20250424,2025-04-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/24/YIUZ98_KWBN_202504240016
+D20250425,2025-04-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/25/YIUZ98_KWBN_202504250016
+D20250426,2025-04-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/26/YIUZ98_KWBN_202504260016
+D20250427,2025-04-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/27/YIUZ98_KWBN_202504270016
+D20250428,2025-04-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/28/YIUZ98_KWBN_202504280016
+D20250429,2025-04-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/29/YIUZ98_KWBN_202504290016
+D20250430,2025-04-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/04/30/YIUZ98_KWBN_202504300015
+D20250501,2025-05-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/01/YIUZ98_KWBN_202505010016
+D20250502,2025-05-02T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/02/YIUZ98_KWBN_202505020016
+D20250503,2025-05-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/03/YIUZ98_KWBN_202505030016
+D20250504,2025-05-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/04/YIUZ98_KWBN_202505040016
+D20250505,2025-05-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/05/YIUZ98_KWBN_202505050016
+D20250506,2025-05-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/06/YIUZ98_KWBN_202505060016
+D20250507,2025-05-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/07/YIUZ98_KWBN_202505070016
+D20250508,2025-05-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/08/YIUZ98_KWBN_202505080016
+D20250509,2025-05-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/09/YIUZ98_KWBN_202505090016
+D20250510,2025-05-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/10/YIUZ98_KWBN_202505100016
+D20250511,2025-05-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/11/YIUZ98_KWBN_202505110016
+D20250512,2025-05-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/12/YIUZ98_KWBN_202505120016
+D20250513,2025-05-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/13/YIUZ98_KWBN_202505130016
+D20250514,2025-05-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/14/YIUZ98_KWBN_202505140016
+D20250515,2025-05-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/15/YIUZ98_KWBN_202505150016
+D20250516,2025-05-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/16/YIUZ98_KWBN_202505160016
+D20250517,2025-05-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/17/YIUZ98_KWBN_202505170016
+D20250518,2025-05-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/18/YIUZ98_KWBN_202505180016
+D20250519,2025-05-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/19/YIUZ98_KWBN_202505190016
+D20250520,2025-05-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/20/YIUZ98_KWBN_202505200016
+D20250521,2025-05-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/21/YIUZ98_KWBN_202505210016
+D20250522,2025-05-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/22/YIUZ98_KWBN_202505220016
+D20250523,2025-05-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/23/YIUZ98_KWBN_202505230016
+D20250524,2025-05-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/24/YIUZ98_KWBN_202505240016
+D20250525,2025-05-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/25/YIUZ98_KWBN_202505250016
+D20250526,2025-05-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/26/YIUZ98_KWBN_202505260016
+D20250527,2025-05-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/27/YIUZ98_KWBN_202505270016
+D20250528,2025-05-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/28/YIUZ98_KWBN_202505280016
+D20250529,2025-05-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/29/YIUZ98_KWBN_202505290016
+D20250530,2025-05-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/30/YIUZ98_KWBN_202505300016
+D20250531,2025-05-31T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/05/31/YIUZ98_KWBN_202505310016
+D20250601,2025-06-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/01/YIUZ98_KWBN_202506010016
+D20250602,2025-06-02T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/02/YIUZ98_KWBN_202506020016
+D20250603,2025-06-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/03/YIUZ98_KWBN_202506030016
+D20250604,2025-06-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/04/YIUZ98_KWBN_202506040016
+D20250605,2025-06-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/05/YIUZ98_KWBN_202506050016
+D20250606,2025-06-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/06/YIUZ98_KWBN_202506060016
+D20250607,2025-06-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/07/YIUZ98_KWBN_202506070016
+D20250608,2025-06-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/08/YIUZ98_KWBN_202506080016
+D20250609,2025-06-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/09/YIUZ98_KWBN_202506090016
+D20250610,2025-06-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/10/YIUZ98_KWBN_202506100016
+D20250611,2025-06-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/11/YIUZ98_KWBN_202506110016
+D20250612,2025-06-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/12/YIUZ98_KWBN_202506120016
+D20250613,2025-06-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/13/YIUZ98_KWBN_202506130016
+D20250614,2025-06-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/14/YIUZ98_KWBN_202506140016
+D20250615,2025-06-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/15/YIUZ98_KWBN_202506150016
+D20250616,2025-06-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/16/YIUZ98_KWBN_202506160016
+D20250617,2025-06-17T06:00:00+00:00,excluded,forecast_inventory,no_early_issue,No canonical early-UTC bulletin in the predeclared issue window,
+D20250618,2025-06-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/18/YIUZ98_KWBN_202506180016
+D20250619,2025-06-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/19/YIUZ98_KWBN_202506190016
+D20250620,2025-06-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/20/YIUZ98_KWBN_202506200016
+D20250621,2025-06-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/21/YIUZ98_KWBN_202506210016
+D20250622,2025-06-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/22/YIUZ98_KWBN_202506220016
+D20250623,2025-06-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/23/YIUZ98_KWBN_202506230016
+D20250624,2025-06-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/24/YIUZ98_KWBN_202506240016
+D20250625,2025-06-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/25/YIUZ98_KWBN_202506250016
+D20250626,2025-06-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/26/YIUZ98_KWBN_202506260016
+D20250627,2025-06-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/27/YIUZ98_KWBN_202506270016
+D20250628,2025-06-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/28/YIUZ98_KWBN_202506280016
+D20250629,2025-06-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/29/YIUZ98_KWBN_202506290016
+D20250630,2025-06-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/06/30/YIUZ98_KWBN_202506300016
+D20250701,2025-07-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/01/YIUZ98_KWBN_202507010016
+D20250702,2025-07-02T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/02/YIUZ98_KWBN_202507020016
+D20250703,2025-07-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/03/YIUZ98_KWBN_202507030016
+D20250704,2025-07-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/04/YIUZ98_KWBN_202507040016
+D20250705,2025-07-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/05/YIUZ98_KWBN_202507050016
+D20250706,2025-07-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/06/YIUZ98_KWBN_202507060016
+D20250707,2025-07-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/07/YIUZ98_KWBN_202507070016
+D20250708,2025-07-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/08/YIUZ98_KWBN_202507080016
+D20250709,2025-07-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/09/YIUZ98_KWBN_202507090016
+D20250710,2025-07-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/10/YIUZ98_KWBN_202507100016
+D20250711,2025-07-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/11/YIUZ98_KWBN_202507110016
+D20250712,2025-07-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/12/YIUZ98_KWBN_202507120016
+D20250713,2025-07-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/13/YIUZ98_KWBN_202507130016
+D20250714,2025-07-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/14/YIUZ98_KWBN_202507140016
+D20250715,2025-07-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/15/YIUZ98_KWBN_202507150016
+D20250716,2025-07-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/16/YIUZ98_KWBN_202507160016
+D20250717,2025-07-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/17/YIUZ98_KWBN_202507170016
+D20250718,2025-07-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/18/YIUZ98_KWBN_202507180016
+D20250719,2025-07-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/19/YIUZ98_KWBN_202507190016
+D20250720,2025-07-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/20/YIUZ98_KWBN_202507200016
+D20250721,2025-07-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/21/YIUZ98_KWBN_202507210016
+D20250722,2025-07-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/22/YIUZ98_KWBN_202507220016
+D20250723,2025-07-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/23/YIUZ98_KWBN_202507230016
+D20250724,2025-07-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/24/YIUZ98_KWBN_202507240016
+D20250725,2025-07-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/25/YIUZ98_KWBN_202507250016
+D20250726,2025-07-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/26/YIUZ98_KWBN_202507260016
+D20250727,2025-07-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/27/YIUZ98_KWBN_202507270016
+D20250728,2025-07-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/28/YIUZ98_KWBN_202507280016
+D20250729,2025-07-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/29/YIUZ98_KWBN_202507290016
+D20250730,2025-07-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/30/YIUZ98_KWBN_202507300016
+D20250731,2025-07-31T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/07/31/YIUZ98_KWBN_202507310016
+D20250801,2025-08-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/01/YIUZ98_KWBN_202508010016
+D20250802,2025-08-02T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/02/YIUZ98_KWBN_202508020016
+D20250803,2025-08-03T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/03/YIUZ98_KWBN_202508030016
+D20250804,2025-08-04T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/04/YIUZ98_KWBN_202508040016
+D20250805,2025-08-05T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/05/YIUZ98_KWBN_202508050016
+D20250806,2025-08-06T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/06/YIUZ98_KWBN_202508060016
+D20250807,2025-08-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/07/YIUZ98_KWBN_202508070016
+D20250808,2025-08-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/08/YIUZ98_KWBN_202508080016
+D20250809,2025-08-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/09/YIUZ98_KWBN_202508090016
+D20250810,2025-08-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/10/YIUZ98_KWBN_202508100016
+D20250811,2025-08-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/11/YIUZ98_KWBN_202508110016
+D20250812,2025-08-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/12/YIUZ98_KWBN_202508120016
+D20250813,2025-08-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/13/YIUZ98_KWBN_202508130016
+D20250814,2025-08-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/14/YIUZ98_KWBN_202508140016
+D20250815,2025-08-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/15/YIUZ98_KWBN_202508150016
+D20250816,2025-08-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/16/YIUZ98_KWBN_202508160016
+D20250817,2025-08-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/17/YIUZ98_KWBN_202508170016
+D20250818,2025-08-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/18/YIUZ98_KWBN_202508180016
+D20250819,2025-08-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/19/YIUZ98_KWBN_202508190016
+D20250820,2025-08-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/20/YIUZ98_KWBN_202508200016
+D20250821,2025-08-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/21/YIUZ98_KWBN_202508210016
+D20250822,2025-08-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/22/YIUZ98_KWBN_202508220016
+D20250823,2025-08-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/23/YIUZ98_KWBN_202508230016
+D20250824,2025-08-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/24/YIUZ98_KWBN_202508240016
+D20250825,2025-08-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/25/YIUZ98_KWBN_202508250016
+D20250826,2025-08-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/26/YIUZ98_KWBN_202508260016
+D20250827,2025-08-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/27/YIUZ98_KWBN_202508270016
+D20250828,2025-08-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/28/YIUZ98_KWBN_202508280016
+D20250829,2025-08-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/29/YIUZ98_KWBN_202508290016
+D20250830,2025-08-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/30/YIUZ98_KWBN_202508300016
+D20250831,2025-08-31T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/08/31/YIUZ98_KWBN_202508310016
+D20250901,2025-09-01T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-08-31 07:00:00+00:00 to 2025-09-04 06:00:00+00:00,
+D20250902,2025-09-02T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-09-01 07:00:00+00:00 to 2025-09-05 06:00:00+00:00,
+D20250903,2025-09-03T06:00:00+00:00,excluded,target_quality,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-09-02 07:00:00+00:00 to 2025-09-06 06:00:00+00:00,
+D20250904,2025-09-04T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-09-01 05:45:00+00:00 to 2025-09-04 05:45:00+00:00,
+D20250905,2025-09-05T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-09-02 05:45:00+00:00 to 2025-09-05 05:45:00+00:00,
+D20250906,2025-09-06T06:00:00+00:00,excluded,antecedent_flow,incomplete_observations,Incomplete quarter-hour flow coverage: 2025-09-03 05:45:00+00:00 to 2025-09-06 05:45:00+00:00,
+D20250907,2025-09-07T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/07/YIUZ98_KWBN_202509070016
+D20250908,2025-09-08T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/08/YIUZ98_KWBN_202509080016
+D20250909,2025-09-09T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/09/YIUZ98_KWBN_202509090016
+D20250910,2025-09-10T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/10/YIUZ98_KWBN_202509100016
+D20250911,2025-09-11T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/11/YIUZ98_KWBN_202509110016
+D20250912,2025-09-12T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/12/YIUZ98_KWBN_202509120016
+D20250913,2025-09-13T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/13/YIUZ98_KWBN_202509130016
+D20250914,2025-09-14T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/14/YIUZ98_KWBN_202509140016
+D20250915,2025-09-15T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/15/YIUZ98_KWBN_202509150016
+D20250916,2025-09-16T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/16/YIUZ98_KWBN_202509160016
+D20250917,2025-09-17T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/17/YIUZ98_KWBN_202509170016
+D20250918,2025-09-18T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/18/YIUZ98_KWBN_202509180016
+D20250919,2025-09-19T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/19/YIUZ98_KWBN_202509190016
+D20250920,2025-09-20T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/20/YIUZ98_KWBN_202509200016
+D20250921,2025-09-21T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/21/YIUZ98_KWBN_202509210016
+D20250922,2025-09-22T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/22/YIUZ98_KWBN_202509220016
+D20250923,2025-09-23T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/23/YIUZ98_KWBN_202509230016
+D20250924,2025-09-24T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/24/YIUZ98_KWBN_202509240016
+D20250925,2025-09-25T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/25/YIUZ98_KWBN_202509250016
+D20250926,2025-09-26T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/26/YIUZ98_KWBN_202509260016
+D20250927,2025-09-27T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/27/YIUZ98_KWBN_202509270016
+D20250928,2025-09-28T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/28/YIUZ98_KWBN_202509280016
+D20250929,2025-09-29T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/29/YIUZ98_KWBN_202509290016
+D20250930,2025-09-30T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/09/30/YIUZ98_KWBN_202509300016
+D20251001,2025-10-01T06:00:00+00:00,passed,paired,,,wmo/qpf/2025/10/01/YIUZ98_KWBN_202510010016

@@ -1,0 +1,1116 @@
+{
+  "network_requests": 0,
+  "years": [
+    {
+      "water_year": 2021,
+      "cached_months": [
+        "2020-10",
+        "2020-11",
+        "2020-12",
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2020-10-01T00:00:00+00:00",
+        "last_utc": "2021-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2020-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2021-10-01T07:00:00+00:00",
+        "observations": 35518,
+        "missing_values": 0,
+        "non_15min_intervals": 2,
+        "min_cfs": 17.5,
+        "max_cfs": 5920.0,
+        "raw_upcrossings": 80,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 27,
+        "same_day_repeats_removed": 53,
+        "above_threshold_segment_starts_with_unknown_crossing": 0,
+        "complete_72h_hourly_decisions_below_450": 6520,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 14,
+        "decisions_with_future_deduplicated_crossing": 657,
+        "qualifier_counts": {
+          "Approved": 35518
+        },
+        "events": [
+          {
+            "time_utc": "2020-10-12T00:45:00+00:00",
+            "local_day": "2020-10-11",
+            "discharge_cfs": 474.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-06T02:00:00+00:00",
+            "local_day": "2020-11-05",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-08T15:15:00+00:00",
+            "local_day": "2020-11-08",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-11T02:45:00+00:00",
+            "local_day": "2020-11-10",
+            "discharge_cfs": 459.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-11T09:00:00+00:00",
+            "local_day": "2020-11-11",
+            "discharge_cfs": 459.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-13T11:00:00+00:00",
+            "local_day": "2020-11-13",
+            "discharge_cfs": 466.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-24T17:15:00+00:00",
+            "local_day": "2020-11-24",
+            "discharge_cfs": 468.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-29T02:15:00+00:00",
+            "local_day": "2020-11-28",
+            "discharge_cfs": 463.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-11-30T18:30:00+00:00",
+            "local_day": "2020-11-30",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-12-01T08:00:00+00:00",
+            "local_day": "2020-12-01",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-12-16T03:00:00+00:00",
+            "local_day": "2020-12-15",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-12-29T14:00:00+00:00",
+            "local_day": "2020-12-29",
+            "discharge_cfs": 461.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2020-12-30T20:45:00+00:00",
+            "local_day": "2020-12-30",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-01-11T16:15:00+00:00",
+            "local_day": "2021-01-11",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-01-19T13:15:00+00:00",
+            "local_day": "2021-01-19",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-02-02T00:00:00+00:00",
+            "local_day": "2021-02-01",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-02-10T17:45:00+00:00",
+            "local_day": "2021-02-10",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-02-15T23:45:00+00:00",
+            "local_day": "2021-02-15",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-04T15:45:00+00:00",
+            "local_day": "2021-03-04",
+            "discharge_cfs": 466.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-05T20:45:00+00:00",
+            "local_day": "2021-03-05",
+            "discharge_cfs": 461.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-08T09:45:00+00:00",
+            "local_day": "2021-03-08",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-22T08:30:00+00:00",
+            "local_day": "2021-03-22",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-23T22:00:00+00:00",
+            "local_day": "2021-03-23",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-24T22:45:00+00:00",
+            "local_day": "2021-03-24",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-27T01:30:00+00:00",
+            "local_day": "2021-03-26",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-29T01:30:00+00:00",
+            "local_day": "2021-03-28",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-03-29T17:45:00+00:00",
+            "local_day": "2021-03-29",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 0,
+      "counting_period_observations_available": 35037
+    },
+    {
+      "water_year": 2022,
+      "cached_months": [
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2021-10-01T00:00:00+00:00",
+        "last_utc": "2022-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2021-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2022-10-01T07:00:00+00:00",
+        "observations": 35518,
+        "missing_values": 0,
+        "non_15min_intervals": 1,
+        "min_cfs": 19.4,
+        "max_cfs": 7330.0,
+        "raw_upcrossings": 50,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 25,
+        "same_day_repeats_removed": 25,
+        "above_threshold_segment_starts_with_unknown_crossing": 0,
+        "complete_72h_hourly_decisions_below_450": 5119,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 13,
+        "decisions_with_future_deduplicated_crossing": 670,
+        "qualifier_counts": {
+          "Approved": 35518
+        },
+        "events": [
+          {
+            "time_utc": "2021-10-24T20:45:00+00:00",
+            "local_day": "2021-10-24",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-10-25T11:00:00+00:00",
+            "local_day": "2021-10-25",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-11-01T03:00:00+00:00",
+            "local_day": "2021-10-31",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-11-04T22:30:00+00:00",
+            "local_day": "2021-11-04",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-11-24T22:00:00+00:00",
+            "local_day": "2021-11-24",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-11-26T08:45:00+00:00",
+            "local_day": "2021-11-26",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-12-03T06:15:00+00:00",
+            "local_day": "2021-12-02",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-12-04T22:30:00+00:00",
+            "local_day": "2021-12-04",
+            "discharge_cfs": 455.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-12-06T09:30:00+00:00",
+            "local_day": "2021-12-06",
+            "discharge_cfs": 455.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2021-12-28T06:15:00+00:00",
+            "local_day": "2021-12-27",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-01-03T11:15:00+00:00",
+            "local_day": "2022-01-03",
+            "discharge_cfs": 468.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-01-26T01:30:00+00:00",
+            "local_day": "2022-01-25",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-02-28T08:30:00+00:00",
+            "local_day": "2022-02-28",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-03-08T01:45:00+00:00",
+            "local_day": "2022-03-07",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-03-08T21:45:00+00:00",
+            "local_day": "2022-03-08",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-03-09T19:15:00+00:00",
+            "local_day": "2022-03-09",
+            "discharge_cfs": 455.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-03-13T18:30:00+00:00",
+            "local_day": "2022-03-13",
+            "discharge_cfs": 464.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-03-26T10:00:00+00:00",
+            "local_day": "2022-03-26",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-04-04T12:30:00+00:00",
+            "local_day": "2022-04-04",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-04-19T03:30:00+00:00",
+            "local_day": "2022-04-18",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-05-22T18:30:00+00:00",
+            "local_day": "2022-05-22",
+            "discharge_cfs": 455.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-06-05T09:30:00+00:00",
+            "local_day": "2022-06-05",
+            "discharge_cfs": 455.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-06-09T03:45:00+00:00",
+            "local_day": "2022-06-08",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-06-09T08:00:00+00:00",
+            "local_day": "2022-06-09",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-06-17T15:45:00+00:00",
+            "local_day": "2022-06-17",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 0,
+      "counting_period_observations_available": 35037
+    },
+    {
+      "water_year": 2023,
+      "cached_months": [
+        "2022-10",
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2022-10-01T00:00:00+00:00",
+        "last_utc": "2023-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2022-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2023-10-01T07:00:00+00:00",
+        "observations": 35492,
+        "missing_values": 0,
+        "non_15min_intervals": 8,
+        "min_cfs": 15.8,
+        "max_cfs": 5900.0,
+        "raw_upcrossings": 81,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 30,
+        "same_day_repeats_removed": 51,
+        "above_threshold_segment_starts_with_unknown_crossing": 1,
+        "complete_72h_hourly_decisions_below_450": 6339,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 35,
+        "decisions_with_future_deduplicated_crossing": 879,
+        "qualifier_counts": {
+          "Approved": 35491,
+          "Approved,ESTIMATED": 1
+        },
+        "events": [
+          {
+            "time_utc": "2022-11-04T16:00:00+00:00",
+            "local_day": "2022-11-04",
+            "discharge_cfs": 478.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-11-30T11:45:00+00:00",
+            "local_day": "2022-11-30",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-02T20:00:00+00:00",
+            "local_day": "2022-12-02",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-10T06:00:00+00:00",
+            "local_day": "2022-12-09",
+            "discharge_cfs": 465.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-13T17:00:00+00:00",
+            "local_day": "2022-12-13",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-21T01:00:00+00:00",
+            "local_day": "2022-12-20",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-21T23:00:00+00:00",
+            "local_day": "2022-12-21",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2022-12-24T21:45:00+00:00",
+            "local_day": "2022-12-24",
+            "discharge_cfs": 465.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-01-04T19:00:00+00:00",
+            "local_day": "2023-01-04",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-01-08T20:45:00+00:00",
+            "local_day": "2023-01-08",
+            "discharge_cfs": 465.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-01-22T18:45:00+00:00",
+            "local_day": "2023-01-22",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-02-06T06:45:00+00:00",
+            "local_day": "2023-02-05",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-02-06T08:15:00+00:00",
+            "local_day": "2023-02-06",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-02-11T08:15:00+00:00",
+            "local_day": "2023-02-11",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-02-21T08:15:00+00:00",
+            "local_day": "2023-02-21",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-02-23T10:45:00+00:00",
+            "local_day": "2023-02-23",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-03-13T15:15:00+00:00",
+            "local_day": "2023-03-13",
+            "discharge_cfs": 465.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-03-16T10:15:00+00:00",
+            "local_day": "2023-03-16",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-03-19T18:00:00+00:00",
+            "local_day": "2023-03-19",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-03-26T20:45:00+00:00",
+            "local_day": "2023-03-26",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-04-01T03:45:00+00:00",
+            "local_day": "2023-03-31",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-04-04T22:30:00+00:00",
+            "local_day": "2023-04-04",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-04-06T15:30:00+00:00",
+            "local_day": "2023-04-06",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-03T01:00:00+00:00",
+            "local_day": "2023-05-02",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-03T10:45:00+00:00",
+            "local_day": "2023-05-03",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-06T19:45:00+00:00",
+            "local_day": "2023-05-06",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-07T10:30:00+00:00",
+            "local_day": "2023-05-07",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-15T01:45:00+00:00",
+            "local_day": "2023-05-14",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-15T14:00:00+00:00",
+            "local_day": "2023-05-15",
+            "discharge_cfs": 454.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-05-16T10:15:00+00:00",
+            "local_day": "2023-05-16",
+            "discharge_cfs": 454.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 1,
+      "counting_period_observations_available": 35011,
+      "crossing_count_if_estimated_values_censored": 30
+    },
+    {
+      "water_year": 2024,
+      "cached_months": [
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2023-10-01T00:00:00+00:00",
+        "last_utc": "2024-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2023-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2024-10-01T07:00:00+00:00",
+        "observations": 33776,
+        "missing_values": 0,
+        "non_15min_intervals": 131,
+        "min_cfs": 18.7,
+        "max_cfs": 6790.0,
+        "raw_upcrossings": 58,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 24,
+        "same_day_repeats_removed": 34,
+        "above_threshold_segment_starts_with_unknown_crossing": 1,
+        "complete_72h_hourly_decisions_below_450": 5356,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 69,
+        "decisions_with_future_deduplicated_crossing": 745,
+        "qualifier_counts": {
+          "Approved": 33650,
+          "Approved,ESTIMATED": 126
+        },
+        "events": [
+          {
+            "time_utc": "2023-11-04T10:00:00+00:00",
+            "local_day": "2023-11-04",
+            "discharge_cfs": 464.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-11-11T04:30:00+00:00",
+            "local_day": "2023-11-10",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-11-11T17:15:00+00:00",
+            "local_day": "2023-11-11",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-11-15T10:30:00+00:00",
+            "local_day": "2023-11-15",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-12-02T10:45:00+00:00",
+            "local_day": "2023-12-02",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2023-12-16T06:15:00+00:00",
+            "local_day": "2023-12-15",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-01-06T13:15:00+00:00",
+            "local_day": "2024-01-06",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-01-14T15:15:00+00:00",
+            "local_day": "2024-01-14",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-01-17T20:30:00+00:00",
+            "local_day": "2024-01-17",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-04T18:30:00+00:00",
+            "local_day": "2024-02-04",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-12T23:45:00+00:00",
+            "local_day": "2024-02-12",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-13T08:45:00+00:00",
+            "local_day": "2024-02-13",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-21T22:30:00+00:00",
+            "local_day": "2024-02-21",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-23T10:45:00+00:00",
+            "local_day": "2024-02-23",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-02-26T04:15:00+00:00",
+            "local_day": "2024-02-25",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-03-10T23:00:00+00:00",
+            "local_day": "2024-03-10",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-03-23T20:15:00+00:00",
+            "local_day": "2024-03-23",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-04-01T11:30:00+00:00",
+            "local_day": "2024-04-01",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-04-28T07:00:00+00:00",
+            "local_day": "2024-04-28",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-05-03T17:45:00+00:00",
+            "local_day": "2024-05-03",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-05-04T09:00:00+00:00",
+            "local_day": "2024-05-04",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-05-11T20:45:00+00:00",
+            "local_day": "2024-05-11",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-06-03T04:45:00+00:00",
+            "local_day": "2024-06-02",
+            "discharge_cfs": 464.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-06-07T14:15:00+00:00",
+            "local_day": "2024-06-07",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 126,
+      "counting_period_observations_available": 33295,
+      "crossing_count_if_estimated_values_censored": 24
+    },
+    {
+      "water_year": 2025,
+      "cached_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2024-10-01T00:00:00+00:00",
+        "last_utc": "2025-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2024-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2025-10-01T07:00:00+00:00",
+        "observations": 35514,
+        "missing_values": 0,
+        "non_15min_intervals": 6,
+        "min_cfs": 15.2,
+        "max_cfs": 5280.0,
+        "raw_upcrossings": 15,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 12,
+        "same_day_repeats_removed": 3,
+        "above_threshold_segment_starts_with_unknown_crossing": 2,
+        "complete_72h_hourly_decisions_below_450": 6401,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 34,
+        "decisions_with_future_deduplicated_crossing": 504,
+        "qualifier_counts": {
+          "Approved": 35514
+        },
+        "events": [
+          {
+            "time_utc": "2024-11-01T09:45:00+00:00",
+            "local_day": "2024-11-01",
+            "discharge_cfs": 467.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-11-12T19:00:00+00:00",
+            "local_day": "2024-11-12",
+            "discharge_cfs": 454.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-12-08T03:30:00+00:00",
+            "local_day": "2024-12-07",
+            "discharge_cfs": 467.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2024-12-16T14:00:00+00:00",
+            "local_day": "2024-12-16",
+            "discharge_cfs": 458.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-01-09T21:45:00+00:00",
+            "local_day": "2025-01-09",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-02-01T06:00:00+00:00",
+            "local_day": "2025-01-31",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-02-17T13:15:00+00:00",
+            "local_day": "2025-02-17",
+            "discharge_cfs": 457.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-03-15T09:30:00+00:00",
+            "local_day": "2025-03-15",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-03-20T07:15:00+00:00",
+            "local_day": "2025-03-20",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-04-05T00:30:00+00:00",
+            "local_day": "2025-04-04",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-04-07T07:00:00+00:00",
+            "local_day": "2025-04-07",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-04-13T09:30:00+00:00",
+            "local_day": "2025-04-13",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 0,
+      "counting_period_observations_available": 35033
+    },
+    {
+      "water_year": 2026,
+      "cached_months": [
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "missing_months": [],
+      "audit": {
+        "first_utc": "2025-10-01T00:00:00+00:00",
+        "last_utc": "2026-10-06T00:00:00+00:00",
+        "counting_period_start_utc": "2025-10-01T07:00:00+00:00",
+        "counting_period_end_exclusive_utc": "2026-10-01T07:00:00+00:00",
+        "observations": 34699,
+        "missing_values": 0,
+        "non_15min_intervals": 36,
+        "min_cfs": 15.2,
+        "max_cfs": 7980.0,
+        "raw_upcrossings": 29,
+        "crossings_on_partial_first_local_day_excluded": 0,
+        "deduplicated_crossings": 20,
+        "same_day_repeats_removed": 9,
+        "above_threshold_segment_starts_with_unknown_crossing": 10,
+        "complete_72h_hourly_decisions_below_450": 5727,
+        "hourly_decisions_censored_for_incomplete_local_day_history": 74,
+        "decisions_with_future_deduplicated_crossing": 756,
+        "qualifier_counts": {
+          "Approved": 25564,
+          "Provisional": 9135
+        },
+        "events": [
+          {
+            "time_utc": "2025-11-01T14:15:00+00:00",
+            "local_day": "2025-11-01",
+            "discharge_cfs": 464.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-11-04T03:30:00+00:00",
+            "local_day": "2025-11-03",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-11-05T12:30:00+00:00",
+            "local_day": "2025-11-05",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-11-10T00:00:00+00:00",
+            "local_day": "2025-11-09",
+            "discharge_cfs": 452.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-11-27T16:00:00+00:00",
+            "local_day": "2025-11-27",
+            "discharge_cfs": 451.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-12-01T14:45:00+00:00",
+            "local_day": "2025-12-01",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-12-05T13:45:00+00:00",
+            "local_day": "2025-12-05",
+            "discharge_cfs": 458.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2025-12-29T04:30:00+00:00",
+            "local_day": "2025-12-28",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-01-02T13:00:00+00:00",
+            "local_day": "2026-01-02",
+            "discharge_cfs": 458.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-01-14T18:15:00+00:00",
+            "local_day": "2026-01-14",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-02-08T12:45:00+00:00",
+            "local_day": "2026-02-08",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-02-23T15:00:00+00:00",
+            "local_day": "2026-02-23",
+            "discharge_cfs": 464.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-03-04T19:30:00+00:00",
+            "local_day": "2026-03-04",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-03-20T15:00:00+00:00",
+            "local_day": "2026-03-20",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-03-25T00:00:00+00:00",
+            "local_day": "2026-03-24",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-04-02T01:45:00+00:00",
+            "local_day": "2026-04-01",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-04-15T12:15:00+00:00",
+            "local_day": "2026-04-15",
+            "discharge_cfs": 460.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-04-22T17:15:00+00:00",
+            "local_day": "2026-04-22",
+            "discharge_cfs": 456.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-04-24T13:45:00+00:00",
+            "local_day": "2026-04-24",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          },
+          {
+            "time_utc": "2026-06-09T19:30:00+00:00",
+            "local_day": "2026-06-09",
+            "discharge_cfs": 453.0,
+            "qualifiers": "Approved"
+          }
+        ]
+      },
+      "calendar_months_cached": 12,
+      "full_year_monthly_responses_cached": true,
+      "estimated_values_in_counting_period": 0,
+      "counting_period_observations_available": 34218
+    }
+  ],
+  "errors": [],
+  "scope": "Counts from available cached periods; not full-year event rates or independent-storm counts."
+}

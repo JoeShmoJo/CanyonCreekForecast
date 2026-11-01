@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "water_year": 2025,
+  "flow_csv": ".cache/feasibility/water-year-2025/discharge.csv",
+  "inventory_json": ".cache/feasibility/water-year-2025/inventory/report.json",
+  "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+  "decision_hour_utc": 6,
+  "flow_delay_minutes": 15,
+  "flow_lookback_hours": 72,
+  "forecast_delay_minutes": 60,
+  "max_forecast_age_hours": 6,
+  "qpf_horizons_hours": [6, 12, 24, 48, 60],
+  "target_horizon_hours": 72,
+  "new_download_budget_mib": 80,
+  "max_new_files": 12,
+  "cases": [
+    {"date": "2024-10-30", "window": "autumn_crossing"},
+    {"date": "2024-10-31", "window": "autumn_crossing"},
+    {"date": "2024-11-01", "window": "autumn_crossing"},
+    {"date": "2025-01-15", "window": "winter_control"},
+    {"date": "2025-01-16", "window": "winter_control"},
+    {"date": "2025-01-17", "window": "winter_control"},
+    {"date": "2025-03-13", "window": "spring_crossing"},
+    {"date": "2025-03-14", "window": "spring_crossing"},
+    {"date": "2025-03-15", "window": "spring_crossing"},
+    {"date": "2025-07-15", "window": "summer_control"},
+    {"date": "2025-07-16", "window": "summer_control"},
+    {"date": "2025-07-17", "window": "summer_control"}
+  ]
+}

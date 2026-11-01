@@ -1,0 +1,202 @@
+{
+  "scheduled_decisions": 365,
+  "paired_rows": 258,
+  "positive_rows": 19,
+  "observed_crossing_days": 12,
+  "crossing_days_with_any_paired_pre_event_decision": 7,
+  "unique_first_crossings_in_positive_labels": 7,
+  "crossings": [
+    {
+      "crossing_time_utc": "2024-11-01T09:45:00+00:00",
+      "local_day": "2024-11-01",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2024-11-12T19:00:00+00:00",
+      "local_day": "2024-11-12",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2024-12-08T03:30:00+00:00",
+      "local_day": "2024-12-07",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2024-12-16T14:00:00+00:00",
+      "local_day": "2024-12-16",
+      "paired_pre_event_decisions": 0,
+      "pre_event_schedule_status_counts": {
+        "incomplete_observations": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-01-09T21:45:00+00:00",
+      "local_day": "2025-01-09",
+      "paired_pre_event_decisions": 0,
+      "pre_event_schedule_status_counts": {
+        "incomplete_observations": 1,
+        "last_flow_not_below_450": 2
+      }
+    },
+    {
+      "crossing_time_utc": "2025-02-01T06:00:00+00:00",
+      "local_day": "2025-01-31",
+      "paired_pre_event_decisions": 0,
+      "pre_event_schedule_status_counts": {
+        "incomplete_observations": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-02-17T13:15:00+00:00",
+      "local_day": "2025-02-17",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-03-15T09:30:00+00:00",
+      "local_day": "2025-03-15",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-03-20T07:15:00+00:00",
+      "local_day": "2025-03-20",
+      "paired_pre_event_decisions": 1,
+      "pre_event_schedule_status_counts": {
+        "last_flow_not_below_450": 2,
+        "passed": 1
+      }
+    },
+    {
+      "crossing_time_utc": "2025-04-05T00:30:00+00:00",
+      "local_day": "2025-04-04",
+      "paired_pre_event_decisions": 0,
+      "pre_event_schedule_status_counts": {
+        "last_flow_not_below_450": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-04-07T07:00:00+00:00",
+      "local_day": "2025-04-07",
+      "paired_pre_event_decisions": 3,
+      "pre_event_schedule_status_counts": {
+        "passed": 3
+      }
+    },
+    {
+      "crossing_time_utc": "2025-04-13T09:30:00+00:00",
+      "local_day": "2025-04-13",
+      "paired_pre_event_decisions": 0,
+      "pre_event_schedule_status_counts": {
+        "last_flow_not_below_450": 3
+      }
+    }
+  ],
+  "monthly_coverage": {
+    "2024-10": {
+      "scheduled": 31,
+      "excluded": 2,
+      "incomplete_observations": 2,
+      "passed": 29
+    },
+    "2024-11": {
+      "scheduled": 30,
+      "excluded": 20,
+      "last_flow_not_below_450": 20,
+      "passed": 10
+    },
+    "2024-12": {
+      "scheduled": 31,
+      "passed": 6,
+      "excluded": 25,
+      "last_flow_not_below_450": 19,
+      "incomplete_observations": 6
+    },
+    "2025-01": {
+      "scheduled": 31,
+      "excluded": 13,
+      "last_flow_not_below_450": 5,
+      "incomplete_observations": 8,
+      "passed": 18
+    },
+    "2025-02": {
+      "scheduled": 28,
+      "excluded": 13,
+      "incomplete_observations": 1,
+      "passed": 15,
+      "last_flow_not_below_450": 12
+    },
+    "2025-03": {
+      "scheduled": 31,
+      "excluded": 18,
+      "last_flow_not_below_450": 18,
+      "passed": 13
+    },
+    "2025-04": {
+      "scheduled": 30,
+      "excluded": 9,
+      "last_flow_not_below_450": 9,
+      "passed": 21
+    },
+    "2025-05": {
+      "scheduled": 31,
+      "passed": 31
+    },
+    "2025-06": {
+      "scheduled": 30,
+      "passed": 29,
+      "excluded": 1,
+      "no_early_issue": 1
+    },
+    "2025-07": {
+      "scheduled": 31,
+      "passed": 31
+    },
+    "2025-08": {
+      "scheduled": 31,
+      "passed": 30,
+      "excluded": 1,
+      "incomplete_observations": 1
+    },
+    "2025-09": {
+      "scheduled": 30,
+      "excluded": 5,
+      "incomplete_observations": 5,
+      "passed": 25
+    }
+  },
+  "exclusion_counts": {
+    "incomplete_observations": 23,
+    "last_flow_not_below_450": 83,
+    "no_early_issue": 1
+  },
+  "unique_source_files": 258,
+  "selected_raw_bytes": 1374315468,
+  "annual_new_download_bytes": 1304328505,
+  "small_export_bytes": 946928,
+  "max_decoder_difference_mm": 1.1596679684089395e-05,
+  "minimum_valid_basin_fraction": 0.9999999999995537,
+  "forecast_reference_hours_utc": [
+    "00:30"
+  ],
+  "forecast_ages_hours": [
+    5.5
+  ],
+  "qpf_72h_coverage_hours": [
+    66.0
+  ],
+  "note": "Rows share overlapping targets. Event counts are observed crossings, not independent storms. No model trained."
+}

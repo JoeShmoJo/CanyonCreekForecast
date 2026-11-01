@@ -1,0 +1,10 @@
+# Phase 1 data retrieval, basin extraction, plots, and offline tests.
+numpy>=1.26
+pandas>=2.0
+requests>=2.31
+matplotlib>=3.8
+geopandas>=1.0
+shapely>=2.1
+pyproj>=3.6
+eccodes>=2.38,<3
+# Independent decoder: bash scripts/setup_grib2io.sh

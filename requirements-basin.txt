@@ -1,0 +1,3 @@
+# Optional independent GRIB decoder; native g2c must be installed first.
+# Run scripts/setup_grib2io.sh rather than installing this file alone.
+grib2io==2.8.2
