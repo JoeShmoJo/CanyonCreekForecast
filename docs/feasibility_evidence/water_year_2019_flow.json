@@ -1,0 +1,1106 @@
+{
+  "water_year": 2019,
+  "requests": [
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-10-01T00%3A00%3A00%2B00%3A00%2F2018-11-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "d29284641390b997ebe89fafa4382ac42707c117966197c41118c1b803895b11",
+      "response_bytes": 2112404,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2969
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-11-01T00%3A00%3A00%2B00%3A00%2F2018-12-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "2fc92a44fc13f3b16802504e0c1f88f624524d9c5cac1c9896eb86a42bf56423",
+      "response_bytes": 1990980,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2801
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-12-01T00%3A00%3A00%2B00%3A00%2F2019-01-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "32dca08fe80efa3091f95bc686fdd8a2cb2de64f150c70418662a6069048c074",
+      "response_bytes": 2105476,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2962
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-01-01T00%3A00%3A00%2B00%3A00%2F2019-02-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "831da974697dca07d77b33ba36f9dac2c4d75bf286d2593ebe8fba36412eab5f",
+      "response_bytes": 2115666,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-02-01T00%3A00%3A00%2B00%3A00%2F2019-03-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "96b2be4a3d42295e14eb71bfd7f5bee81c1e51c9c540e641f1d12e6e33124dd4",
+      "response_bytes": 1911038,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2689
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-03-01T00%3A00%3A00%2B00%3A00%2F2019-04-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "12f415c065c666a20f797f679e56851e7deb0303ef8532b03654ff41df387c70",
+      "response_bytes": 2115512,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-04-01T00%3A00%3A00%2B00%3A00%2F2019-05-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "reused_cache": true,
+      "response_sha256": "3e399ed2e83ff72aa3493387c6e4fc720f3f5e434731518a13d70217733cc0f8",
+      "response_bytes": 2048055,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-05-01T00%3A00%3A00%2B00%3A00%2F2019-06-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-05-01T00%3A00%3A00%2B00%3A00%2F2019-06-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2115903,
+      "response_sha256": "892052d9fa62cee539a7b20c92703092a4d2790f8e70d9777b403e508af60055",
+      "response_bytes": 2115903,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-06-01T00%3A00%3A00%2B00%3A00%2F2019-07-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-06-01T00%3A00%3A00%2B00%3A00%2F2019-07-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2050160,
+      "response_sha256": "a969a307c71c1d76085ed1804dc7c38193aba49b70aef1bc5e33e4cae30cd60e",
+      "response_bytes": 2050160,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-07-01T00%3A00%3A00%2B00%3A00%2F2019-08-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-07-01T00%3A00%3A00%2B00%3A00%2F2019-08-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2118489,
+      "response_sha256": "8bdfa7d98ab93bd3c6ee1732c20bb1bca5c7bebb8d9ae1389c4d4fde596363a8",
+      "response_bytes": 2118489,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-08-01T00%3A00%3A00%2B00%3A00%2F2019-09-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-08-01T00%3A00%3A00%2B00%3A00%2F2019-09-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2118489,
+      "response_sha256": "313c5049bdd29056ee7d7483fe4d03110194ddfc544d99221e766822f0bec355",
+      "response_bytes": 2118489,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-09-01T00%3A00%3A00%2B00%3A00%2F2019-10-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-09-01T00%3A00%3A00%2B00%3A00%2F2019-10-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2049324,
+      "response_sha256": "6032a08f86ea0796d5391cbd8789f6fcceaca1f4af87dcc23fafadab83e15e56",
+      "response_bytes": 2049324,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-10-01T00%3A00%3A00%2B00%3A00%2F2019-10-06T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2019-10-01T00%3A00%3A00%2B00%3A00%2F2019-10-06T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 343832,
+      "response_sha256": "4d3cb6831b569595e7b9ff9620be975bc0c4397cf5d44ad2dd28c1c859e86100",
+      "response_bytes": 343832,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 481
+    }
+  ],
+  "errors": [],
+  "full_multi_year_history_audited": false,
+  "usgs_api_key_present": true,
+  "transfer_budget_mib": 40,
+  "decision_interval": "hourly, flow strictly below 450 cfs",
+  "merged_flow_csv_sha256": "8a0527c2ffc8ec380814605be176ba299683a5334832a97c972fb8661ba66033",
+  "audit": {
+    "first_utc": "2018-10-01T00:00:00+00:00",
+    "last_utc": "2019-10-06T00:00:00+00:00",
+    "counting_period_start_utc": "2018-10-01T07:00:00+00:00",
+    "counting_period_end_exclusive_utc": "2019-10-01T07:00:00+00:00",
+    "observations": 35418,
+    "missing_values": 0,
+    "non_15min_intervals": 97,
+    "min_cfs": 15.2,
+    "max_cfs": 3760.0,
+    "raw_upcrossings": 32,
+    "crossings_on_partial_first_local_day_excluded": 0,
+    "deduplicated_crossings": 25,
+    "same_day_repeats_removed": 7,
+    "above_threshold_segment_starts_with_unknown_crossing": 23,
+    "complete_72h_hourly_decisions_below_450": 6158,
+    "hourly_decisions_censored_for_incomplete_local_day_history": 26,
+    "decisions_with_future_deduplicated_crossing": 601,
+    "qualifier_counts": {
+      "Approved": 35418
+    },
+    "events": [
+      {
+        "time_utc": "2018-10-28T08:00:00+00:00",
+        "local_day": "2018-10-28",
+        "discharge_cfs": 467.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-11-02T14:45:00+00:00",
+        "local_day": "2018-11-02",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-11-04T15:30:00+00:00",
+        "local_day": "2018-11-04",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-11-05T14:45:00+00:00",
+        "local_day": "2018-11-05",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-11-27T14:15:00+00:00",
+        "local_day": "2018-11-27",
+        "discharge_cfs": 472.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-11-30T23:30:00+00:00",
+        "local_day": "2018-11-30",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-12-02T04:30:00+00:00",
+        "local_day": "2018-12-01",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-12-12T01:15:00+00:00",
+        "local_day": "2018-12-11",
+        "discharge_cfs": 467.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-12-15T23:00:00+00:00",
+        "local_day": "2018-12-15",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-12-17T01:30:00+00:00",
+        "local_day": "2018-12-16",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-01-10T03:00:00+00:00",
+        "local_day": "2019-01-09",
+        "discharge_cfs": 463.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-01-19T08:15:00+00:00",
+        "local_day": "2019-01-19",
+        "discharge_cfs": 459.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-01-23T02:00:00+00:00",
+        "local_day": "2019-01-22",
+        "discharge_cfs": 459.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-02-12T11:00:00+00:00",
+        "local_day": "2019-02-12",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-02-16T14:15:00+00:00",
+        "local_day": "2019-02-16",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-03-19T23:15:00+00:00",
+        "local_day": "2019-03-19",
+        "discharge_cfs": 463.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-03-25T14:15:00+00:00",
+        "local_day": "2019-03-25",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-03-27T20:15:00+00:00",
+        "local_day": "2019-03-27",
+        "discharge_cfs": 459.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-03-28T12:15:00+00:00",
+        "local_day": "2019-03-28",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-04-03T22:45:00+00:00",
+        "local_day": "2019-04-03",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-04-04T15:00:00+00:00",
+        "local_day": "2019-04-04",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-04-05T21:15:00+00:00",
+        "local_day": "2019-04-05",
+        "discharge_cfs": 459.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-04-19T21:30:00+00:00",
+        "local_day": "2019-04-19",
+        "discharge_cfs": 459.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-04-20T18:45:00+00:00",
+        "local_day": "2019-04-20",
+        "discharge_cfs": 454.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2019-09-18T13:15:00+00:00",
+        "local_day": "2019-09-18",
+        "discharge_cfs": 462.0,
+        "qualifiers": "Approved"
+      }
+    ]
+  },
+  "period_observations_expected": 35040,
+  "period_observations_returned": 34937,
+  "period_missing_or_invalid_values": 0,
+  "period_qualifier_counts": {
+    "Approved": 34937
+  },
+  "observed_hourly_decisions_below_450": 6927,
+  "gaps": [
+    {
+      "before_utc": "2018-10-21T12:30:00+00:00",
+      "after_utc": "2018-10-21T13:15:00+00:00",
+      "interval_seconds": 2700.0,
+      "missing_15min_slots": 2,
+      "before_cfs": 20.0,
+      "after_cfs": 20.0
+    },
+    {
+      "before_utc": "2018-10-30T20:00:00+00:00",
+      "after_utc": "2018-10-30T21:00:00+00:00",
+      "interval_seconds": 3600.0,
+      "missing_15min_slots": 3,
+      "before_cfs": 241.0,
+      "after_cfs": 241.0
+    },
+    {
+      "before_utc": "2018-10-31T04:30:00+00:00",
+      "after_utc": "2018-10-31T05:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 216.0,
+      "after_cfs": 213.0
+    },
+    {
+      "before_utc": "2018-10-31T12:30:00+00:00",
+      "after_utc": "2018-10-31T13:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 213.0,
+      "after_cfs": 218.0
+    },
+    {
+      "before_utc": "2018-10-31T20:30:00+00:00",
+      "after_utc": "2018-10-31T21:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 246.0,
+      "after_cfs": 246.0
+    },
+    {
+      "before_utc": "2018-11-01T04:30:00+00:00",
+      "after_utc": "2018-11-01T05:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 421.0,
+      "after_cfs": 425.0
+    },
+    {
+      "before_utc": "2018-11-01T12:30:00+00:00",
+      "after_utc": "2018-11-01T13:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 389.0,
+      "after_cfs": 393.0
+    },
+    {
+      "before_utc": "2018-11-01T20:30:00+00:00",
+      "after_utc": "2018-11-01T21:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 397.0,
+      "after_cfs": 385.0
+    },
+    {
+      "before_utc": "2018-11-02T04:30:00+00:00",
+      "after_utc": "2018-11-02T05:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 389.0,
+      "after_cfs": 377.0
+    },
+    {
+      "before_utc": "2018-11-02T20:45:00+00:00",
+      "after_utc": "2018-11-02T21:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 700.0,
+      "after_cfs": 700.0
+    },
+    {
+      "before_utc": "2018-11-03T04:45:00+00:00",
+      "after_utc": "2018-11-03T05:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 615.0,
+      "after_cfs": 605.0
+    },
+    {
+      "before_utc": "2018-11-03T12:45:00+00:00",
+      "after_utc": "2018-11-03T13:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 517.0,
+      "after_cfs": 521.0
+    },
+    {
+      "before_utc": "2018-11-04T04:45:00+00:00",
+      "after_utc": "2018-11-04T05:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 381.0,
+      "after_cfs": 377.0
+    },
+    {
+      "before_utc": "2018-11-04T12:45:00+00:00",
+      "after_utc": "2018-11-04T13:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 374.0,
+      "after_cfs": 385.0
+    },
+    {
+      "before_utc": "2018-11-04T20:45:00+00:00",
+      "after_utc": "2018-11-04T21:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 600.0,
+      "after_cfs": 589.0
+    },
+    {
+      "before_utc": "2018-11-05T04:45:00+00:00",
+      "after_utc": "2018-11-05T05:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 512.0,
+      "after_cfs": 517.0
+    },
+    {
+      "before_utc": "2018-11-05T20:45:00+00:00",
+      "after_utc": "2018-11-05T21:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 450.0,
+      "after_cfs": 459.0
+    },
+    {
+      "before_utc": "2018-11-06T13:00:00+00:00",
+      "after_utc": "2018-11-06T13:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 647.0,
+      "after_cfs": 653.0
+    },
+    {
+      "before_utc": "2018-11-06T21:00:00+00:00",
+      "after_utc": "2018-11-06T21:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 584.0,
+      "after_cfs": 595.0
+    },
+    {
+      "before_utc": "2018-11-07T05:00:00+00:00",
+      "after_utc": "2018-11-07T05:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 540.0,
+      "after_cfs": 536.0
+    },
+    {
+      "before_utc": "2018-11-07T13:00:00+00:00",
+      "after_utc": "2018-11-07T13:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 472.0,
+      "after_cfs": 467.0
+    },
+    {
+      "before_utc": "2018-11-07T21:00:00+00:00",
+      "after_utc": "2018-11-07T21:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 421.0,
+      "after_cfs": 413.0
+    },
+    {
+      "before_utc": "2018-11-08T05:00:00+00:00",
+      "after_utc": "2018-11-08T05:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 377.0,
+      "after_cfs": 374.0
+    },
+    {
+      "before_utc": "2018-11-08T13:00:00+00:00",
+      "after_utc": "2018-11-08T13:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 340.0,
+      "after_cfs": 337.0
+    },
+    {
+      "before_utc": "2018-11-08T21:00:00+00:00",
+      "after_utc": "2018-11-08T21:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 306.0,
+      "after_cfs": 313.0
+    },
+    {
+      "before_utc": "2018-11-09T05:15:00+00:00",
+      "after_utc": "2018-11-09T05:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 283.0,
+      "after_cfs": 283.0
+    },
+    {
+      "before_utc": "2018-11-09T13:15:00+00:00",
+      "after_utc": "2018-11-09T13:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 264.0,
+      "after_cfs": 267.0
+    },
+    {
+      "before_utc": "2018-11-09T21:15:00+00:00",
+      "after_utc": "2018-11-09T21:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 252.0,
+      "after_cfs": 252.0
+    },
+    {
+      "before_utc": "2018-11-10T05:15:00+00:00",
+      "after_utc": "2018-11-10T05:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 235.0,
+      "after_cfs": 235.0
+    },
+    {
+      "before_utc": "2018-11-10T13:15:00+00:00",
+      "after_utc": "2018-11-10T13:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 224.0,
+      "after_cfs": 221.0
+    },
+    {
+      "before_utc": "2018-11-10T21:15:00+00:00",
+      "after_utc": "2018-11-10T21:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 208.0,
+      "after_cfs": 208.0
+    },
+    {
+      "before_utc": "2018-11-12T13:30:00+00:00",
+      "after_utc": "2018-11-12T14:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 161.0,
+      "after_cfs": 161.0
+    },
+    {
+      "before_utc": "2018-11-12T21:30:00+00:00",
+      "after_utc": "2018-11-12T22:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 155.0,
+      "after_cfs": 155.0
+    },
+    {
+      "before_utc": "2018-11-13T05:30:00+00:00",
+      "after_utc": "2018-11-13T06:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 150.0,
+      "after_cfs": 148.0
+    },
+    {
+      "before_utc": "2018-11-13T13:30:00+00:00",
+      "after_utc": "2018-11-13T14:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 144.0,
+      "after_cfs": 146.0
+    },
+    {
+      "before_utc": "2018-11-13T21:30:00+00:00",
+      "after_utc": "2018-11-13T22:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 138.0,
+      "after_cfs": 140.0
+    },
+    {
+      "before_utc": "2018-11-14T05:30:00+00:00",
+      "after_utc": "2018-11-14T06:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 136.0,
+      "after_cfs": 134.0
+    },
+    {
+      "before_utc": "2018-11-14T13:30:00+00:00",
+      "after_utc": "2018-11-14T14:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 132.0,
+      "after_cfs": 132.0
+    },
+    {
+      "before_utc": "2018-11-14T21:30:00+00:00",
+      "after_utc": "2018-11-14T22:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 128.0,
+      "after_cfs": 130.0
+    },
+    {
+      "before_utc": "2018-11-15T05:30:00+00:00",
+      "after_utc": "2018-11-15T06:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 128.0,
+      "after_cfs": 128.0
+    },
+    {
+      "before_utc": "2018-11-15T13:30:00+00:00",
+      "after_utc": "2018-11-15T14:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 124.0,
+      "after_cfs": 122.0
+    },
+    {
+      "before_utc": "2018-11-15T14:15:00+00:00",
+      "after_utc": "2018-11-15T14:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 124.0,
+      "after_cfs": 122.0
+    },
+    {
+      "before_utc": "2018-11-15T21:45:00+00:00",
+      "after_utc": "2018-11-15T22:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 118.0,
+      "after_cfs": 118.0
+    },
+    {
+      "before_utc": "2018-11-16T05:45:00+00:00",
+      "after_utc": "2018-11-16T06:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 115.0,
+      "after_cfs": 117.0
+    },
+    {
+      "before_utc": "2018-11-16T13:45:00+00:00",
+      "after_utc": "2018-11-16T14:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 113.0,
+      "after_cfs": 113.0
+    },
+    {
+      "before_utc": "2018-11-16T21:45:00+00:00",
+      "after_utc": "2018-11-16T22:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 111.0,
+      "after_cfs": 111.0
+    },
+    {
+      "before_utc": "2018-11-17T05:45:00+00:00",
+      "after_utc": "2018-11-17T06:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 108.0,
+      "after_cfs": 108.0
+    },
+    {
+      "before_utc": "2018-11-17T13:45:00+00:00",
+      "after_utc": "2018-11-17T14:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 106.0,
+      "after_cfs": 104.0
+    },
+    {
+      "before_utc": "2018-11-17T21:45:00+00:00",
+      "after_utc": "2018-11-17T22:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 103.0,
+      "after_cfs": 103.0
+    },
+    {
+      "before_utc": "2018-11-18T05:45:00+00:00",
+      "after_utc": "2018-11-18T06:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 101.0,
+      "after_cfs": 99.2
+    },
+    {
+      "before_utc": "2018-11-18T13:45:00+00:00",
+      "after_utc": "2018-11-18T14:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 97.5,
+      "after_cfs": 97.5
+    },
+    {
+      "before_utc": "2018-11-18T21:45:00+00:00",
+      "after_utc": "2018-11-18T22:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 95.9,
+      "after_cfs": 95.9
+    },
+    {
+      "before_utc": "2018-11-19T06:00:00+00:00",
+      "after_utc": "2018-11-19T06:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 94.3,
+      "after_cfs": 94.3
+    },
+    {
+      "before_utc": "2018-11-19T14:00:00+00:00",
+      "after_utc": "2018-11-19T14:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 92.7,
+      "after_cfs": 92.7
+    },
+    {
+      "before_utc": "2018-11-19T22:00:00+00:00",
+      "after_utc": "2018-11-19T22:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 89.5,
+      "after_cfs": 91.1
+    },
+    {
+      "before_utc": "2018-11-20T06:00:00+00:00",
+      "after_utc": "2018-11-20T06:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 89.5,
+      "after_cfs": 89.5
+    },
+    {
+      "before_utc": "2018-11-20T14:00:00+00:00",
+      "after_utc": "2018-11-20T14:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 86.5,
+      "after_cfs": 88.0
+    },
+    {
+      "before_utc": "2018-11-20T22:00:00+00:00",
+      "after_utc": "2018-11-20T22:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 85.0,
+      "after_cfs": 85.0
+    },
+    {
+      "before_utc": "2018-11-21T06:00:00+00:00",
+      "after_utc": "2018-11-21T06:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 83.5,
+      "after_cfs": 85.0
+    },
+    {
+      "before_utc": "2018-11-21T14:00:00+00:00",
+      "after_utc": "2018-11-21T14:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 82.0,
+      "after_cfs": 83.5
+    },
+    {
+      "before_utc": "2018-11-21T22:00:00+00:00",
+      "after_utc": "2018-11-21T22:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 82.0,
+      "after_cfs": 82.0
+    },
+    {
+      "before_utc": "2018-11-22T06:00:00+00:00",
+      "after_utc": "2018-11-22T06:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 83.5,
+      "after_cfs": 83.5
+    },
+    {
+      "before_utc": "2018-11-22T14:15:00+00:00",
+      "after_utc": "2018-11-22T14:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 94.3,
+      "after_cfs": 95.9
+    },
+    {
+      "before_utc": "2018-11-22T22:15:00+00:00",
+      "after_utc": "2018-11-22T22:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 103.0,
+      "after_cfs": 106.0
+    },
+    {
+      "before_utc": "2018-11-23T06:15:00+00:00",
+      "after_utc": "2018-11-23T06:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 146.0,
+      "after_cfs": 153.0
+    },
+    {
+      "before_utc": "2018-11-23T14:15:00+00:00",
+      "after_utc": "2018-11-23T14:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 235.0,
+      "after_cfs": 238.0
+    },
+    {
+      "before_utc": "2018-11-23T22:15:00+00:00",
+      "after_utc": "2018-11-23T22:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 303.0,
+      "after_cfs": 319.0
+    },
+    {
+      "before_utc": "2018-11-24T06:15:00+00:00",
+      "after_utc": "2018-11-24T06:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 425.0,
+      "after_cfs": 429.0
+    },
+    {
+      "before_utc": "2018-11-24T14:15:00+00:00",
+      "after_utc": "2018-11-24T14:45:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 397.0,
+      "after_cfs": 393.0
+    },
+    {
+      "before_utc": "2018-11-25T22:30:00+00:00",
+      "after_utc": "2018-11-25T23:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 277.0,
+      "after_cfs": 280.0
+    },
+    {
+      "before_utc": "2018-11-26T06:30:00+00:00",
+      "after_utc": "2018-11-26T07:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 258.0,
+      "after_cfs": 255.0
+    },
+    {
+      "before_utc": "2018-11-26T14:30:00+00:00",
+      "after_utc": "2018-11-26T15:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 238.0,
+      "after_cfs": 235.0
+    },
+    {
+      "before_utc": "2018-11-26T22:30:00+00:00",
+      "after_utc": "2018-11-26T23:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 232.0,
+      "after_cfs": 232.0
+    },
+    {
+      "before_utc": "2018-11-27T06:30:00+00:00",
+      "after_utc": "2018-11-27T07:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 267.0,
+      "after_cfs": 274.0
+    },
+    {
+      "before_utc": "2018-11-27T14:30:00+00:00",
+      "after_utc": "2018-11-27T15:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 485.0,
+      "after_cfs": 517.0
+    },
+    {
+      "before_utc": "2018-11-27T22:30:00+00:00",
+      "after_utc": "2018-11-27T23:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 768.0,
+      "after_cfs": 755.0
+    },
+    {
+      "before_utc": "2018-11-28T06:30:00+00:00",
+      "after_utc": "2018-11-28T07:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 665.0,
+      "after_cfs": 665.0
+    },
+    {
+      "before_utc": "2018-11-28T14:30:00+00:00",
+      "after_utc": "2018-11-28T15:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 605.0,
+      "after_cfs": 610.0
+    },
+    {
+      "before_utc": "2018-11-28T22:30:00+00:00",
+      "after_utc": "2018-11-28T23:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 610.0,
+      "after_cfs": 610.0
+    },
+    {
+      "before_utc": "2018-11-29T06:30:00+00:00",
+      "after_utc": "2018-11-29T07:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 636.0,
+      "after_cfs": 636.0
+    },
+    {
+      "before_utc": "2018-11-29T14:45:00+00:00",
+      "after_utc": "2018-11-29T15:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 600.0,
+      "after_cfs": 584.0
+    },
+    {
+      "before_utc": "2018-11-29T22:45:00+00:00",
+      "after_utc": "2018-11-29T23:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 545.0,
+      "after_cfs": 555.0
+    },
+    {
+      "before_utc": "2018-11-30T06:45:00+00:00",
+      "after_utc": "2018-11-30T07:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 503.0,
+      "after_cfs": 503.0
+    },
+    {
+      "before_utc": "2018-11-30T14:45:00+00:00",
+      "after_utc": "2018-11-30T15:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 463.0,
+      "after_cfs": 459.0
+    },
+    {
+      "before_utc": "2018-11-30T22:45:00+00:00",
+      "after_utc": "2018-11-30T23:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 459.0,
+      "after_cfs": 446.0
+    },
+    {
+      "before_utc": "2018-12-01T06:45:00+00:00",
+      "after_utc": "2018-12-01T07:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 508.0,
+      "after_cfs": 489.0
+    },
+    {
+      "before_utc": "2018-12-01T14:45:00+00:00",
+      "after_utc": "2018-12-01T15:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 489.0,
+      "after_cfs": 485.0
+    },
+    {
+      "before_utc": "2018-12-01T22:45:00+00:00",
+      "after_utc": "2018-12-01T23:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 463.0,
+      "after_cfs": 463.0
+    },
+    {
+      "before_utc": "2018-12-02T06:45:00+00:00",
+      "after_utc": "2018-12-02T07:15:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 437.0,
+      "after_cfs": 433.0
+    },
+    {
+      "before_utc": "2018-12-02T15:00:00+00:00",
+      "after_utc": "2018-12-02T15:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 421.0,
+      "after_cfs": 417.0
+    },
+    {
+      "before_utc": "2018-12-02T23:00:00+00:00",
+      "after_utc": "2018-12-02T23:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 389.0,
+      "after_cfs": 397.0
+    },
+    {
+      "before_utc": "2018-12-03T07:00:00+00:00",
+      "after_utc": "2018-12-03T07:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 366.0,
+      "after_cfs": 374.0
+    },
+    {
+      "before_utc": "2018-12-03T15:00:00+00:00",
+      "after_utc": "2018-12-03T15:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 351.0,
+      "after_cfs": 348.0
+    },
+    {
+      "before_utc": "2018-12-03T23:00:00+00:00",
+      "after_utc": "2018-12-03T23:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 333.0,
+      "after_cfs": 337.0
+    },
+    {
+      "before_utc": "2018-12-04T07:00:00+00:00",
+      "after_utc": "2018-12-04T07:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 323.0,
+      "after_cfs": 316.0
+    },
+    {
+      "before_utc": "2018-12-04T15:00:00+00:00",
+      "after_utc": "2018-12-04T15:30:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 299.0,
+      "after_cfs": 303.0
+    },
+    {
+      "before_utc": "2018-12-04T21:30:00+00:00",
+      "after_utc": "2018-12-04T22:45:00+00:00",
+      "interval_seconds": 4500.0,
+      "missing_15min_slots": 4,
+      "before_cfs": 293.0,
+      "after_cfs": 289.0
+    }
+  ],
+  "monthly_crossing_counts_local": {
+    "2018-10": 1,
+    "2018-11": 5,
+    "2018-12": 4,
+    "2019-01": 3,
+    "2019-02": 2,
+    "2019-03": 4,
+    "2019-04": 5,
+    "2019-09": 1
+  },
+  "new_download_bytes": 10796197,
+  "retained_response_bytes_excluding_reused_csv": 25195328,
+  "conservative_note": "One-year feasibility audit, not a multi-year event frequency estimate. Overlapping decision windows are correlated."
+}

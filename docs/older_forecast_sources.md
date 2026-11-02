@@ -8,7 +8,7 @@ upward crossing to strictly above 450 cfs within 72 hours (one crossing per Paci
 
 | Source | Period | Verified | Use |
 | --- | --- | --- | --- |
-| USGS 14219000 instantaneous flow | WY2008–2018 | 11 annual audits, all observations approved | **272 crossing days**, about double the 2021–2026 count |
+| USGS 14219000 instantaneous flow | WY2008–2020 | 13 annual audits, all observations approved | **320 crossing days**; 458 with WY2021–2026 |
 | GEFSv12 reforecast (AWS) | 2000–2019, daily 00Z, 5 members | Complete cycle inventory; actual files fetched, decoded twice and basin-averaged | Main candidate for pre-2020 forecast input |
 | NDFD old archive (NCEI THREDDS) | June 2018 – May 2020 | Weekly catalog sample (122 days) | Irregular issue times; usable only with a later decision time |
 
@@ -16,7 +16,7 @@ The 2025 dataset was also rebuilt from fresh downloads on this machine. Labels a
 identical; forecast-derived values differed by at most 3.9e-16 relative (floating-point summation order);
 all 258 source hashes matched.
 
-## Streamflow, water years 2008–2018
+## Streamflow, water years 2008–2020
 
 `scripts/audit_water_year.py` supports water years from 2008. Its existing rules were applied
 unchanged. Reports are in `feasibility_evidence/water_year_<year>_flow.json`.
@@ -34,10 +34,14 @@ unchanged. Reports are in `feasibility_evidence/water_year_<year>_flow.json`.
 | 2016 | 16 | 45 | 9,390 |
 | 2017 | 39 | 97 | 4,670 |
 | 2018 | 25 | 54 | 8,350 |
-| **Total** | **272** | | |
+| 2019 | 25 | 32 | 3,760 |
+| 2020 | 23 | 47 | 5,220 |
+| **Total** | **320** | | |
 
-Water years 2019 and 2020 were interrupted by USGS rate limiting (HTTP 429, no API key) and are
-recorded separately once retried. Many crossings are recorded at 452 cfs, just above the threshold, so
+Water years 2019 and 2020 were first interrupted by USGS rate limiting (HTTP 429 without an API key) and
+then completed with `USGS_API_KEY` set; the key is loaded from a private file outside the repository and
+does not appear in any report. With the 138 crossing days already audited for 2021–2026, WY2008–2026 has
+**458 observed crossing days**. Many crossings are recorded at 452 cfs, just above the threshold, so
 marginal events are common.
 
 ## GEFSv12 reforecast

@@ -16,7 +16,7 @@ See [origin and migration notes](ORIGIN.md).
   representing seven of twelve observed crossing days**. Every scheduled decision is audited.
 - Implemented fractional-area basin precipitation extraction, explicit timing assumptions,
   resumable acquisition, source hashes and offline regression checks.
-- Audited water years 2008–2018 (**272 more crossing days**) and verified GEFSv12 reforecasts
+- Audited water years 2008–2020 (**320 more crossing days**, 458 in total) and verified GEFSv12 reforecasts
   (2000–2019) as a pre-2020 forecast source; NCEI's older NDFD archive is irregular. See
   [extending the record](docs/older_forecast_sources.md).
 
