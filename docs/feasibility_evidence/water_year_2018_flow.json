@@ -1,0 +1,344 @@
+{
+  "water_year": 2018,
+  "requests": [
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-10-01T00%3A00%3A00%2B00%3A00%2F2017-11-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-10-01T00%3A00%3A00%2B00%3A00%2F2017-11-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2117386,
+      "response_sha256": "9f30c3633bb27f2b5598d7779f7161eeae3f623f9d5476a4477c13a169c97a74",
+      "response_bytes": 2117386,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-11-01T00%3A00%3A00%2B00%3A00%2F2017-12-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-11-01T00%3A00%3A00%2B00%3A00%2F2017-12-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2048391,
+      "response_sha256": "00d97366a9a040f7e440b6b20735d0c7aab38733e545277385dcf0811fd43c98",
+      "response_bytes": 2048391,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-12-01T00%3A00%3A00%2B00%3A00%2F2018-01-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2017-12-01T00%3A00%3A00%2B00%3A00%2F2018-01-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2115237,
+      "response_sha256": "68e9635f196ac130bec56e5349870f1fdab597292093f2beb1848c9321d2a878",
+      "response_bytes": 2115237,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2976
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-01-01T00%3A00%3A00%2B00%3A00%2F2018-02-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-01-01T00%3A00%3A00%2B00%3A00%2F2018-02-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2116619,
+      "response_sha256": "8aa028e50d78001ca9bfabd2c9ffac60057fb506483501a8c53de5d43750a592",
+      "response_bytes": 2116619,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-02-01T00%3A00%3A00%2B00%3A00%2F2018-03-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-02-01T00%3A00%3A00%2B00%3A00%2F2018-03-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 1911589,
+      "response_sha256": "394454deded712ccd1f353d0262c0582c17140dbfbaac14fac1090ea8ff44052",
+      "response_bytes": 1911589,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2689
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-03-01T00%3A00%3A00%2B00%3A00%2F2018-04-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-03-01T00%3A00%3A00%2B00%3A00%2F2018-04-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2115512,
+      "response_sha256": "a2e895adf4b3752de98ec05b965f964c132c3dda00edc1d7e92c86891aae3f0b",
+      "response_bytes": 2115512,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-04-01T00%3A00%3A00%2B00%3A00%2F2018-05-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-04-01T00%3A00%3A00%2B00%3A00%2F2018-05-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2048265,
+      "response_sha256": "d63b7ed345b00ea5ebf69fb8abead594ab815ac35fce1d33a331b2ef41f942c6",
+      "response_bytes": 2048265,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-05-01T00%3A00%3A00%2B00%3A00%2F2018-06-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-05-01T00%3A00%3A00%2B00%3A00%2F2018-06-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2116567,
+      "response_sha256": "079b9776115f6cc42a0fe5d24abdff979a7b4af3f7397440211ad2c45a388199",
+      "response_bytes": 2116567,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-06-01T00%3A00%3A00%2B00%3A00%2F2018-07-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-06-01T00%3A00%3A00%2B00%3A00%2F2018-07-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2050226,
+      "response_sha256": "74ed911f9d855c6798c3b0567560a4a773479b7047a09c9c6351b58e0ca2fafb",
+      "response_bytes": 2050226,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-07-01T00%3A00%3A00%2B00%3A00%2F2018-08-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-07-01T00%3A00%3A00%2B00%3A00%2F2018-08-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2118489,
+      "response_sha256": "63daab2bc0cf9aa2bf2015f1f90744e36db3d82c71b2e711db6e336e12548aa0",
+      "response_bytes": 2118489,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-08-01T00%3A00%3A00%2B00%3A00%2F2018-09-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-08-01T00%3A00%3A00%2B00%3A00%2F2018-09-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2118489,
+      "response_sha256": "d6575f81b967eeedb05b99994d8a3de20b0a7e6cf4293fc55407ee8000791b9e",
+      "response_bytes": 2118489,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2977
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-09-01T00%3A00%3A00%2B00%3A00%2F2018-10-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-09-01T00%3A00%3A00%2B00%3A00%2F2018-10-01T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 2050233,
+      "response_sha256": "43335db64a1a24ae25410acf0f5948ee1bac05d72ea553e368f25dbc9ed84aa4",
+      "response_bytes": 2050233,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 2881
+    },
+    {
+      "requested_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-10-01T00%3A00%3A00%2B00%3A00%2F2018-10-06T00%3A00%3A00%2B00%3A00&limit=10000",
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/continuous/items?f=json&monitoring_location_id=USGS-14219000&parameter_code=00060&statistic_id=00011&datetime=2018-10-01T00%3A00%3A00%2B00%3A00%2F2018-10-06T00%3A00%3A00%2B00%3A00&limit=10000",
+      "new_download_bytes": 343832,
+      "response_sha256": "b23e218e1662eb97b35e2858babd0ecd20f9854a9810725dd6542fab2703cd08",
+      "response_bytes": 343832,
+      "start_endpoint_present": true,
+      "end_endpoint_present": true,
+      "observations": 481
+    }
+  ],
+  "errors": [],
+  "full_multi_year_history_audited": false,
+  "usgs_api_key_present": false,
+  "transfer_budget_mib": 40,
+  "decision_interval": "hourly, flow strictly below 450 cfs",
+  "merged_flow_csv_sha256": "ece0bec941c4c3ade62af17aa44bac12b4b40aadad58545dfed4556a9d7a3e27",
+  "audit": {
+    "first_utc": "2017-10-01T00:00:00+00:00",
+    "last_utc": "2018-10-06T00:00:00+00:00",
+    "counting_period_start_utc": "2017-10-01T07:00:00+00:00",
+    "counting_period_end_exclusive_utc": "2018-10-01T07:00:00+00:00",
+    "observations": 35520,
+    "missing_values": 0,
+    "non_15min_intervals": 1,
+    "min_cfs": 16.9,
+    "max_cfs": 8350.0,
+    "raw_upcrossings": 54,
+    "crossings_on_partial_first_local_day_excluded": 0,
+    "deduplicated_crossings": 25,
+    "same_day_repeats_removed": 29,
+    "above_threshold_segment_starts_with_unknown_crossing": 1,
+    "complete_72h_hourly_decisions_below_450": 6073,
+    "hourly_decisions_censored_for_incomplete_local_day_history": 0,
+    "decisions_with_future_deduplicated_crossing": 928,
+    "qualifier_counts": {
+      "Approved": 35520
+    },
+    "events": [
+      {
+        "time_utc": "2017-10-19T16:00:00+00:00",
+        "local_day": "2017-10-19",
+        "discharge_cfs": 504.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-10-26T15:30:00+00:00",
+        "local_day": "2017-10-26",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-11-05T14:30:00+00:00",
+        "local_day": "2017-11-05",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-11-10T17:30:00+00:00",
+        "local_day": "2017-11-10",
+        "discharge_cfs": 471.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-12-07T03:15:00+00:00",
+        "local_day": "2017-12-06",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-12-19T14:15:00+00:00",
+        "local_day": "2017-12-19",
+        "discharge_cfs": 461.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2017-12-28T09:45:00+00:00",
+        "local_day": "2017-12-28",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-01-04T12:30:00+00:00",
+        "local_day": "2018-01-04",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-01-06T11:15:00+00:00",
+        "local_day": "2018-01-06",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-01-09T13:45:00+00:00",
+        "local_day": "2018-01-09",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-01-17T17:45:00+00:00",
+        "local_day": "2018-01-17",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-02-10T00:15:00+00:00",
+        "local_day": "2018-02-09",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-02-17T14:15:00+00:00",
+        "local_day": "2018-02-17",
+        "discharge_cfs": 461.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-02-21T21:15:00+00:00",
+        "local_day": "2018-02-21",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-02-25T21:30:00+00:00",
+        "local_day": "2018-02-25",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-03-01T05:15:00+00:00",
+        "local_day": "2018-02-28",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-03-02T17:45:00+00:00",
+        "local_day": "2018-03-02",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-03-09T05:30:00+00:00",
+        "local_day": "2018-03-08",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-03-16T18:15:00+00:00",
+        "local_day": "2018-03-16",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-03-27T14:00:00+00:00",
+        "local_day": "2018-03-27",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-04-01T01:15:00+00:00",
+        "local_day": "2018-03-31",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-04-01T07:30:00+00:00",
+        "local_day": "2018-04-01",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-04-02T10:30:00+00:00",
+        "local_day": "2018-04-02",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-04-06T01:45:00+00:00",
+        "local_day": "2018-04-05",
+        "discharge_cfs": 457.0,
+        "qualifiers": "Approved"
+      },
+      {
+        "time_utc": "2018-04-22T12:30:00+00:00",
+        "local_day": "2018-04-22",
+        "discharge_cfs": 452.0,
+        "qualifiers": "Approved"
+      }
+    ]
+  },
+  "period_observations_expected": 35040,
+  "period_observations_returned": 35039,
+  "period_missing_or_invalid_values": 0,
+  "period_qualifier_counts": {
+    "Approved": 35039
+  },
+  "observed_hourly_decisions_below_450": 6073,
+  "gaps": [
+    {
+      "before_utc": "2017-12-04T21:30:00+00:00",
+      "after_utc": "2017-12-04T22:00:00+00:00",
+      "interval_seconds": 1800.0,
+      "missing_15min_slots": 1,
+      "before_cfs": 743.0,
+      "after_cfs": 737.0
+    }
+  ],
+  "monthly_crossing_counts_local": {
+    "2017-10": 2,
+    "2017-11": 2,
+    "2017-12": 3,
+    "2018-01": 4,
+    "2018-02": 5,
+    "2018-03": 5,
+    "2018-04": 4
+  },
+  "new_download_bytes": 25270835,
+  "retained_response_bytes_excluding_reused_csv": 25270835,
+  "conservative_note": "One-year feasibility audit, not a multi-year event frequency estimate. Overlapping decision windows are correlated."
+}

@@ -1,0 +1,1106 @@
+[
+ {
+  "date": "2018-06-05",
+  "http": "cached",
+  "issues_listed": 15,
+  "issues_same_day": 15,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-06-12",
+  "http": 200,
+  "issues_listed": 32,
+  "issues_same_day": 32,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-06-19",
+  "http": 200,
+  "issues_listed": 18,
+  "issues_same_day": 18,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-06-26",
+  "http": 200,
+  "issues_listed": 17,
+  "issues_same_day": 17,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-07-03",
+  "http": 200,
+  "issues_listed": 15,
+  "issues_same_day": 15,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-07-10",
+  "http": 200,
+  "issues_listed": 16,
+  "issues_same_day": 16,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-07-17",
+  "http": 200,
+  "issues_listed": 29,
+  "issues_same_day": 29,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-07-24",
+  "http": 200,
+  "issues_listed": 34,
+  "issues_same_day": 34,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:46"
+  ]
+ },
+ {
+  "date": "2018-07-31",
+  "http": 200,
+  "issues_listed": 30,
+  "issues_same_day": 30,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-08-07",
+  "http": 200,
+  "issues_listed": 26,
+  "issues_same_day": 26,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-08-14",
+  "http": 200,
+  "issues_listed": 29,
+  "issues_same_day": 29,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-08-21",
+  "http": 200,
+  "issues_listed": 19,
+  "issues_same_day": 19,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-08-28",
+  "http": 200,
+  "issues_listed": 16,
+  "issues_same_day": 16,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-09-04",
+  "http": 200,
+  "issues_listed": 19,
+  "issues_same_day": 19,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-09-11",
+  "http": 200,
+  "issues_listed": 16,
+  "issues_same_day": 16,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-09-18",
+  "http": 200,
+  "issues_listed": 16,
+  "issues_same_day": 16,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-09-25",
+  "http": 200,
+  "issues_listed": 29,
+  "issues_same_day": 29,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-10-02",
+  "http": 200,
+  "issues_listed": 29,
+  "issues_same_day": 29,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2018-10-09",
+  "http": 200,
+  "issues_listed": 28,
+  "issues_same_day": 28,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:46"
+  ]
+ },
+ {
+  "date": "2018-10-16",
+  "http": 200,
+  "issues_listed": 34,
+  "issues_same_day": 34,
+  "first": "06:15",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-10-23",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-10-30",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-11-06",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-11-13",
+  "http": 200,
+  "issues_listed": 33,
+  "issues_same_day": 33,
+  "first": "04:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-11-20",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-11-27",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "00:17",
+  "issues_00z_hour": [
+   "00:17"
+  ]
+ },
+ {
+  "date": "2018-12-04",
+  "http": 200,
+  "issues_listed": 35,
+  "issues_same_day": 35,
+  "first": "05:46",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2018-12-11",
+  "http": 200,
+  "issues_listed": 39,
+  "issues_same_day": 39,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2018-12-18",
+  "http": 200,
+  "issues_listed": 39,
+  "issues_same_day": 39,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2018-12-25",
+  "http": 200,
+  "issues_listed": 44,
+  "issues_same_day": 44,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-01-01",
+  "http": 200,
+  "issues_listed": 43,
+  "issues_same_day": 43,
+  "first": "01:47",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-01-08",
+  "http": 200,
+  "issues_listed": 37,
+  "issues_same_day": 37,
+  "first": "02:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-01-15",
+  "http": 200,
+  "issues_listed": 43,
+  "issues_same_day": 43,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-01-22",
+  "http": 200,
+  "issues_listed": 39,
+  "issues_same_day": 39,
+  "first": "01:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-01-29",
+  "http": 200,
+  "issues_listed": 31,
+  "issues_same_day": 31,
+  "first": "02:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-02-05",
+  "http": 200,
+  "issues_listed": 37,
+  "issues_same_day": 37,
+  "first": "02:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-02-12",
+  "http": 200,
+  "issues_listed": 41,
+  "issues_same_day": 41,
+  "first": "02:47",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-02-19",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "02:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-02-26",
+  "http": 200,
+  "issues_listed": 32,
+  "issues_same_day": 32,
+  "first": "00:17",
+  "issues_00z_hour": [
+   "00:17"
+  ]
+ },
+ {
+  "date": "2019-03-05",
+  "http": 200,
+  "issues_listed": 25,
+  "issues_same_day": 25,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-03-12",
+  "http": 200,
+  "issues_listed": 36,
+  "issues_same_day": 36,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2019-03-19",
+  "http": 200,
+  "issues_listed": 21,
+  "issues_same_day": 21,
+  "first": "02:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-03-26",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16"
+  ]
+ },
+ {
+  "date": "2019-04-02",
+  "http": 200,
+  "issues_listed": 43,
+  "issues_same_day": 43,
+  "first": "02:46",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-04-09",
+  "http": 200,
+  "issues_listed": 43,
+  "issues_same_day": 43,
+  "first": "02:46",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-04-16",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-04-23",
+  "http": 200,
+  "issues_listed": 46,
+  "issues_same_day": 46,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-04-30",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-05-07",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-05-14",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:46"
+  ]
+ },
+ {
+  "date": "2019-05-21",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-05-28",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-06-04",
+  "http": 200,
+  "issues_listed": 32,
+  "issues_same_day": 32,
+  "first": "08:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-06-11",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:46",
+  "issues_00z_hour": [
+   "00:46"
+  ]
+ },
+ {
+  "date": "2019-06-18",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-06-25",
+  "http": 200,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-07-02",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-07-09",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-07-16",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-07-23",
+  "http": 200,
+  "issues_listed": 46,
+  "issues_same_day": 46,
+  "first": "01:16",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-07-30",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:46"
+  ]
+ },
+ {
+  "date": "2019-08-06",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-08-13",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-08-20",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:16",
+  "issues_00z_hour": [
+   "00:16",
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-08-27",
+  "http": 200,
+  "issues_listed": 47,
+  "issues_same_day": 47,
+  "first": "00:47",
+  "issues_00z_hour": [
+   "00:47"
+  ]
+ },
+ {
+  "date": "2019-09-03",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:48"
+  ]
+ },
+ {
+  "date": "2019-09-10",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:48"
+  ]
+ },
+ {
+  "date": "2019-09-17",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2019-09-24",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2019-10-01",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2019-10-08",
+  "http": 200,
+  "issues_listed": 46,
+  "issues_same_day": 46,
+  "first": "00:17",
+  "issues_00z_hour": [
+   "00:17",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2019-10-15",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-10-22",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-10-29",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:19",
+  "issues_00z_hour": [
+   "00:19",
+   "00:50"
+  ]
+ },
+ {
+  "date": "2019-11-05",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-11-12",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-11-19",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-11-26",
+  "http": 200,
+  "issues_listed": 18,
+  "issues_same_day": 18,
+  "first": "00:50",
+  "issues_00z_hour": [
+   "00:50"
+  ]
+ },
+ {
+  "date": "2019-12-03",
+  "http": 200,
+  "issues_listed": 1,
+  "issues_same_day": 1,
+  "first": "13:48",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-12-10",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-12-17",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-12-24",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2019-12-31",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-01-07",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:50"
+  ]
+ },
+ {
+  "date": "2020-01-14",
+  "http": 200,
+  "issues_listed": 41,
+  "issues_same_day": 41,
+  "first": "03:48",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-01-21",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2020-01-28",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-02-04",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-02-11",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-02-18",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-02-25",
+  "http": 200,
+  "issues_listed": 40,
+  "issues_same_day": 40,
+  "first": "04:19",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-03-03",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-03-10",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-03-17",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:49"
+  ]
+ },
+ {
+  "date": "2020-03-24",
+  "http": 200,
+  "issues_listed": 29,
+  "issues_same_day": 29,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-03-31",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:17",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-04-07",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-04-14",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-04-21",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-04-28",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-05-05",
+  "http": 200,
+  "issues_listed": 42,
+  "issues_same_day": 42,
+  "first": "03:18",
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-05-12",
+  "http": 200,
+  "issues_listed": 48,
+  "issues_same_day": 48,
+  "first": "00:18",
+  "issues_00z_hour": [
+   "00:18",
+   "00:50"
+  ]
+ },
+ {
+  "date": "2020-05-19",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-05-26",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-06-02",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-06-09",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-06-16",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-06-23",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-06-30",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-07-07",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-07-14",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-07-21",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-07-28",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-08-04",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-08-11",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-08-18",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-08-25",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-09-01",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-09-08",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-09-15",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-09-22",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ },
+ {
+  "date": "2020-09-29",
+  "http": 404,
+  "issues_listed": 0,
+  "issues_same_day": 0,
+  "first": null,
+  "issues_00z_hour": []
+ }
+]

@@ -1,0 +1,587 @@
+[
+ {
+  "cycle": "2015103000",
+  "member": "c00",
+  "source_url": "https://noaa-gefs-retrospective.s3.amazonaws.com/GEFSv12/reforecast/2015/2015103000/c00/Days:1-10/apcp_sfc_2015103000_c00.grib2",
+  "bytes": 3616107,
+  "sha256": "2f09244bfe877bb833b2c02855a39214d9ac1b3fed5bbcca984452d1efa2c7e6",
+  "cells": [
+   {
+    "lat": 46.0,
+    "lon": -122.25,
+    "basin_area_fraction": 0.6552459779258017
+   },
+   {
+    "lat": 46.0,
+    "lon": -122.0,
+    "basin_area_fraction": 0.10332386829538433
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.25,
+    "basin_area_fraction": 0.1893441191927354
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.0,
+    "basin_area_fraction": 0.05208603458607641
+   }
+  ],
+  "max_decoder_difference_mm": 9.155273431815658e-06,
+  "total_mm": 187.8619660532575,
+  "intervals": [
+   {
+    "start_hour": 6,
+    "end_hour": 12,
+    "basin_mean_mm": 2.9067727870762994,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 6.103515630684342e-06
+   },
+   {
+    "start_hour": 12,
+    "end_hour": 18,
+    "basin_mean_mm": 24.97908950872763,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 18,
+    "end_hour": 24,
+    "basin_mean_mm": 26.16877200093899,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 24,
+    "end_hour": 30,
+    "basin_mean_mm": 44.22982130648691,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 30,
+    "end_hour": 36,
+    "basin_mean_mm": 6.665474498467956,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 36,
+    "end_hour": 42,
+    "basin_mean_mm": 8.866875712732533,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 42,
+    "end_hour": 48,
+    "basin_mean_mm": 43.55384593097327,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 6.103515630684342e-06
+   },
+   {
+    "start_hour": 48,
+    "end_hour": 54,
+    "basin_mean_mm": 3.0437179992457053,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 54,
+    "end_hour": 60,
+    "basin_mean_mm": 5.120225644871705,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 60,
+    "end_hour": 66,
+    "basin_mean_mm": 8.596258733465499,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 66,
+    "end_hour": 72,
+    "basin_mean_mm": 9.817451765753553,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 72,
+    "end_hour": 78,
+    "basin_mean_mm": 3.913660164517435,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   }
+  ]
+ },
+ {
+  "cycle": "2015103000",
+  "member": "p01",
+  "source_url": "https://noaa-gefs-retrospective.s3.amazonaws.com/GEFSv12/reforecast/2015/2015103000/p01/Days:1-10/apcp_sfc_2015103000_p01.grib2",
+  "bytes": 3581257,
+  "sha256": "2ba5ebee713587336cdda7ea1b2a7a6e20b25d9546f0ef87567423341b49bccb",
+  "cells": [
+   {
+    "lat": 46.0,
+    "lon": -122.25,
+    "basin_area_fraction": 0.6552459779258017
+   },
+   {
+    "lat": 46.0,
+    "lon": -122.0,
+    "basin_area_fraction": 0.10332386829538433
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.25,
+    "basin_area_fraction": 0.1893441191927354
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.0,
+    "basin_area_fraction": 0.05208603458607641
+   }
+  ],
+  "max_decoder_difference_mm": 9.155273431815658e-06,
+  "total_mm": 161.76118267224336,
+  "intervals": [
+   {
+    "start_hour": 6,
+    "end_hour": 12,
+    "basin_mean_mm": 1.3534460823659402,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 12,
+    "end_hour": 18,
+    "basin_mean_mm": 18.118603979102996,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 18,
+    "end_hour": 24,
+    "basin_mean_mm": 21.066036811409194,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 24,
+    "end_hour": 30,
+    "basin_mean_mm": 25.6667495783255,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 30,
+    "end_hour": 36,
+    "basin_mean_mm": 9.346424122968887,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 36,
+    "end_hour": 42,
+    "basin_mean_mm": 14.199526928012938,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 42,
+    "end_hour": 48,
+    "basin_mean_mm": 37.877608198821825,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 48,
+    "end_hour": 54,
+    "basin_mean_mm": 2.2277734497006856,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 54,
+    "end_hour": 60,
+    "basin_mean_mm": 5.4152228587217195,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 60,
+    "end_hour": 66,
+    "basin_mean_mm": 9.76435950162236,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 66,
+    "end_hour": 72,
+    "basin_mean_mm": 9.800337854424765,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 72,
+    "end_hour": 78,
+    "basin_mean_mm": 6.925093306766564,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   }
+  ]
+ },
+ {
+  "cycle": "2015103000",
+  "member": "p02",
+  "source_url": "https://noaa-gefs-retrospective.s3.amazonaws.com/GEFSv12/reforecast/2015/2015103000/p02/Days:1-10/apcp_sfc_2015103000_p02.grib2",
+  "bytes": 3589375,
+  "sha256": "a17a07bb492f86a9b6d63192fc4a5a1e1abf7c47ec3dd5f489b823e053a15708",
+  "cells": [
+   {
+    "lat": 46.0,
+    "lon": -122.25,
+    "basin_area_fraction": 0.6552459779258017
+   },
+   {
+    "lat": 46.0,
+    "lon": -122.0,
+    "basin_area_fraction": 0.10332386829538433
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.25,
+    "basin_area_fraction": 0.1893441191927354
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.0,
+    "basin_area_fraction": 0.05208603458607641
+   }
+  ],
+  "max_decoder_difference_mm": 9.155273431815658e-06,
+  "total_mm": 205.66372736006187,
+  "intervals": [
+   {
+    "start_hour": 6,
+    "end_hour": 12,
+    "basin_mean_mm": 2.263778450921623,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 12,
+    "end_hour": 18,
+    "basin_mean_mm": 21.93083235831431,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 18,
+    "end_hour": 24,
+    "basin_mean_mm": 24.592498996627906,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 24,
+    "end_hour": 30,
+    "basin_mean_mm": 36.50210016396678,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 30,
+    "end_hour": 36,
+    "basin_mean_mm": 5.717151972382155,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 36,
+    "end_hour": 42,
+    "basin_mean_mm": 28.45107260500875,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 42,
+    "end_hour": 48,
+    "basin_mean_mm": 50.808686909440716,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 48,
+    "end_hour": 54,
+    "basin_mean_mm": 7.502794545805506,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 54,
+    "end_hour": 60,
+    "basin_mean_mm": 3.5273894555928966,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 60,
+    "end_hour": 66,
+    "basin_mean_mm": 8.604985196417706,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 66,
+    "end_hour": 72,
+    "basin_mean_mm": 11.159143754747626,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 72,
+    "end_hour": 78,
+    "basin_mean_mm": 4.603292950835907,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   }
+  ]
+ },
+ {
+  "cycle": "2015103000",
+  "member": "p03",
+  "source_url": "https://noaa-gefs-retrospective.s3.amazonaws.com/GEFSv12/reforecast/2015/2015103000/p03/Days:1-10/apcp_sfc_2015103000_p03.grib2",
+  "bytes": 3583481,
+  "sha256": "869abb1c7d592828f260e4c6c5f91b9fa4ca9c84e4d4215d8d13b253e113d628",
+  "cells": [
+   {
+    "lat": 46.0,
+    "lon": -122.25,
+    "basin_area_fraction": 0.6552459779258017
+   },
+   {
+    "lat": 46.0,
+    "lon": -122.0,
+    "basin_area_fraction": 0.10332386829538433
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.25,
+    "basin_area_fraction": 0.1893441191927354
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.0,
+    "basin_area_fraction": 0.05208603458607641
+   }
+  ],
+  "max_decoder_difference_mm": 1.2207031261368684e-05,
+  "total_mm": 203.28348164973275,
+  "intervals": [
+   {
+    "start_hour": 6,
+    "end_hour": 12,
+    "basin_mean_mm": 4.5602190654064545,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 12,
+    "end_hour": 18,
+    "basin_mean_mm": 28.830695584247596,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 4.577636715907829e-06
+   },
+   {
+    "start_hour": 18,
+    "end_hour": 24,
+    "basin_mean_mm": 20.935576626086032,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 24,
+    "end_hour": 30,
+    "basin_mean_mm": 32.21435972601031,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 30,
+    "end_hour": 36,
+    "basin_mean_mm": 6.4222115805160565,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 36,
+    "end_hour": 42,
+    "basin_mean_mm": 30.019526236360736,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 42,
+    "end_hour": 48,
+    "basin_mean_mm": 52.840798636092195,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 48,
+    "end_hour": 54,
+    "basin_mean_mm": 5.428362124636527,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 54,
+    "end_hour": 60,
+    "basin_mean_mm": 8.682117239466088,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 60,
+    "end_hour": 66,
+    "basin_mean_mm": 4.6494486191627695,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 66,
+    "end_hour": 72,
+    "basin_mean_mm": 5.733166840100453,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 1.2207031261368684e-05
+   },
+   {
+    "start_hour": 72,
+    "end_hour": 78,
+    "basin_mean_mm": 2.966999371647526,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 6.103515630684342e-06
+   }
+  ]
+ },
+ {
+  "cycle": "2015103000",
+  "member": "p04",
+  "source_url": "https://noaa-gefs-retrospective.s3.amazonaws.com/GEFSv12/reforecast/2015/2015103000/p04/Days:1-10/apcp_sfc_2015103000_p04.grib2",
+  "bytes": 3583557,
+  "sha256": "bf36219a4d53a8dbf0c899e6fad13650b24b3efd1e87cd33f0082743b0008cb6",
+  "cells": [
+   {
+    "lat": 46.0,
+    "lon": -122.25,
+    "basin_area_fraction": 0.6552459779258017
+   },
+   {
+    "lat": 46.0,
+    "lon": -122.0,
+    "basin_area_fraction": 0.10332386829538433
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.25,
+    "basin_area_fraction": 0.1893441191927354
+   },
+   {
+    "lat": 45.75,
+    "lon": -122.0,
+    "basin_area_fraction": 0.05208603458607641
+   }
+  ],
+  "max_decoder_difference_mm": 9.155273431815658e-06,
+  "total_mm": 176.67554844013128,
+  "intervals": [
+   {
+    "start_hour": 6,
+    "end_hour": 12,
+    "basin_mean_mm": 6.387788196965204,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 12,
+    "end_hour": 18,
+    "basin_mean_mm": 25.636146862692527,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 18,
+    "end_hour": 24,
+    "basin_mean_mm": 34.72313552927745,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 24,
+    "end_hour": 30,
+    "basin_mean_mm": 32.452304098063685,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 30,
+    "end_hour": 36,
+    "basin_mean_mm": 6.431349992082477,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 36,
+    "end_hour": 42,
+    "basin_mean_mm": 8.577329136392645,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 42,
+    "end_hour": 48,
+    "basin_mean_mm": 24.58654010398628,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 6.103515630684342e-06
+   },
+   {
+    "start_hour": 48,
+    "end_hour": 54,
+    "basin_mean_mm": 3.5722114084843617,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 54,
+    "end_hour": 60,
+    "basin_mean_mm": 6.466998938430536,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 60,
+    "end_hour": 66,
+    "basin_mean_mm": 13.135799858900427,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 66,
+    "end_hour": 72,
+    "basin_mean_mm": 13.29227048396197,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   },
+   {
+    "start_hour": 72,
+    "end_hour": 78,
+    "basin_mean_mm": 1.413673830893752,
+    "valid_area_fraction": 0.9999999999999979,
+    "max_decoder_difference_mm": 9.155273431815658e-06
+   }
+  ]
+ }
+]
