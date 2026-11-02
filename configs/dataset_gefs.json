@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "water_years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+                  2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+  "flow_csv_pattern": ".cache/feasibility/water-year-{year}/discharge.csv",
+  "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+  "decision_hour_utc": 12,
+  "flow_delay_minutes": 15,
+  "flow_lookback_hours": 72,
+  "gefs_cycle_hour_utc": 0,
+  "gefs_member": "c00",
+  "gefs_assumed_delay_hours": 6,
+  "qpf_horizons_hours": [6, 12, 24, 48, 72],
+  "target_horizon_hours": 72,
+  "new_download_budget_gib": 40
+}
