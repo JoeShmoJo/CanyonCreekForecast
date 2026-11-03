@@ -28,6 +28,13 @@ See [origin and migration notes](ORIGIN.md).
   [`data/dataset_gefs_event_losses.csv`](data/dataset_gefs_event_losses.csv)): **249 captured**,
   156 outside the target (flow already ≥450 cfs at every covering 12Z decision), 53 lost to flow
   gaps or the 2020 forecast gap.
+- Extracted hourly observed basin precipitation for 2007–2025 from NOAA AORC v1.1 (1 km, 343 basin
+  cells, 335 MiB of Zarr chunks; `scripts/build_aorc_basin_precip.py`,
+  [`data/observed_precip_aorc/`](data/observed_precip_aorc/)) and compared it with the dataset QPF
+  (`scripts/compare_gefs_aorc.py`). GEFS under-forecasts basin rain: 72-hour totals are **0.79× observed
+  for the reforecast and 0.73× for the operational archive** (correlation 0.89 and 0.91). Annual ratios
+  range 0.66–1.07 within the reforecast years, so the source difference is smaller than year-to-year
+  spread but consistent in sign. A ±3-hour shift test peaks at zero, confirming AORC's hour-ending times.
 
 Read the [feasibility findings](docs/data_feasibility.md), [pilot report](docs/pilot_2025.md),
 and [full-year results](docs/dataset_2025.md). The small processed datasets are in
@@ -96,7 +103,8 @@ can change fresh input hashes; the committed reports describe the retained teste
 ## Before modeling
 
 The GEFS dataset resolves forecast length (full 72 hours) and record length (18 usable water
-years). Still open: whether reforecast and operational QPF are homogeneous (compare both against
-observed precipitation); the assumed 6-hour GEFS publication delay and historical flow revisions;
+years). Reforecast and operational QPF are close but not identical (operational ~7% drier relative to
+AORC), so record `gefs_source` and check held-out errors by source; any model trained on observed rain
+must account for GEFS's 20–30% low bias. Still open: the assumed 6-hour GEFS publication delay and historical flow revisions;
 and the 156 crossings excluded because flow was already above 450 cfs at 12Z. Overlapping rows are
 not independent events, so validate by held-out water year.

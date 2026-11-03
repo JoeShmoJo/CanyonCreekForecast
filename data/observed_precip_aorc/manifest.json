@@ -1,0 +1,132 @@
+{
+  "created_at_utc": "2026-11-03T17:08:55.683377+00:00",
+  "source": "https://noaa-nws-aorc-v1-1-1km.s3.amazonaws.com",
+  "variable": "APCP_surface",
+  "time_convention": "hour_end_utc closes a one-hour accumulation (wgrib2 verftime)",
+  "boundary": "Basins/Canyon_Creek_WA/basin.geojson",
+  "boundary_sha256": "68290f902e80a7d098b3e8e7cf1b6cf2424a0377a7241541cb402c134b38ad6e",
+  "pipeline_source": "scripts/build_aorc_basin_precip.py",
+  "pipeline_sha256": "0de75570c483e512edde9ac723d0ddbbbb1aa93bd6db283111d969f1fa37d956",
+  "years": {
+    "2007": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2835.2
+    },
+    "2008": {
+      "hours": 8784,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2697.7
+    },
+    "2009": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2587.9
+    },
+    "2010": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 3649.1
+    },
+    "2011": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 3145.1
+    },
+    "2012": {
+      "hours": 8784,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 3989.4
+    },
+    "2013": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2276.9
+    },
+    "2014": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 3660.1
+    },
+    "2015": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2913.0
+    },
+    "2016": {
+      "hours": 8784,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 1939.3
+    },
+    "2017": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2580.8
+    },
+    "2018": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 1959.0
+    },
+    "2019": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 1718.5
+    },
+    "2020": {
+      "hours": 8784,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 3188.9
+    },
+    "2021": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2754.2
+    },
+    "2022": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2841.1
+    },
+    "2023": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2512.8
+    },
+    "2024": {
+      "hours": 8784,
+      "incomplete_hours": 24,
+      "basin_cells": 343,
+      "total_mm": 3259.9
+    },
+    "2025": {
+      "hours": 8760,
+      "incomplete_hours": 0,
+      "basin_cells": 343,
+      "total_mm": 2832.5
+    }
+  },
+  "run_new_download_bytes": 351021051,
+  "run_new_objects": 2960,
+  "cache_hits": 255,
+  "output_sha256": {
+    "basin_hourly.csv": "857610d795f8c139149f19bd625d1485c54966a295c8faee981aadd7cac2308a"
+  }
+}

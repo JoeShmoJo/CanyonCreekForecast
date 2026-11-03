@@ -1,0 +1,383 @@
+{
+  "rows": 4146,
+  "rows_with_complete_observations": 4050,
+  "by_source": {
+    "operational": {
+      "6h": {
+        "rows": 1264,
+        "mean_forecast_mm": 0.89,
+        "mean_observed_mm": 1.29,
+        "ratio_forecast_to_observed": 0.692,
+        "correlation": 0.877,
+        "rmse_mm": 1.93,
+        "observed_wet_rows_ge_50mm": 0,
+        "wet_hit_rate": 0.0,
+        "wet_false_alarm_ratio": 0.0
+      },
+      "12h": {
+        "rows": 1264,
+        "mean_forecast_mm": 1.96,
+        "mean_observed_mm": 2.75,
+        "ratio_forecast_to_observed": 0.711,
+        "correlation": 0.882,
+        "rmse_mm": 3.33,
+        "observed_wet_rows_ge_50mm": 2,
+        "wet_hit_rate": 0.5,
+        "wet_false_alarm_ratio": 0.0
+      },
+      "24h": {
+        "rows": 1264,
+        "mean_forecast_mm": 3.93,
+        "mean_observed_mm": 5.27,
+        "ratio_forecast_to_observed": 0.745,
+        "correlation": 0.921,
+        "rmse_mm": 4.99,
+        "observed_wet_rows_ge_50mm": 11,
+        "wet_hit_rate": 0.182,
+        "wet_false_alarm_ratio": 0.0
+      },
+      "48h": {
+        "rows": 1264,
+        "mean_forecast_mm": 8.14,
+        "mean_observed_mm": 11.1,
+        "ratio_forecast_to_observed": 0.733,
+        "correlation": 0.919,
+        "rmse_mm": 9.22,
+        "observed_wet_rows_ge_50mm": 73,
+        "wet_hit_rate": 0.37,
+        "wet_false_alarm_ratio": 0.1
+      },
+      "72h": {
+        "rows": 1264,
+        "mean_forecast_mm": 12.45,
+        "mean_observed_mm": 17.15,
+        "ratio_forecast_to_observed": 0.726,
+        "correlation": 0.91,
+        "rmse_mm": 13.23,
+        "observed_wet_rows_ge_50mm": 147,
+        "wet_hit_rate": 0.51,
+        "wet_false_alarm_ratio": 0.085
+      }
+    },
+    "reforecast": {
+      "6h": {
+        "rows": 2786,
+        "mean_forecast_mm": 0.86,
+        "mean_observed_mm": 1.07,
+        "ratio_forecast_to_observed": 0.804,
+        "correlation": 0.817,
+        "rmse_mm": 2.02,
+        "observed_wet_rows_ge_50mm": 0,
+        "wet_hit_rate": 0.0,
+        "wet_false_alarm_ratio": 0.0
+      },
+      "12h": {
+        "rows": 2786,
+        "mean_forecast_mm": 1.93,
+        "mean_observed_mm": 2.31,
+        "ratio_forecast_to_observed": 0.838,
+        "correlation": 0.849,
+        "rmse_mm": 3.42,
+        "observed_wet_rows_ge_50mm": 5,
+        "wet_hit_rate": 0.4,
+        "wet_false_alarm_ratio": 0.5
+      },
+      "24h": {
+        "rows": 2786,
+        "mean_forecast_mm": 3.94,
+        "mean_observed_mm": 4.93,
+        "ratio_forecast_to_observed": 0.798,
+        "correlation": 0.87,
+        "rmse_mm": 6.47,
+        "observed_wet_rows_ge_50mm": 48,
+        "wet_hit_rate": 0.354,
+        "wet_false_alarm_ratio": 0.19
+      },
+      "48h": {
+        "rows": 2786,
+        "mean_forecast_mm": 8.23,
+        "mean_observed_mm": 10.44,
+        "ratio_forecast_to_observed": 0.788,
+        "correlation": 0.883,
+        "rmse_mm": 11.46,
+        "observed_wet_rows_ge_50mm": 169,
+        "wet_hit_rate": 0.479,
+        "wet_false_alarm_ratio": 0.138
+      },
+      "72h": {
+        "rows": 2786,
+        "mean_forecast_mm": 12.85,
+        "mean_observed_mm": 16.3,
+        "ratio_forecast_to_observed": 0.788,
+        "correlation": 0.889,
+        "rmse_mm": 15.56,
+        "observed_wet_rows_ge_50mm": 308,
+        "wet_hit_rate": 0.558,
+        "wet_false_alarm_ratio": 0.109
+      }
+    }
+  },
+  "by_source_72h_wet_season_oct_mar": {
+    "operational": {
+      "rows": 530,
+      "mean_forecast_mm": 21.94,
+      "mean_observed_mm": 29.18,
+      "ratio_forecast_to_observed": 0.752,
+      "correlation": 0.892,
+      "rmse_mm": 17.06,
+      "observed_wet_rows_ge_50mm": 113,
+      "wet_hit_rate": 0.558,
+      "wet_false_alarm_ratio": 0.1
+    },
+    "reforecast": {
+      "rows": 1021,
+      "mean_forecast_mm": 24.07,
+      "mean_observed_mm": 30.37,
+      "ratio_forecast_to_observed": 0.792,
+      "correlation": 0.869,
+      "rmse_mm": 22.14,
+      "observed_wet_rows_ge_50mm": 226,
+      "wet_hit_rate": 0.668,
+      "wet_false_alarm_ratio": 0.112
+    }
+  },
+  "by_water_year_72h": {
+    "2008": {
+      "source": "reforecast",
+      "rows": 196,
+      "mean_forecast_mm": 15.39,
+      "mean_observed_mm": 18.44,
+      "ratio_forecast_to_observed": 0.835,
+      "correlation": 0.915,
+      "rmse_mm": 15.9,
+      "observed_wet_rows_ge_50mm": 27,
+      "wet_hit_rate": 0.778,
+      "wet_false_alarm_ratio": 0.087
+    },
+    "2009": {
+      "source": "reforecast",
+      "rows": 271,
+      "mean_forecast_mm": 12.86,
+      "mean_observed_mm": 14.79,
+      "ratio_forecast_to_observed": 0.869,
+      "correlation": 0.876,
+      "rmse_mm": 12.91,
+      "observed_wet_rows_ge_50mm": 26,
+      "wet_hit_rate": 0.5,
+      "wet_false_alarm_ratio": 0.278
+    },
+    "2010": {
+      "source": "reforecast",
+      "rows": 204,
+      "mean_forecast_mm": 13.46,
+      "mean_observed_mm": 20.26,
+      "ratio_forecast_to_observed": 0.664,
+      "correlation": 0.912,
+      "rmse_mm": 15.34,
+      "observed_wet_rows_ge_50mm": 32,
+      "wet_hit_rate": 0.312,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2011": {
+      "source": "reforecast",
+      "rows": 184,
+      "mean_forecast_mm": 14.37,
+      "mean_observed_mm": 18.75,
+      "ratio_forecast_to_observed": 0.767,
+      "correlation": 0.886,
+      "rmse_mm": 14.95,
+      "observed_wet_rows_ge_50mm": 27,
+      "wet_hit_rate": 0.519,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2012": {
+      "source": "reforecast",
+      "rows": 213,
+      "mean_forecast_mm": 12.14,
+      "mean_observed_mm": 18.14,
+      "ratio_forecast_to_observed": 0.67,
+      "correlation": 0.924,
+      "rmse_mm": 18.88,
+      "observed_wet_rows_ge_50mm": 27,
+      "wet_hit_rate": 0.333,
+      "wet_false_alarm_ratio": 0.182
+    },
+    "2013": {
+      "source": "reforecast",
+      "rows": 234,
+      "mean_forecast_mm": 15.59,
+      "mean_observed_mm": 21.85,
+      "ratio_forecast_to_observed": 0.714,
+      "correlation": 0.888,
+      "rmse_mm": 22.72,
+      "observed_wet_rows_ge_50mm": 36,
+      "wet_hit_rate": 0.583,
+      "wet_false_alarm_ratio": 0.045
+    },
+    "2014": {
+      "source": "reforecast",
+      "rows": 219,
+      "mean_forecast_mm": 10.4,
+      "mean_observed_mm": 15.03,
+      "ratio_forecast_to_observed": 0.692,
+      "correlation": 0.885,
+      "rmse_mm": 16.09,
+      "observed_wet_rows_ge_50mm": 23,
+      "wet_hit_rate": 0.391,
+      "wet_false_alarm_ratio": 0.182
+    },
+    "2015": {
+      "source": "reforecast",
+      "rows": 274,
+      "mean_forecast_mm": 12.4,
+      "mean_observed_mm": 18.35,
+      "ratio_forecast_to_observed": 0.676,
+      "correlation": 0.906,
+      "rmse_mm": 19.69,
+      "observed_wet_rows_ge_50mm": 33,
+      "wet_hit_rate": 0.697,
+      "wet_false_alarm_ratio": 0.042
+    },
+    "2016": {
+      "source": "reforecast",
+      "rows": 228,
+      "mean_forecast_mm": 9.61,
+      "mean_observed_mm": 10.73,
+      "ratio_forecast_to_observed": 0.896,
+      "correlation": 0.899,
+      "rmse_mm": 10.67,
+      "observed_wet_rows_ge_50mm": 11,
+      "wet_hit_rate": 0.545,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2017": {
+      "source": "reforecast",
+      "rows": 190,
+      "mean_forecast_mm": 15.1,
+      "mean_observed_mm": 14.12,
+      "ratio_forecast_to_observed": 1.069,
+      "correlation": 0.882,
+      "rmse_mm": 12.41,
+      "observed_wet_rows_ge_50mm": 20,
+      "wet_hit_rate": 0.65,
+      "wet_false_alarm_ratio": 0.278
+    },
+    "2018": {
+      "source": "reforecast",
+      "rows": 252,
+      "mean_forecast_mm": 12.3,
+      "mean_observed_mm": 11.91,
+      "ratio_forecast_to_observed": 1.032,
+      "correlation": 0.933,
+      "rmse_mm": 8.44,
+      "observed_wet_rows_ge_50mm": 15,
+      "wet_hit_rate": 0.667,
+      "wet_false_alarm_ratio": 0.231
+    },
+    "2019": {
+      "source": "reforecast",
+      "rows": 251,
+      "mean_forecast_mm": 11.02,
+      "mean_observed_mm": 12.86,
+      "ratio_forecast_to_observed": 0.857,
+      "correlation": 0.892,
+      "rmse_mm": 12.49,
+      "observed_wet_rows_ge_50mm": 20,
+      "wet_hit_rate": 0.7,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2020": {
+      "source": "operational/reforecast",
+      "rows": 78,
+      "mean_forecast_mm": 15.46,
+      "mean_observed_mm": 22.85,
+      "ratio_forecast_to_observed": 0.677,
+      "correlation": 0.949,
+      "rmse_mm": 17.12,
+      "observed_wet_rows_ge_50mm": 12,
+      "wet_hit_rate": 0.833,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2021": {
+      "source": "operational",
+      "rows": 265,
+      "mean_forecast_mm": 9.55,
+      "mean_observed_mm": 14.45,
+      "ratio_forecast_to_observed": 0.661,
+      "correlation": 0.935,
+      "rmse_mm": 14.18,
+      "observed_wet_rows_ge_50mm": 26,
+      "wet_hit_rate": 0.346,
+      "wet_false_alarm_ratio": 0.0
+    },
+    "2022": {
+      "source": "operational",
+      "rows": 211,
+      "mean_forecast_mm": 13.58,
+      "mean_observed_mm": 17.41,
+      "ratio_forecast_to_observed": 0.78,
+      "correlation": 0.925,
+      "rmse_mm": 11.72,
+      "observed_wet_rows_ge_50mm": 27,
+      "wet_hit_rate": 0.444,
+      "wet_false_alarm_ratio": 0.2
+    },
+    "2023": {
+      "source": "operational",
+      "rows": 258,
+      "mean_forecast_mm": 13.36,
+      "mean_observed_mm": 16.28,
+      "ratio_forecast_to_observed": 0.821,
+      "correlation": 0.936,
+      "rmse_mm": 9.98,
+      "observed_wet_rows_ge_50mm": 25,
+      "wet_hit_rate": 0.48,
+      "wet_false_alarm_ratio": 0.143
+    },
+    "2024": {
+      "source": "operational",
+      "rows": 207,
+      "mean_forecast_mm": 14.67,
+      "mean_observed_mm": 19.5,
+      "ratio_forecast_to_observed": 0.752,
+      "correlation": 0.889,
+      "rmse_mm": 13.59,
+      "observed_wet_rows_ge_50mm": 26,
+      "wet_hit_rate": 0.654,
+      "wet_false_alarm_ratio": 0.056
+    },
+    "2025": {
+      "source": "operational",
+      "rows": 260,
+      "mean_forecast_mm": 9.47,
+      "mean_observed_mm": 14.21,
+      "ratio_forecast_to_observed": 0.667,
+      "correlation": 0.908,
+      "rmse_mm": 13.57,
+      "observed_wet_rows_ge_50mm": 25,
+      "wet_hit_rate": 0.56,
+      "wet_false_alarm_ratio": 0.067
+    },
+    "2026": {
+      "source": "operational",
+      "rows": 55,
+      "mean_forecast_mm": 22.9,
+      "mean_observed_mm": 36.91,
+      "ratio_forecast_to_observed": 0.62,
+      "correlation": 0.927,
+      "rmse_mm": 20.45,
+      "observed_wet_rows_ge_50mm": 17,
+      "wet_hit_rate": 0.588,
+      "wet_false_alarm_ratio": 0.0
+    }
+  },
+  "timing_correlation_by_observed_shift_hours": {
+    "-3": 0.7269,
+    "-2": 0.7741,
+    "-1": 0.8063,
+    "0": 0.8145,
+    "1": 0.8042,
+    "2": 0.7816,
+    "3": 0.7435
+  }
+}
