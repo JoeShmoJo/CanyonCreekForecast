@@ -19,6 +19,15 @@ See [origin and migration notes](ORIGIN.md).
 - Audited water years 2008–2020 (**320 more crossing days**, 458 in total) and verified GEFSv12 reforecasts
   (2000–2019) as a pre-2020 forecast source; NCEI's older NDFD archive is irregular. See
   [extending the record](docs/older_forecast_sources.md).
+- Built a **WY2008–2026 GEFSv12 dataset** ([`data/dataset_gefs/`](data/dataset_gefs/)): one 12Z
+  decision per day from the 00Z control run, with full 72-hour forecast coverage. **4,146 passed rows,
+  531 positive**, from the reforecast (2008–2019) and the operational archive (Sep 2020 onward). No
+  GEFSv12 forecast exists for Jan–Sep 2020 (178 decisions). Built with
+  `scripts/build_gefs_dataset.py` from ~15 GB of retained raw GRIB.
+- Traced all 458 crossing days to dataset rows (`scripts/audit_gefs_event_losses.py`,
+  [`data/dataset_gefs_event_losses.csv`](data/dataset_gefs_event_losses.csv)): **249 captured**,
+  156 outside the target (flow already ≥450 cfs at every covering 12Z decision), 53 lost to flow
+  gaps or the 2020 forecast gap.
 
 Read the [feasibility findings](docs/data_feasibility.md), [pilot report](docs/pilot_2025.md),
 and [full-year results](docs/dataset_2025.md). The small processed datasets are in
@@ -86,8 +95,8 @@ can change fresh input hashes; the committed reports describe the retained teste
 
 ## Before modeling
 
-Review event losses from daily scheduling and observation-quality rules; assess assumed
-publication/feed delays and historical flow revisions; decide how to handle the selected
-forecasts' 66-hour future coverage; then validate more years. Overlapping rows are not
-independent events. Ten years of usable actual forecasts and homogeneous historical
-forecast quality have not been established.
+The GEFS dataset resolves forecast length (full 72 hours) and record length (18 usable water
+years). Still open: whether reforecast and operational QPF are homogeneous (compare both against
+observed precipitation); the assumed 6-hour GEFS publication delay and historical flow revisions;
+and the 156 crossings excluded because flow was already above 450 cfs at 12Z. Overlapping rows are
+not independent events, so validate by held-out water year.
