@@ -3,7 +3,7 @@
 Investigate predicting whether **Canyon Creek near Amboy, Washington (USGS 14219000)**
 will cross from below to above **450 cfs within 72 hours**.
 
-Current phase: **data discovery and feasibility; no predictive model has been trained**.
+Current phase: **baseline modeling**; first cross-validated baselines are trained, nothing is deployed.
 This project was separated from [WatershedForecast](https://github.com/JoeShmoJo/WatershedForecast).
 See [origin and migration notes](ORIGIN.md).
 
@@ -35,6 +35,12 @@ See [origin and migration notes](ORIGIN.md).
   for the reforecast and 0.73× for the operational archive** (correlation 0.89 and 0.91). Annual ratios
   range 0.66–1.07 within the reforecast years, so the source difference is smaller than year-to-year
   spread but consistent in sign. A ±3-hour shift test peaks at zero, confirming AORC's hour-ending times.
+- Trained first baselines (`scripts/train_baseline.py`, [`data/baseline/`](data/baseline/metrics.json)),
+  validated leave-one-water-year-out (base rate 12.8%). Flow alone: average precision 0.47. **Flow + GEFS
+  QPF (logistic regression): average precision 0.81, ROC AUC 0.96, 71% precision at 80% recall**, equally
+  good on reforecast and operational years. Observed rain in place of the forecast lifts average precision
+  only to 0.83–0.85, so forecast error is not the main limit. A hand rule — alert when 72 h QPF ≥ ~25 mm and
+  flow ≥ ~54 cfs — gets 64% precision at 75% recall.
 
 Read the [feasibility findings](docs/data_feasibility.md), [pilot report](docs/pilot_2025.md),
 and [full-year results](docs/dataset_2025.md). The small processed datasets are in
@@ -100,7 +106,7 @@ cumulatively across restarts. Public forecast S3 requests need no key. USGS acce
 require `USGS_API_KEY`, provided securely through the environment. Upstream revisions
 can change fresh input hashes; the committed reports describe the retained tested sources.
 
-## Before modeling
+## Open questions
 
 The GEFS dataset resolves forecast length (full 72 hours) and record length (18 usable water
 years). Reforecast and operational QPF are close but not identical (operational ~7% drier relative to

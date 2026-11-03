@@ -9,3 +9,4 @@ pyproj>=3.6
 eccodes>=2.38,<3
 # Independent decoder: bash scripts/setup_grib2io.sh
 zstandard>=0.22  # AORC Zarr chunks (scripts/build_aorc_basin_precip.py)
+scikit-learn>=1.5  # baselines (scripts/train_baseline.py)

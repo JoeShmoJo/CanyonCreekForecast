@@ -1,0 +1,149 @@
+{
+  "validation": "leave-one-water-year-out; all scores pooled out-of-fold",
+  "base_rate": 0.128,
+  "rule_qpf72_and_flow": {
+    "precision": 0.644,
+    "recall": 0.753,
+    "alerts": 621,
+    "median_thresholds": {
+      "qpf_72h_mm": 25.1,
+      "flow_cfs": 54.1
+    }
+  },
+  "all_rows": {
+    "flow_only__logistic": {
+      "rows": 4146,
+      "positives": 531,
+      "roc_auc": 0.863,
+      "average_precision": 0.47,
+      "brier_skill_vs_base_rate": 0.23,
+      "precision_at_recall_50": 0.395,
+      "precision_at_recall_80": 0.343
+    },
+    "flow_only__boosted_trees": {
+      "rows": 4146,
+      "positives": 531,
+      "roc_auc": 0.856,
+      "average_precision": 0.461,
+      "brier_skill_vs_base_rate": 0.211,
+      "precision_at_recall_50": 0.385,
+      "precision_at_recall_80": 0.325
+    },
+    "flow_gefs__logistic": {
+      "rows": 4146,
+      "positives": 531,
+      "roc_auc": 0.964,
+      "average_precision": 0.808,
+      "brier_skill_vs_base_rate": 0.577,
+      "precision_at_recall_50": 0.849,
+      "precision_at_recall_80": 0.712
+    },
+    "flow_gefs__boosted_trees": {
+      "rows": 4146,
+      "positives": 531,
+      "roc_auc": 0.965,
+      "average_precision": 0.788,
+      "brier_skill_vs_base_rate": 0.558,
+      "precision_at_recall_50": 0.821,
+      "precision_at_recall_80": 0.694
+    }
+  },
+  "rows_with_observed_rain": {
+    "flow_only__logistic": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.866,
+      "average_precision": 0.472,
+      "brier_skill_vs_base_rate": 0.233,
+      "precision_at_recall_50": 0.399,
+      "precision_at_recall_80": 0.344
+    },
+    "flow_only__boosted_trees": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.859,
+      "average_precision": 0.465,
+      "brier_skill_vs_base_rate": 0.216,
+      "precision_at_recall_50": 0.393,
+      "precision_at_recall_80": 0.326
+    },
+    "flow_gefs__logistic": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.964,
+      "average_precision": 0.809,
+      "brier_skill_vs_base_rate": 0.579,
+      "precision_at_recall_50": 0.85,
+      "precision_at_recall_80": 0.712
+    },
+    "flow_gefs__boosted_trees": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.965,
+      "average_precision": 0.789,
+      "brier_skill_vs_base_rate": 0.559,
+      "precision_at_recall_50": 0.823,
+      "precision_at_recall_80": 0.693
+    },
+    "flow_observed_rain__logistic": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.967,
+      "average_precision": 0.832,
+      "brier_skill_vs_base_rate": 0.607,
+      "precision_at_recall_50": 0.881,
+      "precision_at_recall_80": 0.727
+    },
+    "flow_observed_rain__boosted_trees": {
+      "rows": 4050,
+      "positives": 516,
+      "roc_auc": 0.976,
+      "average_precision": 0.85,
+      "brier_skill_vs_base_rate": 0.633,
+      "precision_at_recall_50": 0.866,
+      "precision_at_recall_80": 0.767
+    }
+  },
+  "flow_gefs_by_source": {
+    "reforecast": {
+      "logistic": {
+        "rows": 2786,
+        "positives": 373,
+        "roc_auc": 0.962,
+        "average_precision": 0.814,
+        "brier_skill_vs_base_rate": 0.579,
+        "precision_at_recall_50": 0.85,
+        "precision_at_recall_80": 0.707
+      },
+      "boosted_trees": {
+        "rows": 2786,
+        "positives": 373,
+        "roc_auc": 0.966,
+        "average_precision": 0.794,
+        "brier_skill_vs_base_rate": 0.564,
+        "precision_at_recall_50": 0.814,
+        "precision_at_recall_80": 0.711
+      }
+    },
+    "operational": {
+      "logistic": {
+        "rows": 1360,
+        "positives": 158,
+        "roc_auc": 0.968,
+        "average_precision": 0.795,
+        "brier_skill_vs_base_rate": 0.571,
+        "precision_at_recall_50": 0.833,
+        "precision_at_recall_80": 0.709
+      },
+      "boosted_trees": {
+        "rows": 1360,
+        "positives": 158,
+        "roc_auc": 0.963,
+        "average_precision": 0.778,
+        "brier_skill_vs_base_rate": 0.543,
+        "precision_at_recall_50": 0.833,
+        "precision_at_recall_80": 0.658
+      }
+    }
+  }
+}
